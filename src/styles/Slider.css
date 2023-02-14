@@ -1,0 +1,11 @@
+.container-carousel-img{
+    display: flex;
+}
+.carousel-img-style{
+    filter:brightness(80%);
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden
+};
+
