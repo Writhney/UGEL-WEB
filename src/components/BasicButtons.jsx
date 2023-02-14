@@ -1,15 +1,81 @@
+import Book from './../assets/icons/Book.svg';
+import Paper from './../assets/icons/Paper.svg';
+import Building from './../assets/icons/Building.svg';
+import Toolbox from './../assets/icons/Toolbox.svg';
+import PeopleSuit from './../assets/icons/PeopleSuit.svg';
+import PaperPencil from './../assets/icons/PaperPencil.svg';
+import BookOpen from './../assets/icons/BookOpen.svg';
+import Puzzle from './../assets/icons/Puzzle.svg';
+import './../styles/BasicButtons.css';
 const BasicButtons = () => {
     return(
         <>
-        <section>
-            <a href="https://writhney.github.io/web-ugel/">
-                <div>
-                    <figure>
-                        <img src="" alt="" />
+        <section className="Basic-buttons-container">
+            <div className='Basic-button-item'>
+                <a href="#" className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={Book} alt="icon" className='Basic-button-icon' />
                     </figure>
-                    <p>LIBRO DE CAJA</p>
-                </div>
-            </a>
+                    <p className='Basic-button-description'>LIBRO DE CAJA</p>
+                </a>  
+            </div>
+            <div className='Basic-button-item'>
+                <a href="#" className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={Paper} alt="icon" className='Basic-button-icon' />
+                    </figure>
+                    <p className='Basic-button-description'>PARTE MENSUAL</p>
+                </a>  
+            </div>
+            <div className='Basic-button-item'>
+                <a href="#" className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={Building} alt="icon" className='Basic-button-icon' />
+                    </figure>
+                    <p className='Basic-button-description'>CONTROL PATRIMONIAL</p>
+                </a>  
+            </div>
+            <div className='Basic-button-item'>
+                <a href="#" className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={Toolbox} alt="icon" className='Basic-button-icon' />
+                    </figure>
+                    <p className='Basic-button-description'>MANTENIMIENTO</p>
+                </a>  
+            </div>
+            <div className='Basic-button-item'>
+                <a href="#" className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={PeopleSuit} alt="icon" className='Basic-button-icon' />
+                    </figure>
+                    <p className='Basic-button-description'>CONVOCATORIAS</p>
+                </a>  
+            </div>
+            <div className='Basic-button-item'>
+                <a href="#" className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={PaperPencil} alt="icon" className='Basic-button-icon' />
+                    </figure>
+                    <p className='Basic-button-description'>FUT</p>
+                </a>  
+            </div>
+            <div className='Basic-button-item'>
+                <a href="#" className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={BookOpen} alt="icon" className='Basic-button-icon' />
+                    </figure>
+                    <p className='Basic-button-description'>LIBRO DE RECLAMACIONES</p>
+                </a>  
+            </div>
+            <div className='Basic-button-item'>
+                <a href="#" className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={Puzzle} alt="icon" className='Basic-button-icon' />
+                    </figure>
+                    <p className='Basic-button-description'>TRANPARENCIA</p>
+                </a>  
+            </div>
+            
         </section>
         </>
     )
