@@ -2,7 +2,7 @@ a{
     text-decoration: none;
     margin: 0;
 }
-.Release-principal-container{
+.News-principal-container{
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -10,15 +10,15 @@ a{
     margin-top: 2rem;
     padding: 1rem;
 }
-.Release-link-title{
+.News-link-title{
     
 }
-.Release-title{
+.News-title{
     font-size: 2rem;
     text-align: center;
     
 }
-.Release-container{
+.News-container{
     margin: auto;
     max-width: 1100px;
     /*align-items: center;
@@ -29,7 +29,7 @@ a{
     "big big medio"
     "big big smal";
 }
-.Release-link-item{
+.News-link-item{
 
 }
 
@@ -43,11 +43,11 @@ span:last-of-type{
     grid-area: smal;
 }
 
-.Release-item{
+.News-item{
     margin-bottom: -142px;
     
 }
-.Release-item-container-img{
+.News-item-container-img{
     display: flex;
     max-width: 1000px;
     overflow: hidden;
@@ -55,17 +55,17 @@ span:last-of-type{
     margin: 0;
 }
 
-.Release-item-img{
+.News-item-img{
     object-fit: cover;
     width: 100%;
-    opacity: 60%;
+    opacity: 80%;
 }
-.Release-item-img:hover{
+.News-item-img:hover{
     opacity: 35%;
     transition: all 1s;
 }
 
-.Release-item-container-info{
+.News-item-container-info{
     display: flex;
     flex-direction: column;
     gap: 1;
@@ -74,13 +74,13 @@ span:last-of-type{
     max-width: 1000px;
     padding: 0.5rem;
 }
-.Release-item-date{
+.News-item-date{
     font-size: 1.5rem;
     text-decoration: none;
     color: white;
     margin: 0;
 }
-.Release-item-title{
+.News-item-title{
     font-size: 2rem;
     text-decoration: none;
     color: white;
@@ -95,7 +95,7 @@ span:last-of-type{
 .mod-position-info-big{
     bottom: 10rem;
 }
-.Release-button{
+.News-button{
     background-color: white;
     color: #1E2E6E;
     transition: all 1s;
@@ -106,7 +106,7 @@ span:last-of-type{
     border-color: #1E2E6E;
 
 }
-.Release-button:hover{
+.News-button:hover{
     background-color: #1E2E6E;
     color: white;
 }
