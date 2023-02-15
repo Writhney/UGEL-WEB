@@ -3,7 +3,7 @@
 }
 .carousel-img-style{
     filter:brightness(80%);
-    height: 100vh;
+    height: 78vh;
     width: 100%;
     object-fit: cover;
     overflow: hidden
