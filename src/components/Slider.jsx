@@ -32,7 +32,7 @@ const Slider = () => {
         </div>
 
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={2000}>
         <div className='container-carousel-img'>
         <img
           className="d-block carousel-img-style"
@@ -45,7 +45,7 @@ const Slider = () => {
         </Carousel.Caption>
         </div>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={2000}>
         <div className='container-carousel-img'>
         <img
           className="d-block carousel-img-style"
@@ -58,7 +58,7 @@ const Slider = () => {
         </Carousel.Caption>
         </div>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={2000}>
         <div className='container-carousel-img'>
         <img
           className="d-block carousel-img-style"

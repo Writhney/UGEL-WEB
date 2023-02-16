@@ -1,0 +1,41 @@
+.carrousel-container{
+    max-width: 1130px;
+    margin: auto;
+}
+.video-container{
+    padding: 1rem;
+    max-width: 1130px;   
+    margin: 2rem auto;
+    margin-bottom: -0.5rem;
+}
+.video{
+    width: 100%;
+    min-height: 600px;
+    
+}
+.video-button{
+    background-color: white;
+    display: flex;
+    width: 8rem;
+    padding: 0.5rem 2rem;
+    margin: auto;
+    border-width: 0.2rem;
+    border-color: #1E2E6E;
+    border-style: solid;
+    transition: all 1s;
+}
+.video-link{
+    color: #1E2E6E;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+}
+
+.video-button:hover{
+    background-color: #1E2E6E;
+    
+}
+.video-button:hover > a{
+    color: white;
+    transition: all 1s;
+}
