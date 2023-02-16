@@ -5,6 +5,7 @@ import BasicButtons from './components/BasicButtons';
 import Release from './components/Release';
 import News from './components/News';
 import Video from './components/Video';
+import VirtualPlatforms from './components/VirtualPlatforms';
 
 
 
@@ -16,6 +17,7 @@ function App() {
     <Release/>
     <News/>
     <Video/>
+    <VirtualPlatforms/>
     </>
 
   );

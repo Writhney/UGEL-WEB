@@ -1,11 +1,19 @@
 .container-carousel-img{
     display: flex;
+    clip-path: inset(0);
+    position: relative;
+    height: 80vh;
+    
 }
 .carousel-img-style{
     filter:brightness(80%);
-    height: 78vh;
     width: 100%;
+    object-fit: fill;
     object-fit: cover;
-    overflow: hidden
-};
+    position: fixed;
+    left: 0;
+    top:0;
+    
+
+}
 
