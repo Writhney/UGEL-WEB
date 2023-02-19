@@ -4,6 +4,7 @@
     justify-items: center;
     justify-content: center;
     background-color: #1E2E6E;
+    margin-top: -1px;
     /*height: 100vh;*/
 }
 .Basic-button-item{

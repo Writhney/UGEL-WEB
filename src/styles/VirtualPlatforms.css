@@ -19,14 +19,18 @@
     max-width: 15rem;
     height: 5.4rem;
     border-radius: 10px;
-    padding: 0.2rem;
+    padding: 0.5rem;
     background: white;
 
     display: flex; 
-
     align-items: center;
     justify-items: center;
+    
 
+}
+.Platforms-item:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 .Platforms-item-link{
     
@@ -43,8 +47,16 @@
     max-width: 1800px;
     z-index: -1;
     margin: auto;
+
 }
 .Platforms-background{
     width: 100%;
     object-fit: cover;
+}
+@media (max-width:750px)
+{
+    .Platforms-item{
+        max-width: 9rem;
+        height: 3rem;
+    }
 }
