@@ -14,3 +14,13 @@
 
 }
 
+@media (max-width: 1100px){
+    .container-carousel-img{
+        clip-path: none; /*Quitar*/
+        position: static; /*q*/
+    }
+    .carousel-img-style{
+        position: relative; /*q*/
+    }
+}
+
