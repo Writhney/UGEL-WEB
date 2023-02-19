@@ -9,7 +9,7 @@ const News = () => {
         <section className="News-container">
             
         <a href="News-link-item">
-            <div className="News-item">
+            <div className="News-item News-item--input">
                 <figure className="News-item-container-img">
                     
                         <img src="https://i.postimg.cc/jdVVfFXs/DSC-0433.jpg" alt="imagen" className="News-item-img" />
@@ -22,7 +22,7 @@ const News = () => {
             </div>
         </a>  
         <a href="News-link-item">
-            <div className="News-item">
+            <div className="News-item News-item--input">
                 <figure className="News-item-container-img">
                     
                         <img src="https://i.postimg.cc/5N8hSS78/DSC-0628.jpg" alt="imagen" className="News-item-img" />
@@ -35,7 +35,7 @@ const News = () => {
             </div>
         </a>
         <a href="News-link-item">
-            <div className="News-item">
+            <div className="News-item News-item--input">
                 <figure className="News-item-container-img">
                     
                         <img src="https://i.postimg.cc/Wbd9jqGK/DSC-0941.jpg" alt="imagen" className="News-item-img" />

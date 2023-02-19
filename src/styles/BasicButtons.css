@@ -45,3 +45,22 @@
     margin: 0;
     text-align: center;
 }
+
+@media (max-width: 650px){
+    .Basic-buttons-container{
+        height: 105vh;
+        justify-content: center;
+        align-content: center;
+    }
+    .Basic-button-item{
+        max-width: 15rem;
+        max-height: 15rem;
+    }
+    .Basic-button-description{
+       font-size: 1rem;
+    }
+    .Basic-button-icon-container{
+        max-width:  70px;
+    
+    }
+}

@@ -11,7 +11,7 @@ const Release = () => {
         </a>
         <section className="Release-container">
           <a href="Release-link-item"> 
-            <div className="Release-item">
+            <div className="Release-item Release-item--input">
                 <figure className="Release-item-container-img">
                     <img src={releaseImg} alt="imagen" className="Release-item-img" />
                 </figure>
@@ -22,7 +22,7 @@ const Release = () => {
             </div>
           </a> 
           <a href="Release-link-item">  
-            <div className="Release-item">
+            <div className="Release-item Release-item--input">
                 <figure className="Release-item-container-img">
                     <img src={release2} alt="imagen" className="Release-item-img" />
                 </figure>
@@ -34,7 +34,7 @@ const Release = () => {
             </div>
           </a>
           <a href="Release-link-item">
-            <div className="Release-item">
+            <div className="Release-item Release-item--input">
                 <figure className="Release-item-container-img">
                     <img src={release2} alt="imagen" className="Release-item-img" />        
                 </figure>
