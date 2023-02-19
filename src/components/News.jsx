@@ -38,7 +38,7 @@ const News = () => {
             <div className="News-item">
                 <figure className="News-item-container-img">
                     
-                        <img src="https://i.postimg.cc/sxht8YVd/IMG-2346.jpg" alt="imagen" className="News-item-img" />
+                        <img src="https://i.postimg.cc/Wbd9jqGK/DSC-0941.jpg" alt="imagen" className="News-item-img" />
                                     
                 </figure>
                 <div className='News-item-container-info'>
