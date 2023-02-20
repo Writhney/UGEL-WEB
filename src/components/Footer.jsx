@@ -5,7 +5,10 @@ import facebookIcon from './../assets/icons/facebookIcon.svg';
 import youtubeIcon from './../assets/icons/YoutubeIcon.svg';
 import rowIcon from './../assets/icons/rowIcon.svg';
 
+
 import './../styles/Footer.css';
+
+
 
 const Footer = () => {
     return(
@@ -31,12 +34,12 @@ const Footer = () => {
                     <p className="Footer-icon-text">999 999 999</p>
                 </div>
                 <div className="Footer-socialNetworks-container">
-                    <a href="https://www.facebook.com/UgelAndahuaylasA/?locale=es_LA" className="Footer-socialNetworks-link">
+                    <a target="_blank" href="https://www.facebook.com/UgelAndahuaylasA/?locale=es_LA" className="Footer-socialNetworks-link">
                        <figure className="Footer-socialNetworks-icon-container">
                             <img src={facebookIcon} alt="icon" className="Footer-socialNetworks-icon" />
                         </figure> 
                     </a>
-                    <a href="" className="Footer-socialNetworks-link">
+                    <a target="_blank" href="https://www.youtube.com/@ugelandahuaylas8739" className="Footer-socialNetworks-link">
                        <figure className="Footer-socialNetworks-icon-container">
                             <img src={youtubeIcon} alt="icon" className="Footer-socialNetworks-icon" />
                         </figure> 
@@ -45,9 +48,12 @@ const Footer = () => {
                 <p className="Footer-copyright">
                 Copyright © 2023.Todos los Derechos Reservados. Unidad de Gestión Educativa Local - Andahuaylas - Apurímac
                 </p>
-                <figure className="Footer-row-container">
-                    <img src={rowIcon} alt="icon" className="Footer-row" />
-                </figure>
+                
+                   <figure className="Footer-row-container"><a href="#">
+                        <img src={rowIcon} alt="icon" className="Footer-row" /></a>
+                    </figure> 
+                
+                
             </div>
 
         </footer>

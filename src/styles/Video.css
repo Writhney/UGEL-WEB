@@ -39,3 +39,16 @@
     color: white;
     transition: all 1s;
 }
+
+@media (max-width:750px){
+    .video{
+        min-height: 400px;
+        
+    }
+}
+@media (max-width:500px){
+    .video{
+        min-height: 250px;
+        
+    }
+}

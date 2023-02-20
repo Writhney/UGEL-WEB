@@ -1,4 +1,6 @@
-.Footer{}
+.Footer{
+    
+}
 .Footer-container{
     background-color: #1E2E6E;
     color: white;
@@ -38,6 +40,10 @@
 .Footer-socialNetworks-icon{
     width: 100%;
 }
+.Footer-socialNetworks-icon:hover{
+    filter: brightness(50%);
+    transition: all 0.25s;
+}
 .Footer-copyright{
     margin: 0;
     text-align: center;
@@ -49,11 +55,16 @@
     align-self: right;
     position: absolute;
     right: 1rem;
+    cursor: pointer;
 }
 .Footer-row{
     width: 100%;
+    
 }
-
+.Footer-row:hover{
+    filter: brightness(50%);
+    transition: all 0.25s;
+}
 @media (max-width:650px){
     .Footer-icon-container{
         max-width: 15px;
@@ -71,6 +82,6 @@
         font-size: 0.8rem;
     }
     .Footer-row-container{
-        max-width: 25px;
+        max-width: 20px;
     }
 }

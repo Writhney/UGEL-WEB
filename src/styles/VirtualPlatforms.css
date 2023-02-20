@@ -1,4 +1,6 @@
-.Platforms{}
+.Platforms{
+    max-height: 500px;
+}
 .Platforms-container{
     display: flex;
     flex-direction: row;
@@ -54,13 +56,22 @@
     width: 100%;
     object-fit: cover;
 }
-@media (max-width:750px)
-{
+@media (max-width:784px)
+{   
+    .Platforms{
+        max-height: 300px;
+    }
     .Platforms-item{
-        max-width: 9rem;
-        height: 3rem;
+        max-width: 7rem;
+        height: 2.5rem;
     }
     .Platforms-container-background{
         max-width: 1800px;   
+    }
+}
+@media (max-width:393px)
+{  
+    .Platforms{
+        max-height: 400px;
     }
 }
