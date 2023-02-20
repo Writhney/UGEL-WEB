@@ -6,6 +6,7 @@ import Release from './components/Release';
 import News from './components/News';
 import Video from './components/Video';
 import VirtualPlatforms from './components/VirtualPlatforms';
+import Footer from './components/Footer';
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <News/>
     <Video/>
     <VirtualPlatforms/>
+    <Footer/>
     </>
 
   );

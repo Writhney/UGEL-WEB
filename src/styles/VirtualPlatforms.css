@@ -42,9 +42,10 @@
 
 .Platforms-container-background{
     position: relative;
-    bottom: 400px;
+    bottom: 450px;
     display: flex;
     max-width: 1800px;
+    min-height: 500px;
     z-index: -1;
     margin: auto;
 
@@ -58,5 +59,8 @@
     .Platforms-item{
         max-width: 9rem;
         height: 3rem;
+    }
+    .Platforms-container-background{
+        max-width: 1800px;   
     }
 }

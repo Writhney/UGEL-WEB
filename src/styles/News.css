@@ -17,7 +17,13 @@ a{
     font-size: 2rem;
     text-align: center;
     color: #1E2E6E;
-    
+    background-color: white;
+}
+.News-link-title:hover{
+    background-color: #1E2E6E;
+    animation: step-start;
+    transition: all 0.5s;
+    transform: translateY(-10px);
 }
 .News-container{
     margin: auto;
