@@ -3,6 +3,7 @@
     height: 80vh;
     clip-path: inset(0); /*Quitar*/
     position: relative; /*q*/
+    z-index: 0;
     
     
 }

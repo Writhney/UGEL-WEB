@@ -129,6 +129,7 @@ a:last-of-type{
     border-color: #1E2E6E;
     border-style: solid;
     transition: all 0.5s;
+    justify-content: center;
 
 }
 .Release-link-button{
@@ -183,6 +184,9 @@ a:last-of-type{
     }
     .Release-item-container-img{
         height: 170px;
+    }
+    .Release-link-button{
+        font-size: 0.8rem;
     }
     
     

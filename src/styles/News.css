@@ -188,6 +188,9 @@ a:last-of-type{
     .News-item-container-img{
         height: 170px;
     }
+    .news-link-button{
+        font-size: 0.8rem;
+    }
     
     
 }

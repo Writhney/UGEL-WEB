@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+.header {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
+    font-family: 'Secular One', sans-serif;
+
+}
+.header--scroll {
+    background-color: rgba(255, 255, 255, 0.619);
+    box-shadow: 0 0.125rem 0.125rem 0 #3f3f3f;
+    
+}
+.header-nav {
+    padding: 0.5rem 0;
+    transition: all 0.25s;
+}
+.header-nav--scroll {
+    padding: 0.25rem 0;
+}
+.header-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+}
+  
+.header-nav__logo-container {
+    display: flex;
+    height: 3rem;
+    cursor: pointer;
+}
+.header-nav__login-container {
+    display: flex;
+    height: 2rem;
+    cursor: pointer;
+}
+.header-nav__icon-login{
+    height: 100%;
+    stroke:aquamarine
+}
+.header-nav__logo {
+    height: 100%;
+}
+.header-nav__menu-icon-container {
+    height: 2rem;
+    cursor: pointer;
+    margin: 0;
+}
+  
+.header-nav__menu-icon {
+    height: 100%;
+    fill: #6161607e;
+}
+  
+.header-nav__menu-icon--scroll {
+    fill: #1E2E6E;
+    
+}
+  
+.header-nav__link-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #fff, #000);
+    background-image: url(https://i.postimg.cc/jdVVfFXs/DSC-0433.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.25s;
+    list-style: none;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+}
+  
+.header-nav__link-list--open {
+    opacity: 1;
+    pointer-events: auto;
+}
+  
+.header-nav__link-item {
+    display: flex;
+    cursor: pointer;
+    text-shadow: 0.5px 1px 2px rgba(0,0,0,0.64);    
+}
+  
+.header-nav__link-item--close-icon-container {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+  
+.header-nav__close-icon {
+    height: 100%;
+}
+  
+.header-nav__link {
+    position: relative;
+    background-color: #ffffff7e;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.25s;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+}
+.header-nav__link--scroll{
+    color:#1E2E6E;
+}
+  
+.header-nav__link::after {
+    content: '';
+    position: absolute;
+    bottom: -0.125rem;
+    left: 0;
+    width: 0;
+    height: 0.125rem;
+    transition: all 0.25s;
+    background-color: #1E2E6E;
+}
+  
+.header-nav__link--active, .header-nav__link.active, .header-nav__link:hover {
+    color: #1E2E6E;
+    
+}
+  
+.header-nav__link--active::after, .header-nav__link.active::after, .header-nav__link:hover::after {
+    width: 100%;
+}
+.header-nav__link-item-icon-container{
+    display: flex;
+    align-items: center;
+    padding: 0 0.3rem;
+    background-color: #ffffff7e;
+    cursor: pointer;
+}
+.fas{
+    color: white;
+}
+.fas:hover{
+    color: #1E2E6E;
+}
+.header-nav__sub-list{
+    display: none;
+    /*display: flex;*/
+}
+.header-nav__sub-list--active{
+    animation: all 0.25s;
+    display: flex;
+    flex-direction: column;
+    background-color: #a4a4a4;
+    justify-content: center;
+    padding: 0.1rem 0.5rem;
+}
+.header-nav__sub-list-item:hover{
+    color: #1E2E6E;
+}
+
+.header-nav__sub-list-item{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.5px 1px 2px rgba(0,0,0,0.64); 
+}
+
+@media (min-width: 854px) {
+    
+    .header-nav__link-item-icon-container{
+        background-color: inherit;
+    }
+    .fas{
+        
+    }
+    .fas:hover{
+
+    }
+    
+    .header-nav__sub-list--active{
+        position: absolute;
+        gap: 0.5rem;
+        top:3.5rem;
+        background-color: rgba(255, 255, 255, 0.619);
+    } 
+    
+    
+    .header-nav__sub-list--active{
+
+    }
+    
+    .header-nav__sub-list-item:hover{
+        color: white;
+    }
+    .header-nav__sub-list-item:hover{
+        background-color: rgba(94, 93, 93, 0.812);
+    }
+
+
+    .header-nav__menu-icon-container,
+    .header-nav__link-item--close-icon-container {
+      display: none;
+    }
+  
+    .header-nav-container {
+      max-width: 1024px;
+      margin: auto;
+    }
+  
+    .header-nav__link-list {
+      position: static;
+      flex-direction: row;
+      background-image: none;
+      opacity: 1;
+      width: auto;
+      pointer-events: auto;
+    }
+
+    .header-nav__link {
+      background-color: inherit;
+      padding: 0;
+
+    }
+  }
+  
