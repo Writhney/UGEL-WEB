@@ -4,8 +4,6 @@
     clip-path: inset(0); /*Quitar*/
     position: relative; /*q*/
     z-index: 0;
-    
-    
 }
 .carousel-img-style{
     filter:brightness(80%);
@@ -13,6 +11,12 @@
     position: fixed; /*q*/
     object-fit: cover;
 
+}
+.captions-title{
+    text-shadow: 0.5px 1px 2px rgba(0,0,0,0.64); 
+}
+.captions-sub-title{
+    text-shadow: 0.5px 1px 2px rgba(0,0,0,0.64); 
 }
 
 @media (max-width: 1400px){

@@ -12,8 +12,8 @@ const Slider = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h1>UGEL | ANDAHUAYLAS</h1>
-          <p>Unidad de Gestión Educativa Local Andahuaylas</p>
+          <h1 className='captions-title'>UGEL | ANDAHUAYLAS</h1>
+          <p className='captions-subtitle'>Unidad de Gestión Educativa Local Andahuaylas</p>
         </Carousel.Caption>  
         </div>
         
@@ -26,8 +26,8 @@ const Slider = () => {
           alt="Second slide"
         />
         <Carousel.Caption>
-            <h1>UGEL | ANDAHUAYLAS</h1>
-            <p>Unidad de Gestión Educativa Local Andahuaylas</p>
+          <h1 className='captions-title'>UGEL | ANDAHUAYLAS</h1>
+          <p className='captions-subtitle'>Unidad de Gestión Educativa Local Andahuaylas</p>
         </Carousel.Caption>   
         </div>
 
@@ -40,8 +40,8 @@ const Slider = () => {
           alt="Third slide"
         />
         <Carousel.Caption>
-            <h1>UGEL | ANDAHUAYLAS</h1>
-            <p>Unidad de Gestión Educativa Local Andahuaylas</p>
+        <h1 className='captions-title'>UGEL | ANDAHUAYLAS</h1>
+          <p className='captions-subtitle'>Unidad de Gestión Educativa Local Andahuaylas</p>
         </Carousel.Caption>
         </div>
       </Carousel.Item>
@@ -53,8 +53,8 @@ const Slider = () => {
           alt="Third slide"
         />
         <Carousel.Caption>
-            <h1>UGEL | ANDAHUAYLAS</h1>
-            <p>Unidad de Gestión Educativa Local Andahuaylas</p>
+        <h1 className='captions-title'>UGEL | ANDAHUAYLAS</h1>
+          <p className='captions-subtitle'>Unidad de Gestión Educativa Local Andahuaylas</p>
         </Carousel.Caption>
         </div>
       </Carousel.Item>
@@ -66,8 +66,8 @@ const Slider = () => {
           alt="Third slide"
         />
         <Carousel.Caption>
-            <h1>UGEL | ANDAHUAYLAS</h1>
-            <p>Unidad de Gestión Educativa Local Andahuaylas</p>
+        <h1 className='captions-title'>UGEL | ANDAHUAYLAS</h1>
+          <p className='captions-subtitle'>Unidad de Gestión Educativa Local Andahuaylas</p>
         </Carousel.Caption>
         </div>
       </Carousel.Item>

@@ -7,7 +7,7 @@ import News from './components/News';
 import Video from './components/Video';
 import VirtualPlatforms from './components/VirtualPlatforms';
 import Footer from './components/Footer';
-import Menu from './components/Menu';
+import Header from './components/Header';
 
 
 function App() {
@@ -15,9 +15,10 @@ function App() {
     <>
     <Slider/>
     <BasicButtons/>
-    <Menu/>
+    <Header/>
     <Release/>
     <News/>
+    <Video/>
     <VirtualPlatforms/>
     <Footer/>
     

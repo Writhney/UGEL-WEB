@@ -23,6 +23,7 @@
     border-color: #1E2E6E;
     border-style: solid;
     transition: all 1s;
+    justify-content: center;
 }
 .video-link{
     color: #1E2E6E;
@@ -48,7 +49,9 @@
 }
 @media (max-width:500px){
     .video{
-        min-height: 250px;
-        
+        min-height: 250px; 
+    }
+    .video-link{
+        font-size: 0.8rem;
     }
 }

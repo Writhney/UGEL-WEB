@@ -72,7 +72,7 @@ const BasicButtons = () => {
                     <figure className="Basic-button-icon-container">
                         <img src={Puzzle} alt="icon" className='Basic-button-icon' />
                     </figure>
-                    <p className='Basic-button-description'>TRANPARENCIA</p>
+                    <p className='Basic-button-description'>TRANSPARENCIA</p>
                 </a>  
             </div>
             

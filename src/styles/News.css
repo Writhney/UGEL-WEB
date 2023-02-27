@@ -130,6 +130,7 @@ a:last-of-type{
     border-color: #1E2E6E;
     border-style: solid;
     transition: all 0.5s;
+    justify-content: center;
 
 }
 .news-link-button{
