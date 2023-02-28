@@ -8,19 +8,15 @@ import Video from './components/Video';
 import VirtualPlatforms from './components/VirtualPlatforms';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Home from './Pages/Home';
+import ReleaseList from './Pages/ReleaseList';
+import NewsList from './Pages/NewsList';
 
 
 function App() {
   return (
     <>
-    <Slider/>
-    <BasicButtons/>
-    <Header/>
-    <Release/>
-    <News/>
-    <Video/>
-    <VirtualPlatforms/>
-    <Footer/>
+    <NewsList/>
     
     </>
 

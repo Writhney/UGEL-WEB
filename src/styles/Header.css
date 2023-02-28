@@ -40,7 +40,13 @@
 }
 .header-nav__icon-login{
     height: 100%;
-    stroke:aquamarine
+}
+.header-nav__icon-login:hover{
+    stroke: #1E2E6E;
+}
+.header-nav__icon-login--scroll{
+    stroke: #1E2E6E;
+    transition: all 0.25s;
 }
 .header-nav__logo {
     height: 100%;
@@ -96,7 +102,6 @@
     flex-direction: column;
     cursor: pointer;
     text-shadow: 0.5px 1px 2px rgba(0,0,0,0.64);    
-    
 }
   
 .header-nav__link-item--close-icon-container {
@@ -115,7 +120,7 @@
 .header-nav__link {
     position: relative;
     background-color: #ffffff7e;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.25s;
@@ -126,6 +131,7 @@
 }
 .header-nav__link--scroll{
     color:#1E2E6E;
+    text-shadow: 0.5px 1px 2px rgba(255, 255, 255, 0.64); 
 }
   
 .header-nav__link::after {
@@ -155,6 +161,10 @@
     background-color: #ffffff7e;
     cursor: pointer;
 }
+.header-nav__link-item-icon-container--click{
+   transform: rotate(180deg); 
+}
+
 .fas{
     color: white;
 }
@@ -185,6 +195,16 @@
     text-decoration: none;
     color: white;
     text-shadow: 0.5px 1px 2px rgba(0,0,0,0.64); 
+}
+.header-nav__sub-sub-list{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff87;
+}
+.header-nav__sub-sub-list-item{
+    text-decoration: none;
+    text-shadow: 0.5px 1px 2px rgba(0,0,0,0.64); 
+    color: white;
 }
 
 @media (min-width: 854px) {
