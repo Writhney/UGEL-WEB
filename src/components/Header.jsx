@@ -2,15 +2,16 @@
 import logo from './../assets/img/logoUgel.png';
 import LoginIcon from './../assets/icons/loginIcon.svg';
 import './../styles/Header.css';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
     <header id='header' className='header' >
         <nav className='header-nav' id='header-nav'>
           <div className='header-nav-container'>
-            <a to="/" className='header-nav__logo-container'>
+            <NavLink to="/" className='header-nav__logo-container'>
               <img src={logo} alt='Logo Web' className='header-nav__logo' />
-            </a>
+            </NavLink>
             <figure className='header-nav__menu-icon-container' id='headerNavMenuIconContainer'>
               <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white' className='header-nav__menu-icon' id='headerNavMenuIcon'>
                 <path d='M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z'></path>
@@ -18,7 +19,7 @@ const Header = () => {
             </figure>
             <ul className='header-nav__link-list' id='headerNavLinkList'>
               <li className='header-nav__link-item'>
-                <a to='/cupcakes' className='header-nav__link'>INICIO</a>
+                <NavLink to='/' className='header-nav__link'>INICIO</NavLink>
               </li>
               <li className='header-nav__link-item'>
                 <a to='/nosotros' className='header-nav__link' id='headerNavlink1'>INSTITUCIÓN</a>

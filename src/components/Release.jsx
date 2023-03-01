@@ -1,14 +1,15 @@
 import './../styles/Release.css';
 import releaseImg from '../assets/img/Release.png';
 import release2 from '../assets/img/Release2.png';
+import { NavLink } from 'react-router-dom';
 
 const Release = () => {
     return(
         <>
         <div className='Release-principal-container'>
-        <a href="#" className="Release-link-title">
+        <NavLink to="/COMUNICADOS" className="Release-link-title">
             <h2 className="Release-title">COMUNICADOS</h2>
-        </a>
+        </NavLink>
         <section className="Release-container">
           <a href="Release-link-item"> 
             <div className="Release-item Release-item--input">
@@ -46,7 +47,7 @@ const Release = () => {
             </a>  
         </section>
         <div className='Release-button'>
-            <a href="https://www.youtube.com/@ugelandahuaylas8739" target="_blank" className='Release-link-button'>Ver mas</a>
+            <NavLink to="/COMUNICADOS" target="_blank" className='Release-link-button'>Ver mas</NavLink>
         </div>
         </div>
         </>

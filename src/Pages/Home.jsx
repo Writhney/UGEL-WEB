@@ -12,12 +12,10 @@ const Home = () => {
         <>
         <Slider/>
         <BasicButtons/>
-        <Header/>
         <Release/>
         <News/>
         <Video/>
-        <VirtualPlatforms/>
-        <Footer/>  
+        <VirtualPlatforms/> 
         </>
       
     )

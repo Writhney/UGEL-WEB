@@ -6,9 +6,7 @@ import NewssList from "../components/NewssList";
 const NewsList = ( ) => {
     return(
        <>
-       <Header/>
        <NewssList/>
-       <Footer/>
        </>
     )
 }

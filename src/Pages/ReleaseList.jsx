@@ -5,9 +5,7 @@ import ReleasesList from "../components/ReleasesList";
 const ReleaseList = () => {
     return(
         <>  
-            <Header/>
             <ReleasesList/>
-            <Footer/>
         </>
     )
 }
