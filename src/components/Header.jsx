@@ -22,7 +22,7 @@ const Header = () => {
                 <NavLink to='/' className='header-nav__link'>INICIO</NavLink>
               </li>
               <li className='header-nav__link-item'>
-                <a to='/nosotros' className='header-nav__link' id='headerNavlink1'>INSTITUCIÓN</a>
+                <NavLink to='/INSTITUCION' className='header-nav__link' id='headerNavlink1'>INSTITUCIÓN</NavLink>
                 <div className='header-nav__link-item-icon-container' id='headerNavSubListRow'>
                   <i className="fas fa-angle-down"></i>
                 </div>
