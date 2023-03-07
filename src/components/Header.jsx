@@ -67,7 +67,7 @@ const Header = () => {
                 </ol>
               </li>
               <li className='header-nav__link-item'>
-                <a to='/nosotros' className='header-nav__link'>CONTACTENOS</a>
+                <NavLink to='/CONTACTENOS' className='header-nav__link'>CONTACTENOS</NavLink>
               </li>
               <a to='/' className='header-nav__login-container'>
                 <svg className='header-nav__icon-login' width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Institution from './Pages/Institution';
 import Direction from './Pages/Direction';
 import AreasManagement from './Pages/AreasManagement';
+import AboutUs from './Pages/AboutUs';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/INSTITUCION" element={<Institution/>}/>
           <Route path="/DIRECCION" element={<Direction/>}/>
           <Route path="/AREASGESTION" element={<AreasManagement/>}/>
+          <Route path="/CONTACTENOS" element={<AboutUs/>}/>
         </Routes>
         <Footer/>
     </BrowserRouter>
