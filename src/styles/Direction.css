@@ -164,6 +164,7 @@
         padding: 0.8rem;
         max-width: 500px;
         max-height: 370px;
+        gap: 0.5rem;
     }
     .Direction-info-item-img-container{
         max-width: 300px;

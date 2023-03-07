@@ -8,6 +8,7 @@ import NewsList from './Pages/NewsList';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Institution from './Pages/Institution';
 import Direction from './Pages/Direction';
+import AreasManagement from './Pages/AreasManagement';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/COMUNICADOS" element={<ReleaseList/>}/>
           <Route path="/INSTITUCION" element={<Institution/>}/>
           <Route path="/DIRECCION" element={<Direction/>}/>
+          <Route path="/AREASGESTION" element={<AreasManagement/>}/>
         </Routes>
         <Footer/>
     </BrowserRouter>

@@ -52,7 +52,7 @@ const Header = () => {
                 </ol>
               </li>
               <li className='header-nav__link-item'>
-                <a to='/nosotros' className='header-nav__link'>ÁREAS DE GESTIÓN</a>
+                <NavLink to='/AREASGESTION' className='header-nav__link'>ÁREAS DE GESTIÓN</NavLink>
                 <div className='header-nav__link-item-icon-container'id='headerNavSubListRow3'>
                   <i className="fas fa-angle-down"></i>
                 </div>

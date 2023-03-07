@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.Areas-Management-container{
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+.Areas-Management-front-container{
+    max-width: 1100px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/NFXhBFFn/Slider5.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(80%);
+    text-align: center;
+}
+.Areas-Management-front-title{
+    color: rgba(255, 255, 255, 0.786);
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Secular One', sans-serif;
+    margin: 0;
+    text-shadow: -3px 4px 4px #000000;
+}
+.Areas-Management-items-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: auto;
+}
+.Areas-Management-item-link{
+    color: #1E2E6E;
+    padding: 0.5rem;
+    display: flex;
+    width: 8rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    border: solid 0.1rem #1E2E6E;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.Areas-Management-item-link:hover{
+    color: white;
+    background-color: #1E2E6E;
+    transition: all 0.5s;
+
+}
+
+@media (min-width:750px){
+    .Areas-Management-front-title{
+        font-size: 4rem;
+    }
+    .Areas-Management-front-container{
+        min-height: 400px;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+    .Areas-Management-item-link{
+        width: 10rem;
+        height: 7rem;
+        font-size: 1rem;
+    }
+}
