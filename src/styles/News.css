@@ -118,7 +118,7 @@ a:last-of-type{
     font-size: 0.8rem;
 }
 .mod-position-info-big{
-    bottom: 8rem;
+    bottom: 5rem;
 }
 .News-button{
     background-color: white;
@@ -149,19 +149,19 @@ a:last-of-type{
 @media (max-width:750px)
 {
     .News-item-date{
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         text-decoration: none;
         color: white;
         margin: 0;
     }
     .News-item-title{
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         text-decoration: none;
         color: white;
         margin: 0;
     }
     .News-item-container-info{
-        bottom: 3.1rem;
+        bottom: 5.5rem;
     }
 
     .News-item{

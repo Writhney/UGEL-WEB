@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.Direction-container{
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+.Direction-front-container{
+    max-width: 1100px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/jdVVfFXs/DSC-0433.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(80%);
+}
+.Direction-front-title{
+    color: rgba(255, 255, 255, 0.786);
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Secular One', sans-serif;
+    margin: 0;
+    text-shadow: -3px 4px 4px #000000;
+}
+.Direction-items-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.Direction-item{
+    display: flex;
+    gap: 0.5rem;
+}
+.Direction-items-container{
+    margin-top: 4rem;
+}
+.Direction-item-about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.Direction-about-subtitle{
+    font-size: 1rem;
+    margin: 0;
+    color: #1E2E6E;
+}
+.Direction-about-description{
+    font-size: 0.7rem;
+    margin: 0;
+}
+.Direction-info-item-container{
+    background-color: #1E2E6E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding: 0.5rem;
+    max-width: 200px;
+    max-height: 250px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.523);
+}
+.Direction-info-item-img-container{
+    display: flex;
+    margin: 0;
+    max-width: 200px;
+}
+.Direction-info-item-img{
+    width: 100%;
+}
+.Direction-info-item-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Direction-info-item-description-name{
+    margin: 0;
+    font-size: 0.8rem;
+}
+.Direction-info-item-description-email{
+    margin: 0;
+    font-size: 0.7rem;
+}
+.Direction-info-item-description-cell{
+    margin: 0;
+    font-size: 0.7rem;
+}
+.Direction-about-list{
+    margin: 0;
+}
+.Direction-about-list-item{
+    font-size: 0.7rem;
+}
+.Direction-about-list-item-not-visible{
+    font-size: 0.7rem;
+    display: none;
+}
+.Direction-about-list-item-not-visible-2{
+    font-size: 0.7rem;
+    display: none;
+}
+.Direction-about-list-item-not-visible-3{
+    font-size: 0.7rem;
+    display: none;
+}
+.Direction-about-list-item-visible{
+    font-size: 0.7rem;
+    display: list-item;
+}
+.Direction-about-list-item-more{
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 900;
+}
+.Direction-about-list-item-more:hover{
+    color: #1E2E6E;
+    transition: all 0.25s;
+}
+
+@media (min-width:750px){
+    .Direction-front-container{
+        max-width: 1100px;
+        min-height: 400px;
+        background-size: cover;
+    }
+    .Direction-front-title{
+        font-size: 4rem;
+    }
+    .Direction-about-subtitle{
+        font-size: 1.5rem;
+    }
+    .Direction-about-description{
+        font-size: 1rem;
+    }
+    .Direction-items-container{
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    .Direction-item{
+        gap: 1rem;
+    }
+    .Direction-about-list-item{
+        font-size: 1rem;
+    }
+    .Direction-about-list-item-visible{
+        font-size: 1rem;
+    }
+    .Direction-about-list-item-not-visible-2{
+        font-size: 1rem;
+    }
+    .Direction-about-list-item-not-visible-3{
+        font-size: 1rem;
+    }
+    .Direction-info-item-container{
+        padding: 0.8rem;
+        max-width: 500px;
+        max-height: 370px;
+    }
+    .Direction-info-item-img-container{
+        max-width: 300px;
+    }
+    .Direction-info-item-description-name{
+        font-size: 1.2rem;
+    }
+    .Direction-info-item-description-email{
+        font-size: 1rem;
+    }
+    .Direction-info-item-description-cell{
+        font-size: 1rem;
+    }
+    .Direction-about-list-item-more{
+        font-size: 1rem;
+    }
+
+}

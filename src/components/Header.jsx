@@ -38,7 +38,7 @@ const Header = () => {
               </li>
 
               <li className='header-nav__link-item'>
-                <a to='/nosotros' className='header-nav__link'>DIRECCIÓN</a>
+                <NavLink to='/DIRECCION' className='header-nav__link'>DIRECCIÓN</NavLink>
                 <div className='header-nav__link-item-icon-container' id='headerNavSubListRow2'>
                   <i className="fas fa-angle-down"></i>
                 </div>
@@ -95,7 +95,7 @@ const Header = () => {
 }
 export default Header;
 
-  window.document.addEventListener('DOMContentLoaded', () => {
+window.document.addEventListener('DOMContentLoaded', () => {
 
     const header = document.getElementById('header');
     const headerNav = document.getElementById('header-nav');

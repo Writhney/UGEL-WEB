@@ -7,6 +7,7 @@ import ReleaseList from './Pages/ReleaseList';
 import NewsList from './Pages/NewsList';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Institution from './Pages/Institution';
+import Direction from './Pages/Direction';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/NOTICIAS" element={<NewsList/>}/>
           <Route path="/COMUNICADOS" element={<ReleaseList/>}/>
           <Route path="/INSTITUCION" element={<Institution/>}/>
+          <Route path="/DIRECCION" element={<Direction/>}/>
         </Routes>
         <Footer/>
     </BrowserRouter>
