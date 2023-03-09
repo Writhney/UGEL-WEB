@@ -38,7 +38,7 @@
     gap: 0.5rem;
 }
 .Direction-items-container{
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 .Direction-item-about-container{
     display: flex;
@@ -57,6 +57,7 @@
 .Direction-info-item-container{
     background-color: #1E2E6E;
     display: flex;
+    gap: 0.5rem;
     flex-direction: column;
     justify-content: center;
     align-content: center;

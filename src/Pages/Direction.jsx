@@ -67,7 +67,7 @@ const Direction = () => {
                             <li className="Direction-about-list-item">Organizar y mantener actualizado el archivo de acuerdo a las normas vigentes, cuidando y estableciendo la seguridad, conservación y confidenciabilidad</li>
                             <li className="Direction-about-list-item">Realizar el seguimiento y control de la documentación que se encuentra en trámite e informar al público usuario sobre su situación</li>
                             <li className="Direction-about-list-item">Preparar los pedidos de materiales y útiles de oficina para la Dirección, los recepciona, distribuye y cuida, en su seguridad y control</li>
-                            <label htmlFor="" className='Direction-about-list-item-more' id='verMas'>Ver mas</label>
+                            <label htmlFor="#" className='Direction-about-list-item-more' id='verMas'>Ver mas</label>
                             <li className="Direction-about-list-item-not-visible">Gestionar la producción e impresión de los documentos que sean requeridos por el despacho</li>
                             <li className="Direction-about-list-item-not-visible">Velar por la seguridad, conservación y mantenimiento del mobiliario, equipo y acervo documentario y mantiene actualizado el margesí de bienes</li>
                             <li className="Direction-about-list-item-not-visible">Atender y efectuar llamadas telefónicas, remitir y recepcionar documentos vía fax, en cumplimento de las actividades administrativas</li>
@@ -154,25 +154,27 @@ const Direction = () => {
     )
 }
 export default Direction;
-const ready = () => {
-    const ItemNotVisible = [...document.querySelectorAll('.Direction-about-list-item-not-visible')];
+
+
+window.document.addEventListener('DOMContentLoaded', () => {
     const ItemNotVisible2 = [...document.querySelectorAll('.Direction-about-list-item-not-visible-2')];
     const ItemNotVisible3 = [...document.querySelectorAll('.Direction-about-list-item-not-visible-3')];
-    const ShowMore = window.document.getElementById('verMas');
+    
     const ShowMore2 = window.document.getElementById('verMas2');
     const ShowMore3 = window.document.getElementById('verMas3');
-    console.log(ShowMore);
     
     let clickTimes = 1;
+    const ShowMore = window.document.getElementById('verMas');
+    const ItemNotVisible = [...document.querySelectorAll('.Direction-about-list-item-not-visible')];
+    
     const ShowText = () => {
         ItemNotVisible.forEach(element => {
             element.classList.toggle('Direction-about-list-item-visible', clickTimes % 2 !== 0 );
         });
         clickTimes++;
-        
     }
     ShowMore.addEventListener('click', ShowText);
-    
+
     let clickTimes2 = 1;
     const ShowText2 = () => {
         ItemNotVisible2.forEach(element => {
@@ -182,7 +184,6 @@ const ready = () => {
         
     }
     ShowMore2.addEventListener('click', ShowText2);
-
     let clickTimes3 = 1;
     const ShowText3 = () => {
         ItemNotVisible3.forEach(element => {
@@ -192,8 +193,12 @@ const ready = () => {
     }
     ShowMore3.addEventListener('click', ShowText3);
     
-};
-document.addEventListener('DOMContentLoaded', ready);
+    
+
+});
+
+
+
 
 
 
