@@ -211,15 +211,15 @@ const AdministrativeManagement = () => {
                             <li className='Admi-manage-info-list-item'>Controlar el movimiento de la cuenta del fondo para pagos en efectivo y caja chica, llevar el control de fondos mensuales</li>
                             <li className='Admi-manage-info-list-item'>Ejecutar el pago de remuneraciones, bienes y servicios, y encargar previo registro en el SIAF</li>
                             <li className='Admi-manage-info-list-item'>Efectuar la conciliación bancaria de las cuentas de enlace del tesoro público y otras fuentes de financiamiento</li>
-                            <label htmlFor="" className='Admi-manage-info-list-item-more' id=''>Ver mas</label>
-                            <li className='Admi-manage-info-list-item-not-visible'>Remitir previa coordinación con el Especialista Administrativo I (personal) el reporte y/o liquidación de planillas a la Unidad de Contabilidad con la relación de retenciones y/o descuentos en el mes, para su contabilización en el SIAF</li>
-                            <li className='Admi-manage-info-list-item-not-visible'>Controlar que los giros no excedan los límites de los compromisos efectuados con fuente de financiamiento 00, 09, 13 y encargos</li>
-                            <li className='Admi-manage-info-list-item-not-visible'>Elaborar y presentar los informes de ejecución presupuestal de su competencia, conforme a lo normado por la Ley del Presupuesto General de la República y Normas de Tesorería</li>
-                            <li className='Admi-manage-info-list-item-not-visible'>Gestionar la reprogramación de cheques anulados por caducidad</li>
-                            <li className='Admi-manage-info-list-item-not-visible'>Efectuar solicitud de giros ante la Dirección General de Tesoro Público para el apoyo de subsidios por incapacidad temporal y su rendición</li>
-                            <li className='Admi-manage-info-list-item-not-visible'>Efectuar el pago de retenciones y aportaciones a EsSalud, SUNAT y terceros</li>
-                            <li className='Admi-manage-info-list-item-not-visible'>Depositar en los plazos previstos la recuperación de pagos indebidos y descuentos por Ley Nro. 20530</li>
-                            <li className='Admi-manage-info-list-item-not-visible'>Firmar recibos de ingresos y supervisar los depósitos dentro de los plazos establecidos por la Directiva de Tesorería y registrar el Determinado y Recaudado en el SIAF</li>
+                            <label htmlFor="" className='Admi-manage-info-list-item-more' id='verMasA9'>Ver mas</label>
+                            <li className='Admi-manage-info-list-item-not-visible-9'>Remitir previa coordinación con el Especialista Administrativo I (personal) el reporte y/o liquidación de planillas a la Unidad de Contabilidad con la relación de retenciones y/o descuentos en el mes, para su contabilización en el SIAF</li>
+                            <li className='Admi-manage-info-list-item-not-visible-9'>Controlar que los giros no excedan los límites de los compromisos efectuados con fuente de financiamiento 00, 09, 13 y encargos</li>
+                            <li className='Admi-manage-info-list-item-not-visible-9'>Elaborar y presentar los informes de ejecución presupuestal de su competencia, conforme a lo normado por la Ley del Presupuesto General de la República y Normas de Tesorería</li>
+                            <li className='Admi-manage-info-list-item-not-visible-9'>Gestionar la reprogramación de cheques anulados por caducidad</li>
+                            <li className='Admi-manage-info-list-item-not-visible-9'>Efectuar solicitud de giros ante la Dirección General de Tesoro Público para el apoyo de subsidios por incapacidad temporal y su rendición</li>
+                            <li className='Admi-manage-info-list-item-not-visible-9'>Efectuar el pago de retenciones y aportaciones a EsSalud, SUNAT y terceros</li>
+                            <li className='Admi-manage-info-list-item-not-visible-9'>Depositar en los plazos previstos la recuperación de pagos indebidos y descuentos por Ley Nro. 20530</li>
+                            <li className='Admi-manage-info-list-item-not-visible-9'>Firmar recibos de ingresos y supervisar los depósitos dentro de los plazos establecidos por la Directiva de Tesorería y registrar el Determinado y Recaudado en el SIAF</li>
                         </ul>
                     </div>
                     <div className="Admi-manage-item-card-container">
@@ -407,6 +407,9 @@ const ready = () => {
     const showMoreA8 = document.getElementById('verMasA8');
     const ListItems8 = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible-8')];
 
+    const showMoreA9 = document.getElementById('verMasA9');
+    const ListItems9 = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible-9')];
+
     let click = 1;
     const ShowList = () => {
         ListItems.forEach(element => {
@@ -478,6 +481,15 @@ const ready = () => {
         click8++;
     }
     showMoreA8.addEventListener('click', ShowList8);
+
+    let click9 = 1;
+    const ShowList9 = () => {
+        ListItems9.forEach(element => {
+            element.classList.toggle('Admi-manage-info-list-item', click9 % 2 !== 0 );
+        });
+        click9++;
+    }
+    showMoreA9.addEventListener('click', ShowList9);
     
 }
 window.document.addEventListener('DOMContentLoaded', ready);

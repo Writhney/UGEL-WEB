@@ -11,6 +11,7 @@ import Direction from './Pages/Direction';
 import AreasManagement from './Pages/AreasManagement';
 import AboutUs from './Pages/AboutUs';
 import AdministrativeManagement from './SubPages/AdministrativeManagement';
+import InstitutionalManagement from './SubPages/InstitutionalManagement';
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
           <Route path="/AREASGESTION" element={<AreasManagement/>}/>
           <Route path="/CONTACTENOS" element={<AboutUs/>}/>
           <Route path="/AREASGESTION/GESTIONADMINISTRATIVA" element={<AdministrativeManagement/>}/>
+          <Route path="/AREASGESTION/GESTIONINSTITUCIONAL" element={<InstitutionalManagement/>}/>
+
           
         </Routes>
         <Footer/>
