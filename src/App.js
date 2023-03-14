@@ -12,6 +12,7 @@ import AreasManagement from './Pages/AreasManagement';
 import AboutUs from './Pages/AboutUs';
 import AdministrativeManagement from './SubPages/AdministrativeManagement';
 import InstitutionalManagement from './SubPages/InstitutionalManagement';
+import LegalAdvice from './SubPages/LegalAdvice';
 
 
 function App() {
@@ -29,7 +30,9 @@ function App() {
           <Route path="/CONTACTENOS" element={<AboutUs/>}/>
           <Route path="/AREASGESTION/GESTIONADMINISTRATIVA" element={<AdministrativeManagement/>}/>
           <Route path="/AREASGESTION/GESTIONINSTITUCIONAL" element={<InstitutionalManagement/>}/>
+          <Route path="/AREASGESTION/ASESORIAJURIDICA" element={<LegalAdvice/>}/>
 
+         
           
         </Routes>
         <Footer/>

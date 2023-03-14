@@ -11,7 +11,7 @@ const AreasManagement = () => {
                     <NavLink to='/AREASGESTION/GESTIONADMINISTRATIVA' className="Areas-Management-item-link">GESTIÓN ADMINISTRATIVA</NavLink>
                     <NavLink to='/AREASGESTION/GESTIONINSTITUCIONAL' className="Areas-Management-item-link">GESTIÓN INSTITUCIONAL</NavLink>
                     <a href="" className="Areas-Management-item-link">GESTIÓN PEDAGÓGICA</a>
-                    <a href="" className="Areas-Management-item-link">ASESORÍA JURÍDICA</a>
+                    <NavLink to='/AREASGESTION/ASESORIAJURIDICA' className="Areas-Management-item-link">ASESORÍA JURÍDICA</NavLink>
                     <a href="" className="Areas-Management-item-link">CONTROL INSTITUCIONAL</a>
                     <a href="" className="Areas-Management-item-link">PROCESOS ADMINISTRATIVOS</a>
                 </div>

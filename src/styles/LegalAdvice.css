@@ -1,0 +1,186 @@
+.Legal-advice-container{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.Legal-advice-front-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.Legal-advice-front-image-container{
+    display: flex;
+    max-width: 200px;
+    margin: 0;
+}
+.Legal-advice-front-img{
+    width: 100%;
+}
+.Legal-advice-front-title{
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+}
+.Legal-advice-background-container{
+    display: flex;
+    position: absolute;
+    margin: auto;
+    z-index: -1;
+    min-height: 300px;
+    top: 0;
+}
+.Legal-advice-background{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.Legal-advice-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.Legal-advice-item{
+    display: flex;
+    gap: 1rem;
+}
+.Legal-advice-item-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.Legal-advice-info-description{
+    font-size: 0.7rem;
+    margin: 0;
+}
+.Legal-advice-info-list-container{
+    margin: 0;
+}
+.Legal-advice-info-list-item{
+    font-size: 0.7rem;
+    display: list-item;
+}
+.Legal-advice-info-list-item-not-visible{
+ display: none;
+}
+
+
+.Legal-advice-info-list-item-more{
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 900;
+}
+.Legal-advice-info-list-item-more:hover{
+    color: #1E2E6E;
+    transition: all 0.25s;
+}
+.Legal-advice-item-card-container{
+    background-color: #1E2E6E;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.5rem;
+    max-width: 200px;
+    max-height: 250px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.523);
+}
+.Legal-advice-item-card-img-container{
+    display: flex;
+    margin: 0;
+    max-width: 200px;
+}
+.Legal-advice-item-card-img{
+    width: 100%;
+}
+.Legal-advice-item-card-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Legal-advice-item-card-description-name{
+    margin: 0;
+    font-size: 0.8rem;
+}
+.Legal-advice-item-card-description-email{
+    margin: 0;
+    font-size: 0.7rem;
+}
+.Legal-advice-item-card-description-cell{ 
+    margin: 0;
+    font-size: 0.7rem;
+}
+.Legal-advice-item-info-subtitle{
+    margin: 0;
+    font-size: 1rem;
+    color: #1E2E6E;
+}
+
+
+@media (min-width:750px){
+    .Legal-advice-container{
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    .Legal-advice-front-container{
+        gap: 5rem;
+    }
+    .Legal-advice-front-image-container{
+        max-width: 300px;
+    }
+    .Legal-advice-front-title{
+        font-size: 1.5rem;
+    }
+    .Legal-advice-background-container{
+        top: 2rem;
+        max-height: 250px;
+    }
+    .Legal-advice-background{
+        object-fit: contain;
+    }
+    .Legal-advice-info-description{
+        font-size: 1rem;
+    }   
+    .Legal-advice-info-list-item{
+        font-size: 1rem;
+        display: list-item;
+    }
+    .Legal-advice-info-list-item-more{
+        font-size: 1rem;
+    }
+    .Legal-advice-item-card-container{
+        max-width: 500px;
+        max-height: 370px;
+        padding: 0.8rem;
+    }
+    .Legal-advice-item-card-description-name{
+        font-size: 1.2rem;
+    }
+    .Legal-advice-item-card-description-email{
+        font-size: 1rem;
+    }
+    .Legal-advice-item-card-description-cell{ 
+        font-size: 1rem;
+    }
+    .Legal-advice-item-info-subtitle{
+        font-size: 1.5rem;
+    }
+    .Legal-advice-item-card-img-container{
+        max-width: 300px;
+    }
+    .Legal-advice-info-container{
+        gap: 2rem;
+    }
+}
