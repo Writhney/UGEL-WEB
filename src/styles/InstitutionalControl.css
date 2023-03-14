@@ -1,0 +1,186 @@
+.Insti-control-container{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.Insti-control-front-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.Insti-control-front-image-container{
+    display: flex;
+    max-width: 200px;
+    margin: 0;
+}
+.Insti-control-front-img{
+    width: 100%;
+}
+.Insti-control-front-title{
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+}
+.Insti-control-background-container{
+    display: flex;
+    position: absolute;
+    margin: auto;
+    z-index: -1;
+    min-height: 300px;
+    top: 0;
+}
+.Insti-control-background{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.Insti-control-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.Insti-control-item{
+    display: flex;
+    gap: 1rem;
+}
+.Insti-control-item-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.Insti-control-info-description{
+    font-size: 0.7rem;
+    margin: 0;
+}
+.Insti-control-info-list-container{
+    margin: 0;
+}
+.Insti-control-info-list-item{
+    font-size: 0.7rem;
+    display: list-item;
+}
+.Insti-control-info-list-item-not-visible{
+ display: none;
+}
+
+
+.Insti-control-info-list-item-more{
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 900;
+}
+.Insti-control-info-list-item-more:hover{
+    color: #1E2E6E;
+    transition: all 0.25s;
+}
+.Insti-control-item-card-container{
+    background-color: #1E2E6E;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.5rem;
+    max-width: 200px;
+    max-height: 250px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.523);
+}
+.Insti-control-item-card-img-container{
+    display: flex;
+    margin: 0;
+    max-width: 200px;
+}
+.Insti-control-item-card-img{
+    width: 100%;
+}
+.Insti-control-item-card-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Insti-control-item-card-description-name{
+    margin: 0;
+    font-size: 0.8rem;
+}
+.Insti-control-item-card-description-email{
+    margin: 0;
+    font-size: 0.7rem;
+}
+.Insti-control-item-card-description-cell{ 
+    margin: 0;
+    font-size: 0.7rem;
+}
+.Insti-control-item-info-subtitle{
+    margin: 0;
+    font-size: 1rem;
+    color: #1E2E6E;
+}
+
+
+@media (min-width:750px){
+    .Insti-control-container{
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    .Insti-control-front-container{
+        gap: 5rem;
+    }
+    .Insti-control-front-image-container{
+        max-width: 300px;
+    }
+    .Insti-control-front-title{
+        font-size: 1.5rem;
+    }
+    .Insti-control-background-container{
+        top: 2rem;
+        max-height: 250px;
+    }
+    .Insti-control-background{
+        object-fit: contain;
+    }
+    .Insti-control-info-description{
+        font-size: 1rem;
+    }   
+    .Insti-control-info-list-item{
+        font-size: 1rem;
+        display: list-item;
+    }
+    .Insti-control-info-list-item-more{
+        font-size: 1rem;
+    }
+    .Insti-control-item-card-container{
+        max-width: 500px;
+        max-height: 370px;
+        padding: 0.8rem;
+    }
+    .Insti-control-item-card-description-name{
+        font-size: 1.2rem;
+    }
+    .Insti-control-item-card-description-email{
+        font-size: 1rem;
+    }
+    .Insti-control-item-card-description-cell{ 
+        font-size: 1rem;
+    }
+    .Insti-control-item-info-subtitle{
+        font-size: 1.5rem;
+    }
+    .Insti-control-item-card-img-container{
+        max-width: 300px;
+    }
+    .Insti-control-info-container{
+        gap: 2rem;
+    }
+}

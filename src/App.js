@@ -13,6 +13,7 @@ import AboutUs from './Pages/AboutUs';
 import AdministrativeManagement from './SubPages/AdministrativeManagement';
 import InstitutionalManagement from './SubPages/InstitutionalManagement';
 import LegalAdvice from './SubPages/LegalAdvice';
+import InstitutionalControl from './SubPages/InstitutionalControl';
 
 
 function App() {
@@ -31,8 +32,7 @@ function App() {
           <Route path="/AREASGESTION/GESTIONADMINISTRATIVA" element={<AdministrativeManagement/>}/>
           <Route path="/AREASGESTION/GESTIONINSTITUCIONAL" element={<InstitutionalManagement/>}/>
           <Route path="/AREASGESTION/ASESORIAJURIDICA" element={<LegalAdvice/>}/>
-
-         
+          <Route path="/AREASGESTION/CONTROLINSTITUCIONAL" element={<InstitutionalControl/>}/>
           
         </Routes>
         <Footer/>

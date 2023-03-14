@@ -12,7 +12,7 @@ const AreasManagement = () => {
                     <NavLink to='/AREASGESTION/GESTIONINSTITUCIONAL' className="Areas-Management-item-link">GESTIÓN INSTITUCIONAL</NavLink>
                     <a href="" className="Areas-Management-item-link">GESTIÓN PEDAGÓGICA</a>
                     <NavLink to='/AREASGESTION/ASESORIAJURIDICA' className="Areas-Management-item-link">ASESORÍA JURÍDICA</NavLink>
-                    <a href="" className="Areas-Management-item-link">CONTROL INSTITUCIONAL</a>
+                    <NavLink to='/AREASGESTION/CONTROLINSTITUCIONAL' className="Areas-Management-item-link">CONTROL INSTITUCIONAL</NavLink>
                     <a href="" className="Areas-Management-item-link">PROCESOS ADMINISTRATIVOS</a>
                 </div>
             </section>
