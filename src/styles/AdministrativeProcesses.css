@@ -1,0 +1,99 @@
+.Admi-process-container{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.Admi-process-front-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.Admi-process-front-image-container{
+    display: flex;
+    max-width: 200px;
+    margin: 0;
+}
+.Admi-process-front-img{
+    width: 100%;
+}
+.Admi-process-front-title{
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+}
+.Admi-process-background-container{
+    display: flex;
+    position: absolute;
+    margin: auto;
+    z-index: -1;
+    min-height: 300px;
+    top: 0;
+}
+.Admi-process-background{
+    width: 100%;
+    object-fit: cover;
+}
+.Admi-process-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.Admi-process-item{
+    display: flex;
+    gap: 1rem;
+}
+.Admi-process-item-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.Admi-process-info-description{
+    font-size: 0.7rem;
+    margin: 0;
+}
+.Admi-process-info-list-container{
+    margin: 0;
+}
+.Admi-process-info-list-item{
+    font-size: 0.7rem;
+    display: list-item;
+}
+
+
+@media (min-width:750px){
+    .Admi-process-container{
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    .Admi-process-front-container{
+        gap: 5rem;
+    }
+    .Admi-process-front-image-container{
+        max-width: 300px;
+    }
+    .Admi-process-front-title{
+        font-size: 1.5rem;
+    }
+    .Admi-process-background-container{
+        top: 2rem;
+        max-height: 250px;
+    }
+    .Admi-process-background{
+        object-fit: contain;
+    }
+    .Admi-process-info-description{
+        font-size: 1rem;
+    }   
+    .Admi-process-info-list-item{
+        font-size: 1rem;
+        display: list-item;
+    }
+
+ 
+}
