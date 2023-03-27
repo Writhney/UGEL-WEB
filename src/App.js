@@ -15,6 +15,8 @@ import InstitutionalManagement from './SubPages/InstitutionalManagement';
 import LegalAdvice from './SubPages/LegalAdvice';
 import InstitutionalControl from './SubPages/InstitutionalControl';
 import AdministrativeProcesses from './SubPages/AdministrativeProcesses';
+import JobCallList from './Pages/JobCallList';
+
 
 
 function App() {
@@ -30,6 +32,7 @@ function App() {
           <Route path="/DIRECCION" element={<Direction/>}/>
           <Route path="/AREASGESTION" element={<AreasManagement/>}/>
           <Route path="/CONTACTENOS" element={<AboutUs/>}/>
+          <Route path="/CONVOCATORIAS" element={<JobCallList/>}/>
           <Route path="/AREASGESTION/GESTIONADMINISTRATIVA" element={<AdministrativeManagement/>}/>
           <Route path="/AREASGESTION/GESTIONINSTITUCIONAL" element={<InstitutionalManagement/>}/>
           <Route path="/AREASGESTION/ASESORIAJURIDICA" element={<LegalAdvice/>}/>

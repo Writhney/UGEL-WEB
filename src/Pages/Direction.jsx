@@ -157,6 +157,7 @@ export default Direction;
 
 
 window.document.addEventListener('DOMContentLoaded', () => {
+    /*
     const ItemNotVisible2 = [...document.querySelectorAll('.Direction-about-list-item-not-visible-2')];
     const ItemNotVisible3 = [...document.querySelectorAll('.Direction-about-list-item-not-visible-3')];
     
@@ -193,7 +194,7 @@ window.document.addEventListener('DOMContentLoaded', () => {
     }
     ShowMore3.addEventListener('click', ShowText3);
     
-    
+    */
 
 });
 

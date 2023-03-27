@@ -383,6 +383,7 @@ const AdministrativeManagement = () => {
 export default AdministrativeManagement;
 
 const ready = () => {
+    /*
     const showMoreA = document.getElementById('showMoreA');
     const ListItems = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible')];
 
@@ -490,7 +491,7 @@ const ready = () => {
         click9++;
     }
     showMoreA9.addEventListener('click', ShowList9);
-    
+    */
 }
 window.document.addEventListener('DOMContentLoaded', ready);
 

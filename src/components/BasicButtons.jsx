@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import Book from './../assets/icons/Book.svg';
 import Paper from './../assets/icons/Paper.svg';
 import Building from './../assets/icons/Building.svg';
@@ -44,20 +45,20 @@ const BasicButtons = () => {
                 </a>  
             </div>
             <div className='Basic-button-item'>
-                <a href="#" className="Basic-button-link-item">
+                <NavLink to='/CONVOCATORIAS' className="Basic-button-link-item">
                     <figure className="Basic-button-icon-container">
                         <img src={PeopleSuit} alt="icon" className='Basic-button-icon' />
                     </figure>
                     <p className='Basic-button-description'>CONVOCATORIAS</p>
-                </a>  
+                </NavLink>  
             </div>
             <div className='Basic-button-item'>
-                <a href="#" className="Basic-button-link-item">
+                <NavLink to='/' className="Basic-button-link-item">
                     <figure className="Basic-button-icon-container">
                         <img src={PaperPencil} alt="icon" className='Basic-button-icon' />
                     </figure>
                     <p className='Basic-button-description'>FUT</p>
-                </a>  
+                </NavLink>  
             </div>
             <div className='Basic-button-item'>
                 <a href="#" className="Basic-button-link-item">
