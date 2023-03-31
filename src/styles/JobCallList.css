@@ -62,8 +62,10 @@
 }
 .Job-status-item-title{
     margin: 0;
-    color: white;
+    color: rgba(255, 255, 255, 0.626);
     font-size: 0.8rem;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    font-weight: 700;
 }
 .Job-status-item-p{
     width: 10rem;
@@ -205,7 +207,7 @@
         height: 10rem;
     }
     .Job-status-item-title{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 

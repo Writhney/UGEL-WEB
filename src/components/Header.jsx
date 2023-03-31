@@ -95,9 +95,8 @@ const Header = () => {
 }
 export default Header;
 
-window.document.addEventListener('DOMContentLoaded', () => {
-
-    const header = document.getElementById('header');
+function ready(){
+  const header = document.getElementById('header');
     const headerNav = document.getElementById('header-nav');
     const headerNavMenuIcon = document.getElementById('headerNavMenuIcon');
     const headerNavLinks = [...document.querySelectorAll('.header-nav__link')];
@@ -218,9 +217,17 @@ window.document.addEventListener('DOMContentLoaded', () => {
   }
   window.addEventListener('scroll', windowScroll);
 
-  
+}
 
+if (document.readyState === 'complete'){
+  //console.log('document is ready H');
+  ready();
   
-});
+  
+} else {
+  //console.log('document is not ready H');
+  window.document.addEventListener('DOMContentLoaded', ready);
+}
+
 
 

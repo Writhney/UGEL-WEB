@@ -16,6 +16,7 @@ import LegalAdvice from './SubPages/LegalAdvice';
 import InstitutionalControl from './SubPages/InstitutionalControl';
 import AdministrativeProcesses from './SubPages/AdministrativeProcesses';
 import JobCallList from './Pages/JobCallList';
+import EducationalManagement from './SubPages/EducationalManagement';
 
 
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="/AREASGESTION/ASESORIAJURIDICA" element={<LegalAdvice/>}/>
           <Route path="/AREASGESTION/CONTROLINSTITUCIONAL" element={<InstitutionalControl/>}/>
           <Route path="/AREASGESTION/PROCESOSADMINISTRATIVOS" element={<AdministrativeProcesses/>}/>
+          <Route path="/AREASGESTION/GESTIONPEDAGOGICA" element={<EducationalManagement/>}/>
 
         </Routes>
         <Footer/>
