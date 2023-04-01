@@ -1,7 +1,8 @@
 import background from './../assets/backgrounds/background1.svg';
-import employee from './../assets/icons/employee.svg';
+import employee from './../assets/backgrounds/employeeShowPic.svg';
 import personBusiness from './../assets/photos/personBusiness.png';
 import './../styles/EducationalManagement.css';
+import { NavLink } from 'react-router-dom';
 
 function readyEducation (){
     const buttonInicial = document.getElementById('inicial');
@@ -186,9 +187,9 @@ const EducationalManagement = () => {
         <div className='Edu-manage-item-info-container'>
         <h3 className='Edu-manage-subtitle'>Áreas de Gestión Pedagogica</h3>
         <div className='Edu-manage-buttoms-container'>
-            <a className='Edu-management-buttom-link-container-inicial'>
-                <p className='pii'>AGP - INICIAL</p>
-            </a>
+            <NavLink to='/AREASGESTION/GESTIONPEDAGOGICA/INICIAL' className='Edu-management-buttom-link-container-inicial'>
+                AGP - INICIAL
+            </NavLink>
             <a className='Edu-management-buttom-link-container-primaria'>
                 AGP - PRIMARIA
             </a>
