@@ -383,32 +383,32 @@ const AdministrativeManagement = () => {
 export default AdministrativeManagement;
 
 const ready = () => {
-    /*
-    const showMoreA = document.getElementById('showMoreA');
+    
+    const showMoreA = window.document.getElementById('showMoreA');
     const ListItems = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible')];
 
-    const showMoreA2 = document.getElementById('verMasA2');
+    const showMoreA2 = window.document.getElementById('verMasA2');
     const ListItems2 = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible-2')];
 
-    const showMoreA3 = document.getElementById('verMasA3');
+    const showMoreA3 = window.document.getElementById('verMasA3');
     const ListItems3 = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible-3')];
 
-    const showMoreA4 = document.getElementById('verMasA4');
+    const showMoreA4 = window.document.getElementById('verMasA4');
     const ListItems4 = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible-4')];
 
-    const showMoreA5 = document.getElementById('verMasA5');
+    const showMoreA5 = window.document.getElementById('verMasA5');
     const ListItems5 = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible-5')];
     
-    const showMoreA6 = document.getElementById('verMasA6');
+    const showMoreA6 = window.document.getElementById('verMasA6');
     const ListItems6 = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible-6')];
     
-    const showMoreA7 = document.getElementById('verMasA7');
+    const showMoreA7 = window.document.getElementById('verMasA7');
     const ListItems7 = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible-7')];
 
-    const showMoreA8 = document.getElementById('verMasA8');
+    const showMoreA8 = window.document.getElementById('verMasA8');
     const ListItems8 = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible-8')];
 
-    const showMoreA9 = document.getElementById('verMasA9');
+    const showMoreA9 = window.document.getElementById('verMasA9');
     const ListItems9 = [...document.querySelectorAll('.Admi-manage-info-list-item-not-visible-9')];
 
     let click = 1;
@@ -491,7 +491,14 @@ const ready = () => {
         click9++;
     }
     showMoreA9.addEventListener('click', ShowList9);
-    */
+    
 }
-window.document.addEventListener('DOMContentLoaded', ready);
+
+setInterval(isLoaded, 1000);
+function isLoaded (){
+    if (document.readyState !== 'loading'){
+        //console.log('state', document.readyState);
+        ready();
+    }
+}
 

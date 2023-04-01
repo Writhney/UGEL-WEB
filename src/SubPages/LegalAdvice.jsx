@@ -30,7 +30,7 @@ const LegalAdvice = () => {
                             <li className='Legal-advice-info-list-item'>Sistematizar y difundir la legislación educativa en coordinación con la Oficina de Asesoría Jurídica de la Dirección Regional de Educación de Apurímac</li>
                             <li className='Legal-advice-info-list-item'>Brindar asesoramiento a las Comisiones de Procesos Administrativos y Disciplinarios</li>
                             <li className='Legal-advice-info-list-item'>Participar en la formulación de proyectos, de Resoluciones, contratos, convenios y otros actos jurídicos de competencia de la Unidad de Gestión Educativa Local de Andahuaylas</li>
-                            <label htmlFor="" className='Legal-advice-info-list-item-more' id=''>Ver mas</label>
+                            <label htmlFor="" className='Legal-advice-info-list-item-more' id='showMore1'>Ver mas</label>
                             <li className='Legal-advice-info-list-item-not-visible'>Absolver consultas de carácter legal formuladas por las Dependencias, trabajadores de la Institución y usuarios del Sector en asuntos de su competencia</li>
                             <li className='Legal-advice-info-list-item-not-visible'>Las demás funciones que le asigne la Unidad de Gestión Educativa Local de Andahuaylas</li>
 
@@ -55,3 +55,24 @@ const LegalAdvice = () => {
 
 }
 export default LegalAdvice;
+
+function ready(){
+    const showMore1 = window.document.getElementById('showMore1');
+    const ListItems = [...document.querySelectorAll('.Legal-advice-info-list-item-not-visible')];
+    
+    let click = 1;
+    const ShowList = () => {
+        ListItems.forEach(element => {
+            element.classList.toggle('Legal-advice-info-list-item', click % 2 !== 0 );
+        });
+        click++;
+    }
+    showMore1.addEventListener('click', ShowList);
+}
+
+setInterval(isLoaded, 1000);
+function isLoaded (){
+    if (document.readyState !== 'loading'){
+        ready();
+    }
+}

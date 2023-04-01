@@ -63,14 +63,14 @@
 .Legal-advice-info-list-container{
     margin: 0;
 }
+
+.Legal-advice-info-list-item-not-visible{
+ display: none;
+}
 .Legal-advice-info-list-item{
     font-size: 0.7rem;
     display: list-item;
 }
-.Legal-advice-info-list-item-not-visible{
- display: none;
-}
-
 
 .Legal-advice-info-list-item-more{
     font-size: 0.8rem;

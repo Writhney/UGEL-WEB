@@ -155,9 +155,7 @@ const Direction = () => {
 }
 export default Direction;
 
-
-window.document.addEventListener('DOMContentLoaded', () => {
-    /*
+function readyDirection() {
     const ItemNotVisible2 = [...document.querySelectorAll('.Direction-about-list-item-not-visible-2')];
     const ItemNotVisible3 = [...document.querySelectorAll('.Direction-about-list-item-not-visible-3')];
     
@@ -193,10 +191,15 @@ window.document.addEventListener('DOMContentLoaded', () => {
         clickTimes3++;
     }
     ShowMore3.addEventListener('click', ShowText3);
-    
-    */
+}
 
-});
+setInterval(isLoaded, 1000);
+function isLoaded (){
+    if (document.readyState !== 'loading'){
+        //console.log('state', document.readyState);
+        readyDirection();
+    }
+}
 
 
 

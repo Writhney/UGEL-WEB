@@ -60,10 +60,6 @@
 .Admi-manage-info-list-container{
     margin: 0;
 }
-.Admi-manage-info-list-item{
-    font-size: 0.7rem;
-    display: list-item;
-}
 .Admi-manage-info-list-item-not-visible{
  display: none;
 }
@@ -90,6 +86,10 @@
 }
 .Admi-manage-info-list-item-not-visible-9{
     display: none;
+}
+.Admi-manage-info-list-item{
+    font-size: 0.7rem;
+    display: list-item;
 }
 
 .Admi-manage-info-list-item-more{

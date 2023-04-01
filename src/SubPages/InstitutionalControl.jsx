@@ -34,7 +34,7 @@ const InstitutionalControl = () => {
                           Sus funciones específicas son:  
                         </p>
                         <ul className='Insti-control-info-list-container'>
-                            <label htmlFor="" className='Insti-control-info-list-item-more' id=''>Ver mas</label>
+                            <label htmlFor="" className='Insti-control-info-list-item-more' id='showMore1'>Ver mas</label>
 
                             <li className='Insti-control-info-list-item-not-visible'>Conducir y desarrollar sus actividades en concordancia a la Ley del Sistema Nacional de Control, Normas de Auditoría Gubernamental, Normas de Control Interno, Lineamientos de Directivas y otros dispositivos emanados de la Contraloría General de la República</li>
                             <li className='Insti-control-info-list-item-not-visible'>Efectuar control preventivo sin carácter vinculante, al órgano de alto nivel de la entidad, con el propósito de optimizar la supervisión y mejora de los procesos, prácticas e instrumentos de control interno, sin que ello genere prejuzgamiento en opinión que comprometa el ejercicio de su función, vía el control posterior</li>
@@ -67,3 +67,30 @@ const InstitutionalControl = () => {
     )
 }
 export default InstitutionalControl;
+
+function ready(){
+    /*
+    window.scroll({
+        top:0,
+        behavior:'smooth'
+    });
+    */
+    const showMore1 = window.document.getElementById('showMore1');
+    const ListItems = [...document.querySelectorAll('.Insti-control-info-list-item-not-visible')];
+    
+    let click = 1;
+    const ShowList = () => {
+        ListItems.forEach(element => {
+            element.classList.toggle('Insti-control-info-list-item', click % 2 !== 0 );
+        });
+        click++;
+    }
+    showMore1.addEventListener('click', ShowList);
+}
+
+setInterval(isLoaded, 1000);
+function isLoaded (){
+    if (document.readyState !== 'loading'){
+        ready();
+    }
+}

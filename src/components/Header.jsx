@@ -57,13 +57,12 @@ const Header = () => {
                   <i className="fas fa-angle-down"></i>
                 </div>
                 <ol className='header-nav__sub-list' id='headerNavSubList3'>
-                  <a href="#" className='header-nav__sub-list-item'>Gestión Administrativa</a>
-
-                  <a href="#" className='header-nav__sub-list-item'>Gestión Institucional</a>
-                  <a href="#" className='header-nav__sub-list-item'>Gestión Pedagogica</a>
-                  <a href="#" className='header-nav__sub-list-item'>Asesoría Jurídica</a>
-                  <a href="#" className='header-nav__sub-list-item'>Control Institucional</a>
-                  <a href="#" className='header-nav__sub-list-item'>Procesos Administrativos</a>
+                  <NavLink to='/AREASGESTION/GESTIONADMINISTRATIVA' className='header-nav__sub-list-item'>Gestión Administrativa</NavLink>
+                  <NavLink to='/AREASGESTION/GESTIONINSTITUCIONAL' className='header-nav__sub-list-item'>Gestión Institucional</NavLink>
+                  <NavLink to='/AREASGESTION/GESTIONPEDAGOGICA' className='header-nav__sub-list-item'>Gestión Pedagogica</NavLink>
+                  <NavLink to='/AREASGESTION/ASESORIAJURIDICA' className='header-nav__sub-list-item'>Asesoría Jurídica</NavLink>
+                  <NavLink to='/AREASGESTION/CONTROLINSTITUCIONAL' className='header-nav__sub-list-item'>Control Institucional</NavLink>
+                  <NavLink to='/AREASGESTION/PROCESOSADMINISTRATIVOS' className='header-nav__sub-list-item'>Procesos Administrativos</NavLink>
                 </ol>
               </li>
               <li className='header-nav__link-item'>

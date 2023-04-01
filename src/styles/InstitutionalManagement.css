@@ -63,13 +63,30 @@
 .Insti-manage-info-list-container{
     margin: 0;
 }
+.Insti-manage-info-list-item-not-visible-1{
+ display: none;
+}
+.Insti-manage-info-list-item-not-visible-2{
+    display: none;
+}
+.Insti-manage-info-list-item-not-visible-3{
+    display: none;
+}
+.Insti-manage-info-list-item-not-visible-4{
+    display: none;
+}
+.Insti-manage-info-list-item-not-visible-5{
+    display: none;
+}
+.Insti-manage-info-list-item-not-visible-6{
+    display: none;
+}
 .Insti-manage-info-list-item{
     font-size: 0.7rem;
     display: list-item;
 }
-.Insti-manage-info-list-item-not-visible{
- display: none;
-}
+
+
 
 
 .Insti-manage-info-list-item-more{
