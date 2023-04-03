@@ -18,6 +18,7 @@ import AdministrativeProcesses from './SubPages/AdministrativeProcesses';
 import JobCallList from './Pages/JobCallList';
 import EducationalManagement from './SubPages/EducationalManagement';
 import Kinder from './DeepPages/Kinder';
+import School from './DeepPages/School';
 
 
 
@@ -42,6 +43,8 @@ function App() {
           <Route path="/AREASGESTION/PROCESOSADMINISTRATIVOS" element={<AdministrativeProcesses/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA" element={<EducationalManagement/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/INICIAL" element={<Kinder/>}/>
+          <Route path="/AREASGESTION/GESTIONPEDAGOGICA/PRIMARIA" element={<School/>}/>
+
 
 
         </Routes>
