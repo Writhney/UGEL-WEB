@@ -193,9 +193,9 @@ const EducationalManagement = () => {
             <NavLink to='/AREASGESTION/GESTIONPEDAGOGICA/PRIMARIA' className='Edu-management-buttom-link-container-primaria'>
                 AGP - PRIMARIA
             </NavLink>
-            <a className='Edu-management-buttom-link-container-secundaria'>
+            <NavLink to='/AREASGESTION/GESTIONPEDAGOGICA/SECUNDARIA' className='Edu-management-buttom-link-container-secundaria'>
                 SECUNDARIA
-            </a>
+            </NavLink>
             <a className='Edu-management-buttom-link-container-tecnologico'>
                 CENTRO DE RECURSOS TECNOLÓGICOS
             </a>

@@ -19,6 +19,7 @@ import JobCallList from './Pages/JobCallList';
 import EducationalManagement from './SubPages/EducationalManagement';
 import Kinder from './DeepPages/Kinder';
 import School from './DeepPages/School';
+import Preparatory from './DeepPages/Preparatory';
 
 
 
@@ -44,6 +45,7 @@ function App() {
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA" element={<EducationalManagement/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/INICIAL" element={<Kinder/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/PRIMARIA" element={<School/>}/>
+          <Route path="/AREASGESTION/GESTIONPEDAGOGICA/SECUNDARIA" element={<Preparatory/>}/>
 
 
 
