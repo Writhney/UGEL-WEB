@@ -21,6 +21,7 @@ import Kinder from './DeepPages/Kinder';
 import School from './DeepPages/School';
 import Preparatory from './DeepPages/Preparatory';
 import TechResourceCenter from './DeepPages/TechResourceCenter';
+import OticDite from './DeepPages/Otic-Dite';
 
 
 
@@ -48,6 +49,7 @@ function App() {
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/PRIMARIA" element={<School/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/SECUNDARIA" element={<Preparatory/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/CENTRORECURSOSTECNOLOGICOS" element={<TechResourceCenter/>}/>
+          <Route path="/AREASGESTION/GESTIONPEDAGOGICA/OTIC-DITE" element={<OticDite/>}/>
 
 
 
