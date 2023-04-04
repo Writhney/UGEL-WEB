@@ -22,6 +22,7 @@ import School from './DeepPages/School';
 import Preparatory from './DeepPages/Preparatory';
 import TechResourceCenter from './DeepPages/TechResourceCenter';
 import OticDite from './DeepPages/Otic-Dite';
+import Login from './Pages/Login';
 
 
 
@@ -39,6 +40,7 @@ function App() {
           <Route path="/AREASGESTION" element={<AreasManagement/>}/>
           <Route path="/CONTACTENOS" element={<AboutUs/>}/>
           <Route path="/CONVOCATORIAS" element={<JobCallList/>}/>
+          <Route path="/LOGIN" element={<Login/>}/>
           <Route path="/AREASGESTION/GESTIONADMINISTRATIVA" element={<AdministrativeManagement/>}/>
           <Route path="/AREASGESTION/GESTIONINSTITUCIONAL" element={<InstitutionalManagement/>}/>
           <Route path="/AREASGESTION/ASESORIAJURIDICA" element={<LegalAdvice/>}/>

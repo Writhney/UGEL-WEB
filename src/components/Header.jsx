@@ -68,11 +68,11 @@ const Header = () => {
               <li className='header-nav__link-item'>
                 <NavLink to='/CONTACTENOS' className='header-nav__link'>CONTACTENOS</NavLink>
               </li>
-              <a to='/' className='header-nav__login-container'>
+              <NavLink to='/LOGIN' className='header-nav__login-container'>
                 <svg className='header-nav__icon-login' width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path id='loginICon' className='header-nav__icon-login' d="M51.8909 8.78341C68.3877 24.1618 64.6088 42.4877 54.0791 53.7175M47.2957 5.93875C44.0134 2.87528 36.4276 2.3647 33.0724 2C15.7907 2 2 14.6966 2 31.9783C2 40.6062 5.10513 48.8562 10.7528 54.5167M10.7528 54.5167C16.4174 60.1943 23.3245 63.4883 31.9783 63.4883C39.8009 63.4883 48.1277 60.0646 54.0791 53.7175M10.7528 54.5167C11.718 50.9427 14.8666 43.2694 22.5691 39.4182C25.6325 42.7005 33.7726 47.2957 41.8252 39.4182C44.2322 39.7606 50.0528 43.1 54.0791 53.7175M22.5691 23.4443C21.6938 27.1643 26.7266 36.3547 31.9783 36.3547C37.7719 36.3547 41.1687 27.6019 41.1687 23.4443C41.1687 14.667 28.2584 8.78341 23.4443 19.2868" stroke="white" strokeWidth="4"/>
                 </svg>
-              </a>
+              </NavLink>
 
               <li className='header-nav__link-item header-nav__link-item--close-icon-container'
                 id='headerNavCloseIconContainer'>
