@@ -9,7 +9,6 @@ import wordIcon from './../assets/icons/wordIcon.svg';
 
 import fileIcon from './../assets/icons/fileIcon.svg';
 import './../styles/Preparatory.css';
-import { waitForElementToBeRemoved } from '@testing-library/react';
 
 const Preparatory = () => {
     return(
