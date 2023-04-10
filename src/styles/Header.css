@@ -234,8 +234,13 @@
     .header-nav__sub-list-item:hover{
         color: white;
     }
+    .header-nav__sub-list-item{
+        color: #1E2E6E;
+    }
     .header-nav__sub-list-item:hover{
-        background-color: rgba(94, 93, 93, 0.812);
+        /*background-color: rgba(94, 93, 93, 0.812);*/
+        text-decoration: underline;
+        color: #0e1c57;
     }
 
 

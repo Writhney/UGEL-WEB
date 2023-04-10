@@ -107,9 +107,6 @@ a:last-of-type{
     color: white;
     margin: 0;
 }
-.mod-position-info-big {
-    bottom: 8rem;
-}
 .mod-size-date{
     font-size: 0.8rem;
 }
@@ -143,6 +140,9 @@ a:last-of-type{
 .Release-button:hover > a{
     color: white;
     transition: all 0.5s;
+}
+.mod-position-info-big{
+    bottom: 8rem;
 }
 
 

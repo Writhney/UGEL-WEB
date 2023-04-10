@@ -117,9 +117,6 @@ a:last-of-type{
 .mod-size-title{
     font-size: 0.8rem;
 }
-.mod-position-info-big{
-    bottom: 5rem;
-}
 .News-button{
     background-color: white;
     display: flex;
@@ -146,6 +143,10 @@ a:last-of-type{
     transition: all 0.5s;
 }
 
+.mod-position-info-big-news{
+    bottom: 8rem;
+}
+
 @media (max-width:750px)
 {
     .News-item-date{
@@ -160,6 +161,9 @@ a:last-of-type{
         color: white;
         margin: 0;
     }
+    .mod-position-info-big-news{
+        bottom: 0;
+    }
     .News-item-container-info{
         bottom: 5.5rem;
     }
@@ -168,8 +172,7 @@ a:last-of-type{
         max-width: 300px;
         min-height: 300px;
         justify-content: top;
-        margin-bottom: -140px;
-        
+        margin-bottom: -140px; 
     }
     
     .news.News-link-item{
@@ -192,6 +195,5 @@ a:last-of-type{
     .news-link-button{
         font-size: 0.8rem;
     }
-    
     
 }

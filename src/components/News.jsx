@@ -14,7 +14,7 @@ const News = () => {
                 <figure className="News-item-container-img">
                         <img src="https://i.postimg.cc/jdVVfFXs/DSC-0433.jpg" alt="imagen" className="News-item-img" />
                 </figure>
-                <div className='News-item-container-info mod-position-info-big'>
+                <div className='News-item-container-info mod-position-info-big-news'>
                     <p className="News-item-date">Publicado 18/01/2023 15:31</p>
                     <h4 className="News-item-title">CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                 </div>

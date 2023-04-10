@@ -1,6 +1,8 @@
 import './../styles/Institution.css';
 import MisionIcon from './../assets/icons/mison.png';
 import VisionIcon from './../assets/icons/vision.png';
+import pdfIcon from './../assets/icons/pdfIcon.svg';
+
 const Institution = () => {
     return(
         <>
@@ -150,24 +152,27 @@ const Institution = () => {
             </ul>
             <h4 className="Institution-subtitle">Normatividad Nacional</h4>
             <div className="Institution-normatividad-container">
-                <div className="Institution-normatividad-item">
-                    <a href="" className="Institution-normatividad-item-link">NORMATIVIDAD</a>
+                <div className="Institution-normatividad-item" id='normatividad'>
+                    NORMATIVIDAD
                 </div>
-                <div className="Institution-normatividad-item">
-                    <a href="" className="Institution-normatividad-item-link">DECRETOS</a>
+                <div className="Institution-normatividad-item" id='decretos'>
+                    DECRETOS
                 </div>
-                <div className="Institution-normatividad-item">
-                    <a href="" className="Institution-normatividad-item-link">RESOLUCIONES</a>
+                <div className="Institution-normatividad-item" id='resoluciones'>
+                    RESOLUCIONES
                 </div>
-                <div className="Institution-normatividad-item">
-                    <a href="" className="Institution-normatividad-item-link">OFICIOS</a>
+                <div className="Institution-normatividad-item" id='oficios'>
+                    OFICIOS
                 </div>
-                <div className="Institution-normatividad-item">
-                    <a href="" className="Institution-normatividad-item-link">REGIONAL</a>
+                <div className="Institution-normatividad-item" id='regional'>
+                    REGIONAL
                 </div>
-                <div className="Institution-normatividad-item">
-                    <a href="" className="Institution-normatividad-item-link">LOCALES</a>
+                <div className="Institution-normatividad-item" id='locales'>
+                    LOCALES
                 </div>
+            </div>
+            <div id='containerNormatividad'>
+
             </div>
             </div>
         </section>
@@ -176,3 +181,607 @@ const Institution = () => {
     )
 }
 export default Institution;
+const Ready = () => {
+    const normatividad = document.getElementById('normatividad');
+    const decretos = document.getElementById('decretos');
+    const resoluciones = document.getElementById('resoluciones');
+    const oficios = document.getElementById('oficios');
+    const regional = document.getElementById('regional');
+    const locales = document.getElementById('locales');
+
+    const containerNormatividad = document.getElementById('containerNormatividad');
+
+    const ShowNormatividad = () => {
+        containerNormatividad.innerHTML= `               
+                <div class='Institution-documents'>
+                <h3 class='Institution-documents-title'>Normatividad</h3>
+                <div class='Institution-documents-items-container'>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                            Marco del buen desenpeño directivo
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                            Marco del buen desenpeño docente
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                            Manual de compromisos y gestión escolar
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                            Ley del código de ética de la función pública Ley N° 27815
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                            Reglamento de ley N° 29944, ley de reforma magisterial
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                            Normas que Regulan el Procedimiento para el encargo de plazas vacantes de cargos directivos, Jerarquicos y de Especialistas en Educación en el marco de la Ley de la Reforma Magisterial (R.V.M. Nº 076)
+                        </p>
+                        <a class='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>	
+                            Disponen la implementación y ejecución a nivel nacional de la Evaluación Censal de Estudiantes 2016 (ECE 2016), en las instituciones educativas públicas y privadas de Educación Básica Regular resolución ministerial N° 304-2016-minedu.
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        RVM. 086 - 2015 MINEDU - NORMA PARA VIAJES...
+                        Normas para la aprobación de los viajes de estudio, visitas culturales, jornadas y paseos de integración, participación de eventos deportivos y culturales, y otras actividades escolares.                        
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                            Manual de Régimen Disciplinario para Directores de Instituciones Educativas Públicas
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                            R.S.G. Nº 346-2016-MINEDU - NORMA PARA EL PROCESO DE CONTRATA DEL PERSONAL ADMINISTRATIVO EN EL SECTOR EDUCACIÓN
+                        </p>                        
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                        <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        RM-N-627-2016-MINEDU - NORMAS Y ORIENTACIONES PARA EL DESARROLLO DEL AÑO ESCOLAR 2017...
+                        </p>                        
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                        <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        Segunda parte  -  OFICIO MÚLTIPLE N°005-2017-MINEDU/VMGI/PRONIED
+                        </p>                        
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                        <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                </div>
+                </div>
+
+        `
+    }
+    normatividad.addEventListener('click', ShowNormatividad);
+
+    const ShowDecretos = () => {
+        containerNormatividad.innerHTML= `               
+            <div class='Institution-documents'>
+                <h3 class='Institution-documents-title'>Decretos</h3>
+                <div class='Institution-documents-items-container'>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        DECRETO DE URGENCIA - No 012-2017
+                        DICTAN MEDIDAS EXTRAORDINARIAS PARA EL RESTABLECIMIENTO DEL SERVICIO EDUCATIVO A NIVEL NACIONAL.
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        DECRETO DE URGENCIA N° 011-2017.
+                        DECRETO DE URGENCIA QUE DICTA MEDIDAS EXTRAORDINARIAS PARA CONTINUAR CON LA REVALORIZACIÓN DE LA PROFESIÓN DOCENTE ...
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        DECRETO SUPREMO Nº 005-2017-MINEDU --
+                        MODIFICA DIVERSOS ARTÍCULOS DEL REGLAMENTO DE LA LEY N° 29944, LEY DE REFORMA MAGISTERIAL                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        CONTRATA DOCENTE - 2017.
+                        DECRETO SUPREMO N° 001 - 2017- MINEDU. (24/01/2017)
+                        NORMA COMPLETA CON ANEXOS.
+                        NORMA QUE REGULA EL PROCEDIMIENTO, REQUISITOS Y CONDICIONES PARA LAS CONTRATACIONES EN EL MARCO DEL CONTRATO DE SERVICIO DOCENTE A QUE HACE REFERENCIA LA LEY N° 30328.                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        `
+    }
+    decretos.addEventListener('click', ShowDecretos);
+
+    const ShowResoluciones = () => {
+        containerNormatividad.innerHTML= `               
+                <div class='Institution-documents'>
+                <h3 class='Institution-documents-title'>Resoluciones</h3>
+                <div class='Institution-documents-items-container'>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        R.M. Nº 529-2017-MINEDU
+                        MINISTERIO DE EDUCACION DEJA SIN EFECTO EVALUACION CENSAL ESCOLAR 2017.
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        R.M. N° 539-2017-MINEDU.
+                        MODIFICACIÓN DEL CRONOGRAMA DE NOMBRAMIENTO Y CONTRATA DOCENTE 2017.                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        RESOLUCIÓN MINISTERIAL N°479-2017-MINEDU
+                        Modifican Norma Técnica denominada “Disposiciones para la ejecución del programa de mantenimiento de la Infraestructura y Mobiliario de los Locales Escolares...
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        R.S.G. N°116-2017-MINEDU
+                        NORMA QUE REGULA EL CONCURSO PÚBLICO PARA EL ASCENSO DE ESCALA DE LOS PROFESORES DE EDUCACIÓN BÁSICA EN LA CARRERA PÚBLICA MAGISTERIAL 2017.
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        RSG- 141-2017-MINEDU
+                        NORMA QUE REGULA LA EVALUACIÓN DE DESEMPEÑO DOCENTE EN IIEE DEL NIVEL INICIAL DE LA EBR - CPM.
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        RSG N° 505-2016-MINEDU: LINEAMIENTOS DE LA ESTRATEGIA NACIONAL DE LAS TECNOLOGÍAS DIGITALES EN LA EDUCACIÓN BÁSICA.                        
+                        </p>
+                        <a class='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>	
+                        R.M. N° 070-2017-MINEDU: MODIFICAN NORMA Y ORIENTACIONES PARA EL DESARROLLO DEL AÑO ESCOLAR - 2017.
+                        La ampliación horaria de la jornada laboral de las y los profesores (as) del nivel de educación secundaria a 30 horas semanales implica la permanencia en la institución educativa..
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        R.M. N° 08.2017-MINEDU: MODIFICA NORMA QUE ESTABLECE DISPOSICIONES PARA EL ACOMPAÑAMIENTO PEDAGÓGICO EN LA EDUCACIÓN BÁSICA ( R.S.G. N° 008-2016-MINEDU.)
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        RSG N° 018-2017-MINEDU: NORMA TÉCNICA QUE REGULA LOS CONCURSOS PÚBLICOS DE INGRESO A LA CARRERA PÚBLICA MAGISTERIAL Y DE CONTRATACIÓN DOCENTE EN INSTITUCIONES EDUCATIVAS PÚBLICAS DE EDUCACIÓN BÁSICA 2017.
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        R.M. Nº 061-2017-MINEU: PADRONES NOMINALES DE INSTITUCIONES EDUCATIVAS FOCALIZADAS PARA LAS INTERVENCIONES PEDAGÓGICAS 2017. ( ENSEÑANZA DEL IDIOMA INGLES, ACOMPAÑAMIENTO PEDAGÓGICO SECUNDARIA RURAL, ACOMPAÑAMIENTO PEDAGÓGICO PRIMARIA, SOPORTE PEDAGÓGICO PRIMARIA, ACOMPAÑAMIENTO EDUCACIÓN INTERCULTURAL BILINGUE).
+                        </p>                        
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                        <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        RSG Nº 016-2017 - MINEU: NORMA PARA LAS CONTRACION ADMINISTRATIVA DE SERVICIOS DEL PERSONAL PARA LA INTERVENCIÓN PEDAGÓGICA EN EL MARCO DE LOS PROGRAMAS PRESUPUESTALES 0090, 0091 Y 0106 PARA EL AÑO LECTIVO 2017.
+                        </p>                        
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                        <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        R.S.G. N° 540-2016-MINEDU: DIRECTORES, SUB DIRECTORES DE II.EE. Y ESPECIALISTAS DE UGEL /DRE. ASUMIRAN SUS CARGOS A PARTIR DEL 13 DE FEBRERO. 
+                        </p>                        
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                        <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        R.M. N° 627-2016-MINEDU: NORMAS Y ORIENTACIONES PARA EL DESARROLLO DEL AÑO ESCOLAR 2017 EN IIEE Y PROGRAMAS EDUCATIVOS  DE  LA EDUCACIÓN BÁSICA. 
+                        </p>                        
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                        <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                </div>
+                </div>
+
+        `
+    }
+    resoluciones.addEventListener('click', ShowResoluciones);
+
+    const ShowOficios = () => {
+        containerNormatividad.innerHTML= `               
+            <div class='Institution-documents'>
+                <h3 class='Institution-documents-title'>Oficios</h3>
+                <div class='Institution-documents-items-container'>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MÚLTIPLE N°058 -MINEDU/VMGI-DIGC.
+                        MODIFICATORIA DEL REGLAMENTO DE LAS IIEE PRIVADAS DE EDUCACIÓN BÁSICA Y EDUCACIÓN TÉCNICO-PRODUCTIVA ...                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MÚLT Nº 089-2017-MINEDU/VMGP-DIGEDD-DITEN
+                        OPORTUNIDAD DE PAGO DE DÍAS RECUPERADOS
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        Segunda parte  -  OFICIO MÚLTIPLE N°005-2017-MINEDU/VMGI/PRONIED
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        Oficio Mult N°00005-2017-MINEDU/VMGI/PRONIED
+                        Aclaración de Conformación de Comités de Mantenimiento y Veedor del Programa de Mantenimiento de Infraestructura de Locales Escolares y...
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULT Nº 072-2017-MINEDU/VMGP-DGEDD-DITEN 
+                        PRECISIONES DE JORNADA LABORAL DE DOCENTES CONTRATADOS EN EBR SECUNDARIA Y EBA AVANZADO...
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULT Nº 065-2017-MINEDU/VMGP-DGEDD-DITEN 
+                        DESCUENTO POR HUELGA - ACCIONES ADMINISTRATIVAS.
+                        </p>
+                        <a class='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>	
+                        OFICIO MULT Nº 058-2017-MINEDU/VMGP-DGEDD-DITEN 
+                        PRECISIONES SOBRE MEJORAS DE LAS CONDICIONES LABORALES DE LOS PROFESORES NOMBRADOS Y CONTRATADOS...
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO 007-2017 -MINEDU/VMGP-DIGEDD-DITEN: 
+                        DOCUMENTO DE REFERENCIA PARA PROCESO DE CONTRATA 2017 - CRONOGRAMA. 
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        OFICIO MULT Nº 098-2016-MINEDU/VMGP-DGEDD-DITEN :  PAGO POR ENCARGATURA DE DIRECCIÓN 2016.
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        OFICIO 096-2016 -MINEDU/VMGP-DIGEDD-DITEN: PAGO POR VACACIONES TRUNCAS A DOCENTES Y AUXILIARES CONTRATADOS
+                        </p>                        
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                        <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        `
+    }
+    oficios.addEventListener('click', ShowOficios);
+
+    const ShowRegional = () => {
+        containerNormatividad.innerHTML= `               
+            <div class='Institution-documents'>
+                <h3 class='Institution-documents-title'>Regional</h3>
+                <div class='Institution-documents-items-container'>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULTIPLE Nº 061-2018-DREA
+                        Normativa sobre la administración compartida de infraestructura, equipamiento y otras disposiciones
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULT N°449 -2017- ME/GRA/DREA-OAJ.
+                        DENIEGA la solicitud de Suspensión del Proceso de Evaluación de las rubricas de Observación de Aula para la Evaluación del Desempeño Docente, y todo los Programas del MINEDU (Pela etc) interpuesto por el representante del SUTEP APURÍMAC.                        
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULT N°421 -2017- ME/GRA/DREA-DGP .
+                        PROHIBICIÓN DE USO DE HORAS EFECTIVAS DE CLASE EN ACTIVIDADES AJENAS A LOS APRENDIZAJES PROGRAMADOS
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        Oficio Mult N°00005-2017-MINEDU/VMGI/PRONIED
+                        Aclaración de Conformación de Comités de Mantenimiento y Veedor del Programa de Mantenimiento de Infraestructura de Locales Escolares y...
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULT Nº 072-2017-MINEDU/VMGP-DGEDD-DITEN 
+                        PRECISIONES DE JORNADA LABORAL DE DOCENTES CONTRATADOS EN EBR SECUNDARIA Y EBA AVANZADO...
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULT Nº 065-2017-MINEDU/VMGP-DGEDD-DITEN 
+                        DESCUENTO POR HUELGA - ACCIONES ADMINISTRATIVAS.
+                        </p>
+                        <a class='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>	
+                        OFICIO MULT Nº 058-2017-MINEDU/VMGP-DGEDD-DITEN 
+                        PRECISIONES SOBRE MEJORAS DE LAS CONDICIONES LABORALES DE LOS PROFESORES NOMBRADOS Y CONTRATADOS...
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO 007-2017 -MINEDU/VMGP-DIGEDD-DITEN: 
+                        DOCUMENTO DE REFERENCIA PARA PROCESO DE CONTRATA 2017 - CRONOGRAMA. 
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        OFICIO MULT Nº 098-2016-MINEDU/VMGP-DGEDD-DITEN :  PAGO POR ENCARGATURA DE DIRECCIÓN 2016.
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        OFICIO 096-2016 -MINEDU/VMGP-DIGEDD-DITEN: PAGO POR VACACIONES TRUNCAS A DOCENTES Y AUXILIARES CONTRATADOS
+                        </p>                        
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                        <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        `
+    }
+    regional.addEventListener('click', ShowRegional);
+    
+    const ShowLocales = () => {
+        containerNormatividad.innerHTML= `               
+            <div class='Institution-documents'>
+                <h3 class='Institution-documents-title'>Locales</h3>
+                <div class='Institution-documents-items-container'>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULTIPLE Nº 061-2018-DREA
+                        Normativa sobre la administración compartida de infraestructura, equipamiento y otras disposiciones
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULT N°449 -2017- ME/GRA/DREA-OAJ.
+                        DENIEGA la solicitud de Suspensión del Proceso de Evaluación de las rubricas de Observación de Aula para la Evaluación del Desempeño Docente, y todo los Programas del MINEDU (Pela etc) interpuesto por el representante del SUTEP APURÍMAC.                        
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULT N°421 -2017- ME/GRA/DREA-DGP .
+                        PROHIBICIÓN DE USO DE HORAS EFECTIVAS DE CLASE EN ACTIVIDADES AJENAS A LOS APRENDIZAJES PROGRAMADOS
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        Oficio Mult N°00005-2017-MINEDU/VMGI/PRONIED
+                        Aclaración de Conformación de Comités de Mantenimiento y Veedor del Programa de Mantenimiento de Infraestructura de Locales Escolares y...
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULT Nº 072-2017-MINEDU/VMGP-DGEDD-DITEN 
+                        PRECISIONES DE JORNADA LABORAL DE DOCENTES CONTRATADOS EN EBR SECUNDARIA Y EBA AVANZADO...
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO MULT Nº 065-2017-MINEDU/VMGP-DGEDD-DITEN 
+                        DESCUENTO POR HUELGA - ACCIONES ADMINISTRATIVAS.
+                        </p>
+                        <a class='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>	
+                        OFICIO MULT Nº 058-2017-MINEDU/VMGP-DGEDD-DITEN 
+                        PRECISIONES SOBRE MEJORAS DE LAS CONDICIONES LABORALES DE LOS PROFESORES NOMBRADOS Y CONTRATADOS...
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>
+                        OFICIO 007-2017 -MINEDU/VMGP-DIGEDD-DITEN: 
+                        DOCUMENTO DE REFERENCIA PARA PROCESO DE CONTRATA 2017 - CRONOGRAMA. 
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        OFICIO MULT Nº 098-2016-MINEDU/VMGP-DGEDD-DITEN :  PAGO POR ENCARGATURA DE DIRECCIÓN 2016.
+                        </p>
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                            <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                    <div class='Institution-documents-item'>
+                        <p class='Institution-documents-item-description'>              	
+                        OFICIO 096-2016 -MINEDU/VMGP-DIGEDD-DITEN: PAGO POR VACACIONES TRUNCAS A DOCENTES Y AUXILIARES CONTRATADOS
+                        </p>                        
+                        <a clasName='Institution-documents-item-icon-container' href="">
+                        <img src=${pdfIcon} alt="icon-link" class='Institution-documents-item-icon'/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        `
+    }
+    locales.addEventListener('click', ShowLocales);
+
+
+
+
+
+
+
+}
+
+setInterval(isLoaded, 1000);
+function isLoaded (){
+    if (document.readyState !== 'loading'){
+        //console.log('state', document.readyState);
+        Ready();
+        //delete document.change;
+       
+        
+    }
+}

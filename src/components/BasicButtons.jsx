@@ -7,11 +7,16 @@ import PeopleSuit from './../assets/icons/PeopleSuit.svg';
 import PaperPencil from './../assets/icons/PaperPencil.svg';
 import BookOpen from './../assets/icons/BookOpen.svg';
 import Puzzle from './../assets/icons/Puzzle.svg';
+import Professor from './../assets/icons/iconProfessor.svg';
+import Director from './../assets/icons/iconDirector.svg';
+
+
 import './../styles/BasicButtons.css';
 const BasicButtons = () => {
     return(
         <>
         <section className="Basic-buttons-container">
+            {/* 
             <div className='Basic-button-item'>
                 <a href="#" className="Basic-button-link-item">
                     <figure className="Basic-button-icon-container">
@@ -45,19 +50,36 @@ const BasicButtons = () => {
                 </a>  
             </div>
             <div className='Basic-button-item'>
-                <NavLink to='/CONVOCATORIAS' className="Basic-button-link-item">
-                    <figure className="Basic-button-icon-container">
-                        <img src={PeopleSuit} alt="icon" className='Basic-button-icon' />
-                    </figure>
-                    <p className='Basic-button-description'>CONVOCATORIAS</p>
-                </NavLink>  
-            </div>
-            <div className='Basic-button-item'>
                 <NavLink to='/' className="Basic-button-link-item">
                     <figure className="Basic-button-icon-container">
                         <img src={PaperPencil} alt="icon" className='Basic-button-icon' />
                     </figure>
                     <p className='Basic-button-description'>FUT</p>
+                </NavLink>  
+            </div>
+            */}
+            <div className='Basic-button-item'>
+                <NavLink to='/' className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={Director} alt="icon" className='Basic-button-icon' />
+                    </figure>
+                    <p className='Basic-button-description'>HERRAMIENTAS GESTIÓN ESCOLAR</p>
+                </NavLink>  
+            </div>
+            <div className='Basic-button-item'>
+                <NavLink to='/' className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={Professor} alt="icon" className='Basic-button-icon' />
+                    </figure>
+                    <p className='Basic-button-description'>HERRAMIENTAS GESTIÓN DEL AULA</p>
+                </NavLink>  
+            </div>
+            <div className='Basic-button-item'>
+                <NavLink to='/CONVOCATORIAS' className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={PeopleSuit} alt="icon" className='Basic-button-icon' />
+                    </figure>
+                    <p className='Basic-button-description'>CONVOCATORIAS</p>
                 </NavLink>  
             </div>
             <div className='Basic-button-item'>
@@ -69,7 +91,7 @@ const BasicButtons = () => {
                 </a>  
             </div>
             <div className='Basic-button-item'>
-                <a href="#" className="Basic-button-link-item">
+                <a target='_blank' href="https://www.transparencia.gob.pe/enlaces/pte_transparencia_enlaces.aspx?id_entidad=16389&id_tema=1&ver=D#.ZDRsKnbMLIW" className="Basic-button-link-item">
                     <figure className="Basic-button-icon-container">
                         <img src={Puzzle} alt="icon" className='Basic-button-icon' />
                     </figure>
