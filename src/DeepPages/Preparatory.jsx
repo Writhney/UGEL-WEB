@@ -1492,13 +1492,12 @@ const Ready = () => {
 
 }
 
-let change = setInterval(isLoaded, 1000);
+setInterval(isLoaded, 1000);
 function isLoaded (){
     if (document.readyState !== 'loading'){
         //console.log('state', document.readyState);
         Ready();
+        clearInterval(isLoaded, 1000); 
         //delete document.change;
-       
-        
     }
 }

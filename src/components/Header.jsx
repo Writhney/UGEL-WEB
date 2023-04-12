@@ -27,13 +27,13 @@ const Header = () => {
                   <i className="fas fa-angle-down"></i>
                 </div>
                 <ol className='header-nav__sub-list' id='headerNavSubList'>
-                  <a href="#" className='header-nav__sub-list-item'>¿Quiénes somos?</a>
-                  <a href="#" className='header-nav__sub-list-item'>Reseña Historica</a>
-                  <a href="#" className='header-nav__sub-list-item'>Visión</a>
-                  <a href="#" className='header-nav__sub-list-item'>Misión</a>
-                  <a href="#" className='header-nav__sub-list-item'>Organigrama</a>
-                  <a href="#" className='header-nav__sub-list-item'>Funciones Generales</a>
-                  <a href="#" className='header-nav__sub-list-item'>Normatividad Nacional</a>
+                  <a href="/INSTITUCION#quienessomos" className='header-nav__sub-list-item'>¿Quiénes somos?</a>
+                  <a href="/INSTITUCION#reseñahistorica" className='header-nav__sub-list-item'>Reseña Historica</a>
+                  <a href="/INSTITUCION#vision" className='header-nav__sub-list-item'>Visión</a>
+                  <a href="/INSTITUCION#mision" className='header-nav__sub-list-item'>Misión</a>
+                  <a href="/INSTITUCION#organigrama" className='header-nav__sub-list-item'>Organigrama</a>
+                  <a href="/INSTITUCION#funcionesgenerales" className='header-nav__sub-list-item'>Funciones Generales</a>
+                  <a href="/INSTITUCION#normatividad" className='header-nav__sub-list-item'>Normatividad Nacional</a>
                 </ol>
               </li>
 
@@ -43,12 +43,11 @@ const Header = () => {
                   <i className="fas fa-angle-down"></i>
                 </div>
                 <ol className='header-nav__sub-list' id='headerNavSubList2'>
-                  <a href="#" className='header-nav__sub-list-item'>Despacho</a>
-                  <a href="#" className='header-nav__sub-list-item'>Funciones</a>
-                  <a href="#" className='header-nav__sub-list-item'>Secretaria</a>
-                  <a href="#" className='header-nav__sub-list-item'>Imagen</a>
-                  <a href="#" className='header-nav__sub-list-item'>Institucional</a>
-                  <a href="#" className='header-nav__sub-list-item'>Tramite documentario</a>
+                  <a href="/DIRECCION#despacho" className='header-nav__sub-list-item'>Despacho</a>
+                  <a href="/DIRECCION#funciones" className='header-nav__sub-list-item'>Funciones</a>
+                  <a href="/DIRECCION#secretaria" className='header-nav__sub-list-item'>Secretaria</a>
+                  <a href="/DIRECCION#imagen" className='header-nav__sub-list-item'>Imagen</a>
+                  <a href="/DIRECCION#tramite" className='header-nav__sub-list-item'>Tramite documentario</a>
                 </ol>
               </li>
               <li className='header-nav__link-item'>

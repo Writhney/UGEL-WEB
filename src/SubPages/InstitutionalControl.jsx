@@ -92,5 +92,6 @@ setInterval(isLoaded, 1000);
 function isLoaded (){
     if (document.readyState !== 'loading'){
         ready();
+        clearInterval(isLoaded, 1000); 
     }
 }

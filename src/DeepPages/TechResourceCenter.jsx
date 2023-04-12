@@ -13,7 +13,6 @@ import './../styles/TechResourceCenter.css';
 const TechResourceCenter = ( ) => {
     return(
         <>
-                <>
         <section className="Tech-container">
             <div className="Tech-title-container">
                 <h1 className="Tech-title">CENTRO DE RECURSOS TECNOLÓGICOS</h1>
@@ -201,7 +200,6 @@ const TechResourceCenter = ( ) => {
             </div>
 
         </section>
-        </>
         </>
     )
 }

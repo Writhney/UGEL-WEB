@@ -109,11 +109,12 @@ function readyEducation (){
     buttonSecundaria.addEventListener('click', loadInfoSecundaria);
 }
 
-let isReady = setInterval(isLoaded, 1000);
+setInterval(isLoaded, 1000);
 function isLoaded (){
     if (document.readyState !== 'loading'){
         //console.log('state', document.readyState);
         readyEducation();
+        clearInterval(isLoaded, 1000); 
     }
 }
 

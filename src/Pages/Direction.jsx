@@ -11,7 +11,7 @@ const Direction = () => {
             <div className='Direction-items-container'>
                 <div className="Direction-item">
                     <div className="Direction-item-about-container">
-                       <h4 className="Direction-about-subtitle">Despacho Directoral</h4>
+                       <h4 className="Direction-about-subtitle" id='despacho'>Despacho Directoral</h4>
                         <p className="Direction-about-description">
                             La Unidad de Gestión Educativa Local de Andahuaylas, es el Órgano de Ejecución desconcentrado del Ministerio de Educación, responsable de adecuar, ejecutar y administrar la política educativa para asegurar un servicio educativo de calidad con equidad.
                             El titular de la Unidad de Gestión Educativa Local de Andahuaylas depende orgánicamente de la Dirección Regional de Educación Apurímac y es el funcionario con mayor nivel jerárquico en su ámbito, con autoridad y facultad para adoptar decisiones resolutivas y administrativas de acuerdo a Ley.
@@ -30,7 +30,7 @@ const Direction = () => {
                 </div>
                 <div className="Direction-item">
                     <div className="Direction-item-about-container">
-                       <h4 className="Direction-about-subtitle">Dirección funciones</h4>
+                       <h4 className="Direction-about-subtitle" id='funciones'>Dirección funciones</h4>
                         <p className="Direction-about-description">
                         Es el órgano de Dirección con mayor nivel jerárquico en su ámbito, con autoridad y facultad para adoptar decisiones resolutivas y administrativas de acuerdo a Ley. Sus funciones son:
                         </p>
@@ -57,7 +57,7 @@ const Direction = () => {
                 </div>
                 <div className="Direction-item">
                     <div className="Direction-item-about-container">
-                       <h4 className="Direction-about-subtitle">Secretaría Directoral</h4>
+                       <h4 className="Direction-about-subtitle" id='secretaria'>Secretaría Directoral</h4>
                         <p className="Direction-about-description">
                             Depende jerárquicamente del Director de la UGEL de Andahuaylas y cumple las siguientes funciones:
                         </p> 
@@ -91,7 +91,7 @@ const Direction = () => {
                 </div>
                 <div className="Direction-item">
                     <div className="Direction-item-about-container">
-                       <h4 className="Direction-about-subtitle">Imagen Institucional</h4>
+                       <h4 className="Direction-about-subtitle" id='imagen'>Imagen Institucional</h4>
                         <p className="Direction-about-description">
                             Depende jerárquicamente del Director de la UGEL de Andahuaylas y cumple las siguientes funciones:                        </p> 
                         <ul className="Direction-about-list">
@@ -120,7 +120,7 @@ const Direction = () => {
                 </div>
                 <div className="Direction-item">
                     <div className="Direction-item-about-container">
-                       <h4 className="Direction-about-subtitle">Trámite Documentario</h4>
+                       <h4 className="Direction-about-subtitle" id='tramite'>Trámite Documentario</h4>
                         <p className="Direction-about-description">
                         Depende jerárquicamente del Director, cumple las siguientes funciones: </p> 
                         <ul className="Direction-about-list">
@@ -193,11 +193,14 @@ function readyDirection() {
     ShowMore3.addEventListener('click', ShowText3);
 }
 
-setInterval(isLoaded, 1000);
+let intervale = setInterval(isLoaded, 1000);
 function isLoaded (){
     if (document.readyState !== 'loading'){
         //console.log('state', document.readyState);
+        
         readyDirection();
+          
+        clearInterval(intervale);     
     }
 }
 

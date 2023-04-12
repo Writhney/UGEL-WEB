@@ -6,25 +6,25 @@ import pdfIcon from './../assets/icons/pdfIcon.svg';
 const Institution = () => {
     return(
         <>
-        <section className="Institution-container">
+        <section className="Institution-container" id='instituion'>
             <div className="Institution-front-container">
                 <h1 className="Institution-front-title">INSTITUCION</h1>
             </div>
             <div className='Institution-info-container'>
-            <h4 className="Institution-subtitle">¿Quiénes Somos?</h4>
+            <h4 className="Institution-subtitle" id='quienessomos'>¿Quiénes Somos?</h4>
             <p className="Institution-description">
                 La Unidad de Gestión Educativa Local de Andahuaylas, es una instancia de ejecución descentralizada del Gobierno Regional de Apurímac con autonomía en el ámbito de su competencia.
                 Proporciona el apoyo pedagógico, institucional y administrativo a las Instituciones Educativas de su jurisdicción, para asegurar un servicio de calidad con equidad, en cooperación con los gobiernos locales.
                 La UGEL de Andahuaylas es la responsable del logro de la educación, garantiza la calidad y eficiencia de los servicios, supervisa, monitorea y evalúa el cumplimiento de las acciones desarrolladas por las Instituciones Educativas de la jurisdicción y depende de la Dirección Regional de Educación de Apurímac.
             </p>
-            <h4 className="Institution-subtitle">Reseña Histórica</h4>
+            <h4 className="Institution-subtitle" id='reseñahistorica'>Reseña Histórica</h4>
             <p className="Institution-description">
                 Por D.S. Nro. 12-86-ED. se crearon las Unidades de Servicios Educativos, como órganos desconcentrados del Ministerio de Educación en sustitución de las Direcciones Zonales de Educación y Supervisiones Educativas, dentro del marco de desburocratización y descentralización de la administración pública, impulsando el desarrollo nacional, reglamentándose por R.M. Nro. 248-87-ED.
                 Por Decreto Supremo Nro. 015-2002-ED aprueban el Reglamento de Organización y Funciones de las Direcciones Regionales de Educación y de las Unidades de Gestión Educativa, con lo que la Unidad de Servicios Educativos de Andahuaylas pasa a tener la denominación de Unidad de Gestión Educativa Local de Andahuaylas.
                 La Unidad de Gestión Educativa Local de Andahuaylas fue creada mediante la R.M. Nro. 247-87-ED y R.S. Nro. 205-2002-ED. como organismo conductor del servicio educativo en la región, la UGEL Andahuaylas data su presencia desde el año 1987, como tal, anteriormente tuvo otras denominaciones:
             </p>
             <ul className='Institution-description-list-container'>
-                 <li className="Institution-description-list-item">Inspección Provincial de Educación</li>
+                <li className="Institution-description-list-item">Inspección Provincial de Educación</li>
                 <li className="Institution-description-list-item">Supervisión Provincial de Educación.</li>
                 <li className="Institution-description-list-item">Núcleo Educativo Comunal 02</li>
                 <li className="Institution-description-list-item">Unidad de Servicios Educativos</li>
@@ -99,7 +99,7 @@ const Institution = () => {
                     <figure className='Institution-item-icon-container'>
                         <img className='Institution-item-icon' src={VisionIcon} alt="vision" />
                     </figure>
-                    <h4 className="Institution-subtitle-m">Visión</h4>
+                    <h4 className="Institution-subtitle-m" id='vision'>Visión</h4>
                     <p className="Institution-description-m">
                         La UGEL de Andahuaylas se proyecta en corto y mediano plazo consolidarse como una institución líder en Gestión Educativa, lo cual esperamos alcanzar con la práctica del buen trato y el trabajo con honestidad y transparencia, capacitando constantemente al personal docente y administrativo.
                         Esperamos lograr que la comunidad local reconozca a la UGEL de Andahuaylas por sus logros, lo cual se cristalizará obteniendo eficientes rendimientos académicos de sus educandos por encima del promedio nacional.
@@ -110,7 +110,7 @@ const Institution = () => {
                     <figure className='Institution-item-icon-container'>
                         <img className='Institution-item-icon' src={MisionIcon} alt="vision" />
                     </figure>
-                    <h4 className="Institution-subtitle-m">Misión</h4>
+                    <h4 className="Institution-subtitle-m" id='mision'>Misión</h4>
                     <p className="Institution-description-v">
                         Garantizar un servicio educativo de calidad en todos los niveles y modalidades, fortaleciendo las capacidades de gestión pedagógica y administrativa, impulsando la cohesión social y promoviendo el aporte de los gobiernos locales e instituciones privadas especializadas para mejorar la calidad del servicio educativo.
                     
@@ -119,11 +119,11 @@ const Institution = () => {
               
             </div> 
             
-            <h4 className="Institution-subtitle">Organigrama</h4>
+            <h4 className="Institution-subtitle" id='organigrama'>Organigrama</h4>
             <figure className="Institution-chart-container">
                 <img src="https://i.postimg.cc/9fYhKrKF/organigrama.jpg" alt="organigrama" className="Institution-chart" />
             </figure>
-            <h4 className="Institution-subtitle">Funciones Generales</h4>
+            <h4 className="Institution-subtitle" id='funcionesgenerales'>Funciones Generales</h4>
             <p className="Institution-description">
                 La Unidad de Gestión Educativa Local, en su jurisdicción territorial comprende 19 distritos de la provincia de Andahuaylas, los cuales son: San Jerónimo, Kaquiabamba, Pacucha, Andarapa, Andahuaylas, Talavera, Santa María de Chicmo, San Antonio de Cachi, Turpo, Huancaray, Villa Chiara, San Miguel de Chaccrampa, Umamarca, Huayana, Pomacocha y Pampachiri, Tumay Huaraca, Pacobamba, José María Arguedas.
                 Son funciones de la Unidad de Gestión Educativa Local de Andahuaylas:            
@@ -150,7 +150,7 @@ const Institution = () => {
             <li className="Institution-description-list-item">Informar a las entidades oficiales correspondientes, y a la opinión publica, acerca de los resultados de su gestión</li> 
             <li className="Institution-description-list-item">Brindar el asesoramiento a los Directores y Padres de Familia respecto a la normatividad de la Asociación de Padres de Familia en las Instituciones Educativas de su jurisdicción</li> 
             </ul>
-            <h4 className="Institution-subtitle">Normatividad Nacional</h4>
+            <h4 className="Institution-subtitle" id='normatividad'>Normatividad Nacional</h4>
             <div className="Institution-normatividad-container">
                 <div className="Institution-normatividad-item" id='normatividad'>
                     NORMATIVIDAD
@@ -182,6 +182,8 @@ const Institution = () => {
 }
 export default Institution;
 const Ready = () => {
+    //window.scroll({top:0});
+    //clearInterval(ejecutar);
     const normatividad = document.getElementById('normatividad');
     const decretos = document.getElementById('decretos');
     const resoluciones = document.getElementById('resoluciones');
@@ -767,21 +769,17 @@ const Ready = () => {
     }
     locales.addEventListener('click', ShowLocales);
 
-
-
-
-
-
-
 }
+
+//window.location.pathname = '/INSTITUCION' ? Ready : console.log('No ej Insti');
 
 setInterval(isLoaded, 1000);
 function isLoaded (){
-    if (document.readyState !== 'loading'){
+    if (window.document.readyState !== 'loading'){
         //console.log('state', document.readyState);
         Ready();
-        //delete document.change;
-       
-        
+        clearInterval(isLoaded, 1000);
     }
 }
+
+

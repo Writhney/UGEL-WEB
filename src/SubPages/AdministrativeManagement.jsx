@@ -499,6 +499,7 @@ function isLoaded (){
     if (document.readyState !== 'loading'){
         //console.log('state', document.readyState);
         ready();
+        clearInterval(isLoaded, 1000); 
     }
 }
 
