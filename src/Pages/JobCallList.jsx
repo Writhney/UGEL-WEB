@@ -1,6 +1,6 @@
 import releaseImg from '../assets/backgrounds/Release.svg';
 import backgroundCircle from './../assets/backgrounds/circle.svg';
-
+import { NavLink } from 'react-router-dom';
 import './../styles/JobCallList.css';
 const JobCallList = () => {
     return(
@@ -33,12 +33,12 @@ const JobCallList = () => {
                         <img className='Job-item-img' src='https://i.postimg.cc/Wbd9jqGK/DSC-0941.jpg' alt="img" />
                     </figure>
                     <div className='Job-item-info-container'>
-                        <a className='Job-item-info-link' href="#">
+                        <NavLink to='/CONVOCATORIAS/CONVOCATORIADETALLADA' className='Job-item-info-link'>
                             <span className="Job-item-info-state">Vigente</span>
                             <p className='Job-item-info-date'>Publicado el 18/01/2023 15:31</p>
                             <h4 className='Job-item-info-title'>CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                             <p className='Job-item-info-description'>Según la RVM. N° 150-2022-MINEDU, Aprueba Norma Técnica denominada "Disposiciones que regulan los procedimientos para el destaque de los profesores en el marco de la ley de Reforma Magisterial y su Reglamento" La Unidad de Gestión Educativa Local de...</p>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
                 <div className='Job-item'>
@@ -46,12 +46,12 @@ const JobCallList = () => {
                         <img className='Job-item-img' src='https://i.postimg.cc/5N8hSS78/DSC-0628.jpg' alt="img" />
                     </figure>
                     <div className='Job-item-info-container'>
-                        <a className='Job-item-info-link' href="#">
+                        <NavLink to='/CONVOCATORIAS/CONVOCATORIADETALLADA' className='Job-item-info-link' href="#">
                             <p className="Job-item-info-state">Vigente</p>
                             <p className='Job-item-info-date'>Publicado el 18/01/2023 15:31</p>
                             <h4 className='Job-item-info-title'>CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                             <p className='Job-item-info-description'>Según la RVM. N° 150-2022-MINEDU, Aprueba Norma Técnica denominada "Disposiciones que regulan los procedimientos para el destaque de los profesores en el marco de la ley de Reforma Magisterial y su Reglamento" La Unidad de Gestión Educativa Local de...</p>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
                 <div className='Job-item'>
@@ -59,12 +59,12 @@ const JobCallList = () => {
                         <img className='Job-item-img' src='https://i.postimg.cc/5N8hSS78/DSC-0628.jpg' alt="img" />
                     </figure>
                     <div className='Job-item-info-container'>
-                        <a className='Job-item-info-link' href="#">
+                        <NavLink to='/CONVOCATORIAS/CONVOCATORIADETALLADA' className='Job-item-info-link' href="#">
                             <p className="Job-item-info-state">Vigente</p>
                             <p className='Job-item-info-date'>Publicado el 18/01/2023 15:31</p>
                             <h4 className='Job-item-info-title'>CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                             <p className='Job-item-info-description'>Según la RVM. N° 150-2022-MINEDU, Aprueba Norma Técnica denominada "Disposiciones que regulan los procedimientos para el destaque de los profesores en el marco de la ley de Reforma Magisterial y su Reglamento" La Unidad de Gestión Educativa Local de...</p>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
                 <div className='Job-item'>
@@ -72,12 +72,12 @@ const JobCallList = () => {
                         <img className='Job-item-img' src='https://i.postimg.cc/5N8hSS78/DSC-0628.jpg' alt="img" />
                     </figure>
                     <div className='Job-item-info-container'>
-                        <a className='Job-item-info-link' href="#">
+                        <NavLink to='/CONVOCATORIAS/CONVOCATORIADETALLADA' className='Job-item-info-link' href="#">
                             <p className="Job-item-info-state">Vigente</p>
                             <p className='Job-item-info-date'>Publicado el 18/01/2023 15:31</p>
                             <h4 className='Job-item-info-title'>CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                             <p className='Job-item-info-description'>Según la RVM. N° 150-2022-MINEDU, Aprueba Norma Técnica denominada "Disposiciones que regulan los procedimientos para el destaque de los profesores en el marco de la ley de Reforma Magisterial y su Reglamento" La Unidad de Gestión Educativa Local de...</p>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
             </div>

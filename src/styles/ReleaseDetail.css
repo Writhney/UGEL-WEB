@@ -56,15 +56,16 @@
     align-items: center;
 }
 .Release-detail-add-item-icon-container{
-    
-
+    display: flex;
+    max-width: 40px;
+    margin: 0;
 }
-.Release-detail-add-item-icon:hover{
+.Release-detail-add-item-icon-container:hover{
     transform: scale(1.1);
     transition: all 0.25s;
 }
 .Release-detail-add-item-icon{
-    max-width: 40px;
+    width: 100%;
 }
 .Release-detail-add-item-description{
     margin: 0;
@@ -93,7 +94,7 @@
     .Release-detail-add-container{
         gap: 1.5rem;
     }
-    .Release-detail-add-item-icon{
+    .Release-detail-add-item-icon-container{
         max-width: 50px;
     }
 }

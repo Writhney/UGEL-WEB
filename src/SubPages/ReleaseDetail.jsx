@@ -33,19 +33,19 @@ const ReleaseDetail = () => {
                 <figure className="Release-detail-add-background-container">
                     <img src={background} alt="" className="Release-detail-add-background" />
                 </figure>
-                <div clasName='Release-detail-add-item'>
-                    <a clasName='Release-detail-add-item-icon-container' href="">
+                <div className='Release-detail-add-item'>
+                    <a className='Release-detail-add-item-icon-container' href="">
                         <img src={pdfIcon} alt="icon-link" className='Release-detail-add-item-icon'/>
                     </a>
-                    <p clasName='Release-detail-add-item-description'>
+                    <p className='Release-detail-add-item-description'>
                         Normas
                     </p> 
                 </div>
-                <div clasName='Release-detail-add-item'>
-                    <a clasName='Release-detail-add-item-icon-container' href="">
+                <div className='Release-detail-add-item'>
+                    <a className='Release-detail-add-item-icon-container' href="">
                         <img src={pdfIcon} alt="icon-link" className='Release-detail-add-item-icon'/>
                     </a>
-                    <p clasName='Release-detail-add-item-description'>
+                    <p className='Release-detail-add-item-description'>
                         Cronograma
                     </p> 
                 </div>
