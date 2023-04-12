@@ -23,6 +23,7 @@ import Preparatory from './DeepPages/Preparatory';
 import TechResourceCenter from './DeepPages/TechResourceCenter';
 import OticDite from './DeepPages/Otic-Dite';
 import Login from './Pages/Login';
+import ReleaseDetail from './SubPages/ReleaseDetail';
 
 
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/NOTICIAS" element={<NewsList/>}/>
           <Route path="/COMUNICADOS" element={<ReleaseList/>}/>
+          <Route path="/COMUNICADOS/COMUNICADODETALLADO" element={<ReleaseDetail/>}/>
           <Route path="/INSTITUCION" element={<Institution/>}/>
           <Route path="/DIRECCION" element={<Direction/>}/>
           <Route path="/AREASGESTION" element={<AreasManagement/>}/>

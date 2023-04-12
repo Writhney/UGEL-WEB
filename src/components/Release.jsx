@@ -11,7 +11,7 @@ const Release = () => {
             <h2 className="Release-title">COMUNICADOS</h2>
         </NavLink>
         <section className="Release-container">
-          <a href="Release-link-item"> 
+          <NavLink to='/COMUNICADOS/COMUNICADODETALLADO' href="Release-link-item"> 
             <div className="Release-item Release-item--input">
                 <figure className="Release-item-container-img">
                     <img src={releaseImg} alt="imagen" className="Release-item-img" />
@@ -21,8 +21,8 @@ const Release = () => {
                     <h4 className="Release-item-title">CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                 </div>
             </div>
-          </a> 
-          <a href="Release-link-item">  
+          </NavLink> 
+          <NavLink to='/COMUNICADOS/COMUNICADODETALLADO' href="Release-link-item">  
             <div className="Release-item Release-item--input">
                 <figure className="Release-item-container-img">
                     <img src={release2} alt="imagen" className="Release-item-img" />
@@ -33,8 +33,8 @@ const Release = () => {
                 </div>
                 
             </div>
-          </a>
-          <a href="Release-link-item">
+          </NavLink>
+          <NavLink to='/COMUNICADOS/COMUNICADODETALLADO' href="Release-link-item">
             <div className="Release-item Release-item--input">
                 <figure className="Release-item-container-img">
                     <img src={release2} alt="imagen" className="Release-item-img" />        
@@ -44,7 +44,7 @@ const Release = () => {
                     <h4 className='Release-item-title mod-size-title'>CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                 </div>
             </div>
-            </a>  
+            </NavLink>  
         </section>
         <div className='Release-button'>
             <NavLink to="/COMUNICADOS" target="_blank" className='Release-link-button'>Ver mas</NavLink>

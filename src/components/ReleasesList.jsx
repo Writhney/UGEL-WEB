@@ -3,6 +3,7 @@ import Release from './../assets/img/Release.png';
 import backgroundCircle from './../assets/backgrounds/circle.svg';
 
 import './../styles/ReleasesList.css';
+import { NavLink } from 'react-router-dom';
 const ReleasesList = ( ) => {
     return(
         <>
@@ -27,11 +28,11 @@ const ReleasesList = ( ) => {
                             <img className='ReleasesList-item-img' src={Release} alt="img" />
                         </figure>
                         <div className='ReleasesList-item-info-container'>
-                            <a className='ReleasesList-item-info-link' href="#">
+                            <NavLink to='/COMUNICADOS/COMUNICADODETALLADO' className='ReleasesList-item-info-link' href="#">
                                 <p className='ReleasesList-item-info-date'>Publicado el 18/01/2023 15:31</p>
                                 <h4 className='ReleasesList-item-info-title'>CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                                 <p className='ReleasesList-item-info-description'>Según la RVM. N° 150-2022-MINEDU, Aprueba Norma Técnica denominada "Disposiciones que regulan los procedimientos para el destaque de los profesores en el marco de la ley de Reforma Magisterial y su Reglamento" La Unidad de Gestión Educativa Local de...</p>
-                            </a>
+                            </NavLink>
                         </div>
                     </div>
                     <div className='ReleasesList-item'>
@@ -39,11 +40,11 @@ const ReleasesList = ( ) => {
                             <img className='ReleasesList-item-img' src={Release} alt="img" />
                         </figure>
                         <div className='ReleasesList-item-info-container'>
-                            <a className='ReleasesList-item-info-link' href="#">
+                            <NavLink to='/COMUNICADOS/COMUNICADODETALLADO' className='ReleasesList-item-info-link' href="#">
                                 <p className='ReleasesList-item-info-date'>Publicado el 18/01/2023 15:31</p>
                                 <h4 className='ReleasesList-item-info-title'>CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                                 <p className='ReleasesList-item-info-description'>Según la RVM. N° 150-2022-MINEDU, Aprueba Norma Técnica denominada "Disposiciones que regulan los procedimientos para el destaque de los profesores en el marco de la ley de Reforma Magisterial y su Reglamento" La Unidad de Gestión Educativa Local de...</p>
-                            </a>
+                            </NavLink>
                         </div>
                     </div>
                     <div className='ReleasesList-item'>
@@ -51,11 +52,11 @@ const ReleasesList = ( ) => {
                             <img className='ReleasesList-item-img' src={Release} alt="img" />
                         </figure>
                         <div className='ReleasesList-item-info-container'>
-                            <a className='ReleasesList-item-info-link' href="#">
+                            <NavLink to='/COMUNICADOS/COMUNICADODETALLADO' className='ReleasesList-item-info-link' href="#">
                                 <p className='ReleasesList-item-info-date'>Publicado el 18/01/2023 15:31</p>
                                 <h4 className='ReleasesList-item-info-title'>CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                                 <p className='ReleasesList-item-info-description'>Según la RVM. N° 150-2022-MINEDU, Aprueba Norma Técnica denominada "Disposiciones que regulan los procedimientos para el destaque de los profesores en el marco de la ley de Reforma Magisterial y su Reglamento" La Unidad de Gestión Educativa Local de...</p>
-                            </a>
+                            </NavLink>
                         </div>
                     </div>
                     <div className='ReleasesList-item'>
@@ -63,11 +64,11 @@ const ReleasesList = ( ) => {
                             <img className='ReleasesList-item-img' src={Release} alt="img" />
                         </figure>
                         <div className='ReleasesList-item-info-container'>
-                            <a className='ReleasesList-item-info-link' href="#">
+                            <NavLink to='/COMUNICADOS/COMUNICADODETALLADO' className='ReleasesList-item-info-link' href="#">
                                 <p className='ReleasesList-item-info-date'>Publicado el 18/01/2023 15:31</p>
                                 <h4 className='ReleasesList-item-info-title'>CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                                 <p className='ReleasesList-item-info-description'>Según la RVM. N° 150-2022-MINEDU, Aprueba Norma Técnica denominada "Disposiciones que regulan los procedimientos para el destaque de los profesores en el marco de la ley de Reforma Magisterial y su Reglamento" La Unidad de Gestión Educativa Local de...</p>
-                            </a>
+                            </NavLink>
                         </div>
                     </div>
                     <div className='ReleasesList-item'>
@@ -75,11 +76,11 @@ const ReleasesList = ( ) => {
                             <img className='ReleasesList-item-img' src={Release} alt="img" />
                         </figure>
                         <div className='ReleasesList-item-info-container'>
-                            <a className='ReleasesList-item-info-link' href="#">
+                            <NavLink to='/COMUNICADOS/COMUNICADODETALLADO' className='ReleasesList-item-info-link' href="#">
                                 <p className='ReleasesList-item-info-date'>Publicado el 18/01/2023 15:31</p>
                                 <h4 className='ReleasesList-item-info-title'>CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                                 <p className='ReleasesList-item-info-description'>Según la RVM. N° 150-2022-MINEDU, Aprueba Norma Técnica denominada "Disposiciones que regulan los procedimientos para el destaque de los profesores en el marco de la ley de Reforma Magisterial y su Reglamento" La Unidad de Gestión Educativa Local de...</p>
-                            </a>
+                            </NavLink>
                         </div>
                     </div>
 
