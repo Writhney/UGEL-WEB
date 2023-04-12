@@ -25,6 +25,7 @@ import OticDite from './DeepPages/Otic-Dite';
 import Login from './Pages/Login';
 import ReleaseDetail from './SubPages/ReleaseDetail';
 import JobCallDetail from './SubPages/JobCallDetail';
+import NewDetail from './SubPages/NewDetail';
 
 
 
@@ -37,6 +38,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/NOTICIAS" element={<NewsList/>}/>
+          <Route path="/NOTICIAS/NOTICIADETALLADA" element={<NewDetail/>}/>
           <Route path="/COMUNICADOS" element={<ReleaseList/>}/>
           <Route path="/COMUNICADOS/COMUNICADODETALLADO" element={<ReleaseDetail/>}/>
           <Route path="/INSTITUCION" element={<Institution/>}/>

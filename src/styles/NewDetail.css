@@ -1,0 +1,114 @@
+.New-detail-container{
+    max-width: 800px;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.New-detail-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.New-detail-info-title{
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+}
+.New-detail-info-date{
+    font-size: 0.8rem;
+    margin: 0;
+    text-align: right;
+}
+.New-detail-info-state{
+    margin: 0;
+    font-size: 0.8rem;
+    background-color: #DD2F22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 1.2rem;
+    border-radius: 3px;
+
+    color: white;
+}
+.New-detail-info-description{
+    font-size: 0.8rem;
+    margin: 0;
+}
+.New-detail-add-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.New-detail-add-title{
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+.New-detail-add-background-container{
+    display: flex;
+    position: absolute;
+    margin: auto;
+    z-index: -1;
+    min-height: 300px;
+    bottom: -3rem;
+    display: none;
+}
+.New-detail-add-background{
+    width: 100%;
+}
+.New-detail-add-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.New-detail-add-item-icon-container{
+    display: flex;
+    max-width: 40px;
+    margin: 0;
+}
+.New-detail-add-item-icon-container:hover{
+    transform: scale(1.1);
+    transition: all 0.25s;
+}
+.New-detail-add-item-icon{
+    width: 100%;
+}
+.New-detail-add-item-description{
+    margin: 0;
+    font-size: 0.8rem;
+}
+.New-detail-info-img-container{
+    display: flex;
+    margin: auto;
+    max-width: 800px;
+}
+.New-detail-info-img{
+    width: 100%;
+}
+
+@media (min-width:750px){
+    .New-detail-info-title{
+        font-size: 1.2rem;
+    }
+    .New-detail-info-date{
+        font-size: 1rem;
+    }
+    .New-detail-info-description{
+        font-size: 1rem;
+    }
+    .New-detail-add-title{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    .New-detail-add-item-description{
+        font-size: 1rem;
+    }
+    .New-detail-add-container{
+        gap: 1.5rem;
+    }
+    .New-detail-add-item-icon{
+        max-width: 50px;
+    }
+}

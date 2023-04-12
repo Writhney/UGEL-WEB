@@ -9,7 +9,7 @@ const News = () => {
         </NavLink>
         <section className="News-container">
             
-        <a href="News-link-item">
+        <NavLink to='/NOTICIAS/NOTICIADETALLADA' className="News-link-item">
             <div className="News-item News-item--input">
                 <figure className="News-item-container-img">
                         <img src="https://i.postimg.cc/jdVVfFXs/DSC-0433.jpg" alt="imagen" className="News-item-img" />
@@ -19,8 +19,8 @@ const News = () => {
                     <h4 className="News-item-title">CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                 </div>
             </div>
-        </a>  
-        <a href="News-link-item">
+        </NavLink>  
+        <NavLink to='/NOTICIAS/NOTICIADETALLADA' className="News-link-item">
             <div className="News-item News-item--input">
                 <figure className="News-item-container-img">
                     
@@ -32,8 +32,8 @@ const News = () => {
                     <h4 className='News-item-title mod-size-title'>CUADRO DE MÉRITO DEL PROCESO DE REASIGNACIÓN EXCEPCIONAL DOCENTE 2023 - UGEL ANDAHUAYLAS.</h4>
                 </div>
             </div>
-        </a>
-        <a href="News-link-item">
+        </NavLink>
+        <a className="News-link-item">
             <div className="News-item News-item--input">
                 <figure className="News-item-container-img">
                     
