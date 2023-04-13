@@ -33,6 +33,11 @@ const Kinder = () => {
                             src="https://i.postimg.cc/cHKfjBBq/foto-Docente.png"
                             alt="Picture"/>
                             <div className='Kinder-staff__data-container'>
+                                <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
+                            </div>
+                        </figure>
+                        <div className="Kinder-staff__info-container">
+                            <div className='Kinder-staff__info'>
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Kinder-staff__data-item-icon" />
@@ -42,13 +47,10 @@ const Kinder = () => {
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Kinder-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Kinder-staff__data-icon-text">ruth@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Kinder-staff__info-title">ruth@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Kinder-staff__info-container">
-                            <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
                             <figure className='Kinder-staff-line-container'>
                                 <img src={line} alt="" className='Kinder-staff-line'/>
                             </figure>
@@ -72,6 +74,11 @@ const Kinder = () => {
                             src="https://i.postimg.cc/cHKfjBBq/foto-Docente.png"
                             alt="Picture"/>
                             <div className='Kinder-staff__data-container'>
+                                <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
+                            </div>
+                        </figure>
+                        <div className="Kinder-staff__info-container">
+                            <div className='Kinder-staff__info'>
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Kinder-staff__data-item-icon" />
@@ -81,13 +88,10 @@ const Kinder = () => {
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Kinder-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Kinder-staff__data-icon-text">ruth@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Kinder-staff__info-title">ruth@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Kinder-staff__info-container">
-                            <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
                             <figure className='Kinder-staff-line-container'>
                                 <img src={line} alt="" className='Kinder-staff-line'/>
                             </figure>
@@ -111,6 +115,11 @@ const Kinder = () => {
                             src="https://i.postimg.cc/cHKfjBBq/foto-Docente.png"
                             alt="Picture"/>
                             <div className='Kinder-staff__data-container'>
+                                <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
+                            </div>
+                        </figure>
+                        <div className="Kinder-staff__info-container">
+                            <div className='Kinder-staff__info'>
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Kinder-staff__data-item-icon" />
@@ -120,13 +129,10 @@ const Kinder = () => {
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Kinder-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Kinder-staff__data-icon-text">ruth@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Kinder-staff__info-title">ruth@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Kinder-staff__info-container">
-                            <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
                             <figure className='Kinder-staff-line-container'>
                                 <img src={line} alt="" className='Kinder-staff-line'/>
                             </figure>
@@ -150,6 +156,11 @@ const Kinder = () => {
                             src="https://i.postimg.cc/cHKfjBBq/foto-Docente.png"
                             alt="Picture"/>
                             <div className='Kinder-staff__data-container'>
+                                <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
+                            </div>
+                        </figure>
+                        <div className="Kinder-staff__info-container">
+                            <div className='Kinder-staff__info'>
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Kinder-staff__data-item-icon" />
@@ -159,13 +170,10 @@ const Kinder = () => {
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Kinder-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Kinder-staff__data-icon-text">ruth@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Kinder-staff__info-title">ruth@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Kinder-staff__info-container">
-                            <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
                             <figure className='Kinder-staff-line-container'>
                                 <img src={line} alt="" className='Kinder-staff-line'/>
                             </figure>
@@ -189,6 +197,11 @@ const Kinder = () => {
                             src="https://i.postimg.cc/cHKfjBBq/foto-Docente.png"
                             alt="Picture"/>
                             <div className='Kinder-staff__data-container'>
+                                <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
+                            </div>
+                        </figure>
+                        <div className="Kinder-staff__info-container">
+                            <div className='Kinder-staff__info'>
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Kinder-staff__data-item-icon" />
@@ -198,13 +211,10 @@ const Kinder = () => {
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Kinder-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Kinder-staff__data-icon-text">ruth@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Kinder-staff__info-title">ruth@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Kinder-staff__info-container">
-                            <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
                             <figure className='Kinder-staff-line-container'>
                                 <img src={line} alt="" className='Kinder-staff-line'/>
                             </figure>
@@ -228,6 +238,11 @@ const Kinder = () => {
                             src="https://i.postimg.cc/cHKfjBBq/foto-Docente.png"
                             alt="Picture"/>
                             <div className='Kinder-staff__data-container'>
+                                <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
+                            </div>
+                        </figure>
+                        <div className="Kinder-staff__info-container">
+                            <div className='Kinder-staff__info'>
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Kinder-staff__data-item-icon" />
@@ -237,13 +252,10 @@ const Kinder = () => {
                                 <div className="Kinder-staff__data-item">
                                     <figure className="Kinder-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Kinder-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Kinder-staff__data-icon-text">ruth@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Kinder-staff__info-title">ruth@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Kinder-staff__info-container">
-                            <h3 className="Kinder-staff__info-title">Lic. Ruth Flores</h3>
                             <figure className='Kinder-staff-line-container'>
                                 <img src={line} alt="" className='Kinder-staff-line'/>
                             </figure>

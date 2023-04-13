@@ -27,6 +27,7 @@ import ReleaseDetail from './SubPages/ReleaseDetail';
 import JobCallDetail from './SubPages/JobCallDetail';
 import NewDetail from './SubPages/NewDetail';
 import ComplaintsBook from './Pages/ComplaintsBook';
+import BasicAlternative from './DeepPages/BasicAlternative';
 
 
 
@@ -61,6 +62,7 @@ function App() {
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/SECUNDARIA" element={<Preparatory/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/CENTRORECURSOSTECNOLOGICOS" element={<TechResourceCenter/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/OTIC-DITE" element={<OticDite/>}/>
+          <Route path="/AREASGESTION/GESTIONPEDAGOGICA/EDUCACIONBASICAALTERNATIVA" element={<BasicAlternative/>}/>
 
 
 

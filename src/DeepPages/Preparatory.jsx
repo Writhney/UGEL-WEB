@@ -34,6 +34,11 @@ const Preparatory = () => {
                             src="https://i.postimg.cc/1tftmNqg/docente3.png"
                             alt="Picture"/>
                             <div className='Preparatory-staff__data-container'>
+                                <h3 className="Preparatory-staff__info-title">Prof. Guillero Roman</h3>
+                            </div>
+                        </figure>
+                        <div className="Preparatory-staff__info-container">
+                            <div className='Preparatory-staff__info'>
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
@@ -43,13 +48,10 @@ const Preparatory = () => {
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Preparatory-staff__data-icon-text">guilleromo@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Preparatory-staff__info-title">guillermo@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Preparatory-staff__info-container">
-                            <h3 className="Preparatory-staff__info-title">Prof. Guillermo Roman</h3>
                             <figure className='Preparatory-staff-line-container'>
                                 <img src={line} alt="" className='Preparatory-staff-line'/>
                             </figure>
@@ -73,6 +75,11 @@ const Preparatory = () => {
                             src="https://i.postimg.cc/1tftmNqg/docente3.png"
                             alt="Picture"/>
                             <div className='Preparatory-staff__data-container'>
+                                <h3 className="Preparatory-staff__info-title">Prof. Guillero Roman</h3>
+                            </div>
+                        </figure>
+                        <div className="Preparatory-staff__info-container">
+                            <div className='Preparatory-staff__info'>
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
@@ -82,13 +89,10 @@ const Preparatory = () => {
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Preparatory-staff__data-icon-text">guilleromo@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Preparatory-staff__info-title">guillermo@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Preparatory-staff__info-container">
-                            <h3 className="Preparatory-staff__info-title">Prof. Guillermo Roman</h3>
                             <figure className='Preparatory-staff-line-container'>
                                 <img src={line} alt="" className='Preparatory-staff-line'/>
                             </figure>
@@ -112,6 +116,11 @@ const Preparatory = () => {
                             src="https://i.postimg.cc/1tftmNqg/docente3.png"
                             alt="Picture"/>
                             <div className='Preparatory-staff__data-container'>
+                                <h3 className="Preparatory-staff__info-title">Prof. Guillero Roman</h3>
+                            </div>
+                        </figure>
+                        <div className="Preparatory-staff__info-container">
+                            <div className='Preparatory-staff__info'>
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
@@ -121,13 +130,10 @@ const Preparatory = () => {
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Preparatory-staff__data-icon-text">guilleromo@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Preparatory-staff__info-title">guillermo@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Preparatory-staff__info-container">
-                            <h3 className="Preparatory-staff__info-title">Prof. Guillermo Roman</h3>
                             <figure className='Preparatory-staff-line-container'>
                                 <img src={line} alt="" className='Preparatory-staff-line'/>
                             </figure>
@@ -151,6 +157,11 @@ const Preparatory = () => {
                             src="https://i.postimg.cc/1tftmNqg/docente3.png"
                             alt="Picture"/>
                             <div className='Preparatory-staff__data-container'>
+                                <h3 className="Preparatory-staff__info-title">Prof. Guillero Roman</h3>
+                            </div>
+                        </figure>
+                        <div className="Preparatory-staff__info-container">
+                            <div className='Preparatory-staff__info'>
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
@@ -160,13 +171,10 @@ const Preparatory = () => {
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Preparatory-staff__data-icon-text">guilleromo@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Preparatory-staff__info-title">guillermo@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Preparatory-staff__info-container">
-                            <h3 className="Preparatory-staff__info-title">Prof. Guillermo Roman</h3>
                             <figure className='Preparatory-staff-line-container'>
                                 <img src={line} alt="" className='Preparatory-staff-line'/>
                             </figure>
@@ -190,6 +198,11 @@ const Preparatory = () => {
                             src="https://i.postimg.cc/1tftmNqg/docente3.png"
                             alt="Picture"/>
                             <div className='Preparatory-staff__data-container'>
+                                <h3 className="Preparatory-staff__info-title">Prof. Guillero Roman</h3>
+                            </div>
+                        </figure>
+                        <div className="Preparatory-staff__info-container">
+                            <div className='Preparatory-staff__info'>
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
@@ -199,13 +212,10 @@ const Preparatory = () => {
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Preparatory-staff__data-icon-text">guilleromo@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Preparatory-staff__info-title">guillermo@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Preparatory-staff__info-container">
-                            <h3 className="Preparatory-staff__info-title">Prof. Guillermo Roman</h3>
                             <figure className='Preparatory-staff-line-container'>
                                 <img src={line} alt="" className='Preparatory-staff-line'/>
                             </figure>
@@ -229,6 +239,11 @@ const Preparatory = () => {
                             src="https://i.postimg.cc/1tftmNqg/docente3.png"
                             alt="Picture"/>
                             <div className='Preparatory-staff__data-container'>
+                                <h3 className="Preparatory-staff__info-title">Prof. Guillero Roman</h3>
+                            </div>
+                        </figure>
+                        <div className="Preparatory-staff__info-container">
+                            <div className='Preparatory-staff__info'>
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
@@ -238,13 +253,10 @@ const Preparatory = () => {
                                 <div className="Preparatory-staff__data-item">
                                     <figure className="Preparatory-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Preparatory-staff__data-icon-text">guilleromo@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Preparatory-staff__info-title">guillermo@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Preparatory-staff__info-container">
-                            <h3 className="Preparatory-staff__info-title">Prof. Guillermo Roman</h3>
                             <figure className='Preparatory-staff-line-container'>
                                 <img src={line} alt="" className='Preparatory-staff-line'/>
                             </figure>

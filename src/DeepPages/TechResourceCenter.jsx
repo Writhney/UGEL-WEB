@@ -34,6 +34,11 @@ const TechResourceCenter = ( ) => {
                             src="https://i.postimg.cc/1tftmNqg/docente3.png"
                             alt="Picture"/>
                             <div className='Tech-staff__data-container'>
+                                <h3 className="Tech-staff__info-title">Prof. Guillero Roman</h3>
+                            </div>
+                        </figure>
+                        <div className="Tech-staff__info-container">
+                            <div className='Tech-staff__info'>
                                 <div className="Tech-staff__data-item">
                                     <figure className="Tech-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Tech-staff__data-item-icon" />
@@ -43,13 +48,10 @@ const TechResourceCenter = ( ) => {
                                 <div className="Tech-staff__data-item">
                                     <figure className="Tech-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Tech-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Tech-staff__data-icon-text">guilleromo@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Tech-staff__info-title">guillermo@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Tech-staff__info-container">
-                            <h3 className="Tech-staff__info-title">Prof. Guillermo Roman</h3>
                             <figure className='Tech-staff-line-container'>
                                 <img src={line} alt="" className='Tech-staff-line'/>
                             </figure>
@@ -66,134 +68,56 @@ const TechResourceCenter = ( ) => {
                         </div>
                     </div>
                 </article>
-                <article className="Tech-staff__article">
-                    <div className="Tech-staff__container">
-                        <figure className="Preparatory-staff__img-container">
-                            <img className="Preparatory-staff__img"
-                            src="https://i.postimg.cc/1tftmNqg/docente3.png"
-                            alt="Picture"/>
-                            <div className='Preparatory-staff__data-container'>
-                                <div className="Preparatory-staff__data-item">
-                                    <figure className="Preparatory-staff__data-item-icon-container">
-                                        <img src={phoneIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Preparatory-staff__data-icon-text">999 999 999</p>
-                                </div>
-                                <div className="Preparatory-staff__data-item">
-                                    <figure className="Preparatory-staff__data-item-icon-container">
-                                        <img src={emailIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Preparatory-staff__data-icon-text">guilleromo@gmail.com</p>
-                                </div>
-                            </div>
-                        </figure>
-                        <div className="Preparatory-staff__info-container">
-                            <h3 className="Preparatory-staff__info-title">Prof. Guillermo Roman</h3>
-                            <figure className='Preparatory-staff-line-container'>
-                                <img src={line} alt="" className='Preparatory-staff-line'/>
-                            </figure>
-                            <p className="Preparatory-staff-info-about">A cargo de:</p>
-                            <ul className='Preparatory-staff-info-about-list'>
-                                <li className='Preparatory-staff-info-about-list-item'>Andahuaylas</li>
-                                <li className='Preparatory-staff-info-about-list-item'>Talavera</li>
-                                <li className='Preparatory-staff-info-about-list-item'>San Jeronimo</li>
-                                <li className='Preparatory-staff-info-about-list-item'>José María Arguedas</li>
-                                <li className='Preparatory-staff-info-about-list-item'>Huancaray</li>
-                                <li className='Preparatory-staff-info-about-list-item'>Huancarama</li>
-                                <li className='Preparatory-staff-info-about-list-item'>Kaquiabamba</li>
-                            </ul>
-                        </div>
-                    </div>
-                </article>
-                <article className="Preparatory-staff__article">
-                    <div className="Preparatory-staff__container">
-                        <figure className="Preparatory-staff__img-container">
-                            <img className="Preparatory-staff__img"
-                            src="https://i.postimg.cc/1tftmNqg/docente3.png"
-                            alt="Picture"/>
-                            <div className='Preparatory-staff__data-container'>
-                                <div className="Preparatory-staff__data-item">
-                                    <figure className="Preparatory-staff__data-item-icon-container">
-                                        <img src={phoneIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Preparatory-staff__data-icon-text">999 999 999</p>
-                                </div>
-                                <div className="Preparatory-staff__data-item">
-                                    <figure className="Preparatory-staff__data-item-icon-container">
-                                        <img src={emailIcon} alt="icon" className="Preparatory-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Preparatory-staff__data-icon-text">guilleromo@gmail.com</p>
-                                </div>
-                            </div>
-                        </figure>
-                        <div className="Preparatory-staff__info-container">
-                            <h3 className="Preparatory-staff__info-title">Prof. Guillermo Roman</h3>
-                            <figure className='Preparatory-staff-line-container'>
-                                <img src={line} alt="" className='Preparatory-staff-line'/>
-                            </figure>
-                            <p className="Preparatory-staff-info-about">A cargo de:</p>
-                            <ul className='Preparatory-staff-info-about-list'>
-                                <li className='Preparatory-staff-info-about-list-item'>Andahuaylas</li>
-                                <li className='Preparatory-staff-info-about-list-item'>Talavera</li>
-                                <li className='Preparatory-staff-info-about-list-item'>San Jeronimo</li>
-                                <li className='Preparatory-staff-info-about-list-item'>José María Arguedas</li>
-                                <li className='Preparatory-staff-info-about-list-item'>Huancaray</li>
-                                <li className='Preparatory-staff-info-about-list-item'>Huancarama</li>
-                                <li className='Preparatory-staff-info-about-list-item'>Kaquiabamba</li>
-                            </ul>
-                        </div>
-                    </div>
-                </article>
             </div>
-            <div className='Kinder-documents'>
+            <div className='Tech-documents'>
                 <h3 className='Kidnder-documents-title'>Software Educativo</h3>
-                <div className='Kinder-documents-items-container'>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+                <div className='Tech-documents-items-container'>
+                    <div className='Tech-documents-item'>
+                        <p className='Tech-documents-item-description'>
                             GENMAGIC (Para Windows) Podras encontrar mas de 200 actividades interactivas
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={fileIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a clasName='Tech-documents-item-icon-container' href="">
+                            <img src={fileIcon} alt="icon-link" className='Tech-documents-item-icon'/>
                         </a>
                     </div>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+                    <div className='Tech-documents-item'>
+                        <p className='Tech-documents-item-description'>
                             SRACTCH (Para Windows) Permite la creación de historiestas interactivas que incorporen contenidos
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={fileIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a clasName='Tech-documents-item-icon-container' href="">
+                            <img src={fileIcon} alt="icon-link" className='Tech-documents-item-icon'/>
                         </a>
                     </div>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+                    <div className='Tech-documents-item'>
+                        <p className='Tech-documents-item-description'>
                             GENMAGIC (Para Windows) Podras encontrar mas de 200 actividades interactivas
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={fileIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a clasName='Tech-documents-item-icon-container' href="">
+                            <img src={fileIcon} alt="icon-link" className='Tech-documents-item-icon'/>
                         </a>
                     </div>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+                    <div className='Tech-documents-item'>
+                        <p className='Tech-documents-item-description'>
                             GENMAGIC (Para Windows) Podras encontrar mas de 200 actividades interactivas
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={fileIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a clasName='Tech-documents-item-icon-container' href="">
+                            <img src={fileIcon} alt="icon-link" className='Tech-documents-item-icon'/>
                         </a>
                     </div>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+                    <div className='Tech-documents-item'>
+                        <p className='Tech-documents-item-description'>
                             GENMAGIC (Para Windows) Podras encontrar mas de 200 actividades interactivas
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={fileIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a clasName='Tech-documents-item-icon-container' href="">
+                            <img src={fileIcon} alt="icon-link" className='Tech-documents-item-icon'/>
                         </a>
                     </div>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+                    <div className='Tech-documents-item'>
+                        <p className='Tech-documents-item-description'>
                             GENMAGIC (Para Windows) Podras encontrar mas de 200 actividades interactivas
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={fileIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a clasName='Tech-documents-item-icon-container' href="">
+                            <img src={fileIcon} alt="icon-link" className='Tech-documents-item-icon'/>
                         </a>
                     </div>
                 </div>

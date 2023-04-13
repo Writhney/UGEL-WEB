@@ -203,9 +203,9 @@ const EducationalManagement = () => {
             <NavLink to='/AREASGESTION/GESTIONPEDAGOGICA/OTIC-DITE' className='Edu-management-buttom-link-container-otic'>
                 OTIC - DITE
             </NavLink>
-            <a className='Edu-management-buttom-link-container-alternativa'>
+            <NavLink to='/AREASGESTION/GESTIONPEDAGOGICA/EDUCACIONBASICAALTERNATIVA' className='Edu-management-buttom-link-container-alternativa'>
                 EDUCACIÓN BÁSICA ALTERNATIVA
-            </a>
+            </NavLink>
             <a className='Edu-management-buttom-link-container-intercultural'>
                 EDUCACIÓN BILINÜE INTERCULTURAL
             </a>

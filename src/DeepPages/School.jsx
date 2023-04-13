@@ -31,6 +31,11 @@ const School = () => {
                             src="https://i.postimg.cc/DySXG76k/foto-Docente1.png"
                             alt="Picture"/>
                             <div className='School-staff__data-container'>
+                                <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
+                            </div>
+                        </figure>
+                        <div className="School-staff__info-container">
+                            <div className='School-staff__info'>
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="School-staff__data-item-icon" />
@@ -40,13 +45,10 @@ const School = () => {
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="School-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="School-staff__data-icon-text">juan@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="School-staff__info-title">juan@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="School-staff__info-container">
-                            <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
                             <figure className='School-staff-line-container'>
                                 <img src={line} alt="" className='School-staff-line'/>
                             </figure>
@@ -70,6 +72,11 @@ const School = () => {
                             src="https://i.postimg.cc/DySXG76k/foto-Docente1.png"
                             alt="Picture"/>
                             <div className='School-staff__data-container'>
+                                <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
+                            </div>
+                        </figure>
+                        <div className="School-staff__info-container">
+                            <div className='School-staff__info'>
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="School-staff__data-item-icon" />
@@ -79,13 +86,10 @@ const School = () => {
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="School-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="School-staff__data-icon-text">juan@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="School-staff__info-title">juan@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="School-staff__info-container">
-                            <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
                             <figure className='School-staff-line-container'>
                                 <img src={line} alt="" className='School-staff-line'/>
                             </figure>
@@ -109,6 +113,11 @@ const School = () => {
                             src="https://i.postimg.cc/DySXG76k/foto-Docente1.png"
                             alt="Picture"/>
                             <div className='School-staff__data-container'>
+                                <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
+                            </div>
+                        </figure>
+                        <div className="School-staff__info-container">
+                            <div className='School-staff__info'>
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="School-staff__data-item-icon" />
@@ -118,13 +127,10 @@ const School = () => {
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="School-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="School-staff__data-icon-text">juan@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="School-staff__info-title">juan@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="School-staff__info-container">
-                            <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
                             <figure className='School-staff-line-container'>
                                 <img src={line} alt="" className='School-staff-line'/>
                             </figure>
@@ -148,6 +154,11 @@ const School = () => {
                             src="https://i.postimg.cc/DySXG76k/foto-Docente1.png"
                             alt="Picture"/>
                             <div className='School-staff__data-container'>
+                                <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
+                            </div>
+                        </figure>
+                        <div className="School-staff__info-container">
+                            <div className='School-staff__info'>
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="School-staff__data-item-icon" />
@@ -157,13 +168,10 @@ const School = () => {
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="School-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="School-staff__data-icon-text">juan@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="School-staff__info-title">juan@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="School-staff__info-container">
-                            <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
                             <figure className='School-staff-line-container'>
                                 <img src={line} alt="" className='School-staff-line'/>
                             </figure>
@@ -187,6 +195,11 @@ const School = () => {
                             src="https://i.postimg.cc/DySXG76k/foto-Docente1.png"
                             alt="Picture"/>
                             <div className='School-staff__data-container'>
+                                <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
+                            </div>
+                        </figure>
+                        <div className="School-staff__info-container">
+                            <div className='School-staff__info'>
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="School-staff__data-item-icon" />
@@ -196,13 +209,10 @@ const School = () => {
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="School-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="School-staff__data-icon-text">juan@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="School-staff__info-title">juan@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="School-staff__info-container">
-                            <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
                             <figure className='School-staff-line-container'>
                                 <img src={line} alt="" className='School-staff-line'/>
                             </figure>
@@ -226,6 +236,11 @@ const School = () => {
                             src="https://i.postimg.cc/DySXG76k/foto-Docente1.png"
                             alt="Picture"/>
                             <div className='School-staff__data-container'>
+                                <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
+                            </div>
+                        </figure>
+                        <div className="School-staff__info-container">
+                            <div className='School-staff__info'>
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="School-staff__data-item-icon" />
@@ -235,13 +250,10 @@ const School = () => {
                                 <div className="School-staff__data-item">
                                     <figure className="School-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="School-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="School-staff__data-icon-text">juan@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="School-staff__info-title">juan@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="School-staff__info-container">
-                            <h3 className="School-staff__info-title">Dr. Juan Solano</h3>
                             <figure className='School-staff-line-container'>
                                 <img src={line} alt="" className='School-staff-line'/>
                             </figure>
@@ -258,6 +270,7 @@ const School = () => {
                         </div>
                     </div>
                 </article>
+                
             </div>
             <div className='School-documents'>
                 <h3 className='School-documents-title'>Documentos de Gestión</h3>
@@ -330,7 +343,7 @@ const School = () => {
                 </div>
             </div>
             <div className='School-documents'>
-                <h3 className='Kidnder-documents-title'>Materiales</h3>
+                <h3 className='School-documents-title'>Materiales</h3>
                 <div className='School-documents-items-container'>
                     <div className='School-documents-item'>
                         <p className='School-documents-item-description'>

@@ -24,13 +24,18 @@ const OticDite = () => {
                 </div>
             </div>
             <div className="Otic-staff__all">
-                <article className="Otic-staff__article">
+            <article className="Otic-staff__article">
                     <div className="Otic-staff__container">
                         <figure className="Otic-staff__img-container">
                             <img className="Otic-staff__img"
                             src="https://i.postimg.cc/1tftmNqg/docente3.png"
                             alt="Picture"/>
                             <div className='Otic-staff__data-container'>
+                                <h3 className="Otic-staff__info-title">Prof. Guillero Roman</h3>
+                            </div>
+                        </figure>
+                        <div className="Otic-staff__info-container">
+                            <div className='Otic-staff__info'>
                                 <div className="Otic-staff__data-item">
                                     <figure className="Otic-staff__data-item-icon-container">
                                         <img src={phoneIcon} alt="icon" className="Otic-staff__data-item-icon" />
@@ -40,13 +45,10 @@ const OticDite = () => {
                                 <div className="Otic-staff__data-item">
                                     <figure className="Otic-staff__data-item-icon-container">
                                         <img src={emailIcon} alt="icon" className="Otic-staff__data-item-icon" />
-                                    </figure>  
-                                    <p className="Otic-staff__data-icon-text">rufo@gmail.com</p>
+                                    </figure> 
+                                    <h3 className="Otic-staff__info-title">guillermo@gmail.com</h3>
                                 </div>
                             </div>
-                        </figure>
-                        <div className="Otic-staff__info-container">
-                            <h3 className="Otic-staff__info-title">Rufo Oseas</h3>
                             <figure className='Otic-staff-line-container'>
                                 <img src={line} alt="" className='Otic-staff-line'/>
                             </figure>
