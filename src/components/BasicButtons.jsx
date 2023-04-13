@@ -51,7 +51,7 @@ const BasicButtons = () => {
             </div>
             */}
             <div className='Basic-button-item'>
-                <NavLink to='/' className="Basic-button-link-item">
+                <NavLink to='/HERRAMIENTASGESTIONESCOLAR' className="Basic-button-link-item">
                     <figure className="Basic-button-icon-container">
                         <img src={Director} alt="icon" className='Basic-button-icon' />
                     </figure>

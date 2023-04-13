@@ -1,0 +1,123 @@
+.School-tools-container{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.School-tools-title-container{
+    padding: 1rem;
+    border: solid #184296 0.2rem;
+}
+.School-tools-title{
+    text-align: center;
+    font-size: 1rem;
+    margin: 0;
+    color: #184296;
+}
+.School-tools-documents{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.School-tools-documents-title{
+    margin: 0;
+    font-size: 1rem;
+    color: #184296;
+}
+.School-tools-documents-items-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.School-tools-documents-item{
+    display: flex;
+    background-color: #184296;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.School-tools-documents-item-description{
+    font-size: 0.8rem;
+    margin: 0;
+    color: white;
+}
+.School-tools-documents-item-icon-container{
+    display: flex;
+    max-width: 3rem;
+}
+.School-tools-documents-item-icon:hover{
+    transform: scale(1.02);
+    transition: all 0.25s;
+}
+.School-tools-documents-item-icon{
+    width: 100%;
+}
+
+
+@media (min-width:750px){
+    .School-tools-container{
+        margin-top: 5rem;
+    }
+    .School-tools-title{
+        font-size: 1.5rem;
+    }
+    .School-tools-front-container{
+        gap: 8rem;
+    }
+    .School-tools-background-container{
+        top: 15rem;
+    }
+    .School-tools-front-title{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    .School-tools-staff__data-icon-text{
+        font-size: 0.8rem;
+    }
+    .School-tools-staff__data-item-icon-container{
+        max-width: 15px;
+    }
+    .School-tools-staff-info-about{
+        font-size: 0.9rem;
+    }
+    .School-tools-staff-info-about-list-item{
+        font-size: 0.9rem;
+    }
+    .School-tools-staff__info-container{
+        padding-top: 0.5rem;
+    }
+        
+.School-tools-info-container{
+    gap: 1rem;
+}
+.School-tools-info-title{
+    font-size: 1.5rem;
+}
+.School-tools-info-items-container{
+    gap: 1rem;
+}
+.School-tools-info-item{
+ padding: 1rem;
+}
+.School-tools-info-item-title{
+    font-size: 1.2rem;
+}
+.School-tools-info-item-description{
+    font-size: 1rem;
+}
+.School-tools-info-list-item{
+    font-size: 1rem;
+}
+.School-tools-documents-title{
+    font-size: 1.2rem;
+}
+.School-tools-documents-items-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+}
