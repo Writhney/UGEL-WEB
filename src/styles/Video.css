@@ -20,20 +20,20 @@
     padding: 0.5rem 2rem;
     margin: auto;
     border-width: 0.2rem;
-    border-color: #1E2E6E;
+    border-color: #184296;
     border-style: solid;
     transition: all 1s;
     justify-content: center;
 }
 .video-link{
-    color: #1E2E6E;
+    color: #184296;
     text-align: center;
     margin: 0;
     text-decoration: none;
 }
 
 .video-button:hover{
-    background-color: #1E2E6E;
+    background-color: #184296;
     
 }
 .video-button:hover > a{

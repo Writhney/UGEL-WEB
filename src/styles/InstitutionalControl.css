@@ -17,9 +17,11 @@
     display: flex;
     max-width: 200px;
     margin: 0;
+    overflow: hidden;
 }
 .Insti-control-front-img{
     width: 100%;
+    border-radius: 5px;
 }
 .Insti-control-front-title{
     margin: 0;
@@ -78,11 +80,11 @@
     font-weight: 900;
 }
 .Insti-control-info-list-item-more:hover{
-    color: #1E2E6E;
+    color: #184296;
     transition: all 0.25s;
 }
 .Insti-control-item-card-container{
-    background-color: #1E2E6E;
+    background-color: #184296;
     display: flex;
     gap: 0.5rem;
     flex-direction: column;
@@ -125,7 +127,7 @@
 .Insti-control-item-info-subtitle{
     margin: 0;
     font-size: 1rem;
-    color: #1E2E6E;
+    color: #184296;
 }
 
 
@@ -138,13 +140,13 @@
         gap: 5rem;
     }
     .Insti-control-front-image-container{
-        max-width: 300px;
+        max-width: 400px;
     }
     .Insti-control-front-title{
         font-size: 1.5rem;
     }
     .Insti-control-background-container{
-        top: 2rem;
+        top: 7rem;
         max-height: 250px;
     }
     .Insti-control-background{

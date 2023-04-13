@@ -10,13 +10,13 @@
 }
 .School-title-container{
     padding: 1rem;
-    border: solid #1E2E6E 0.2rem;
+    border: solid #184296 0.2rem;
 }
 .School-title{
     text-align: center;
     font-size: 1rem;
     margin: 0;
-    color: #1E2E6E;
+    color: #184296;
 }
 .School-front-container{
     display: flex;
@@ -182,7 +182,7 @@
 .School-documents-title{
     margin: 0;
     font-size: 1rem;
-    color: #1E2E6E;
+    color: #184296;
 }
 .School-documents-items-container{
     display: flex;
@@ -191,7 +191,7 @@
 }
 .School-documents-item{
     display: flex;
-    background-color: #1E2E6E;
+    background-color: #184296;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;

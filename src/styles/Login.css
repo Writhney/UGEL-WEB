@@ -15,7 +15,7 @@
     background-position-x: center;
 }
 .Login-title{
-    color: #1e2e6e;
+    color: #184296;
     font-size: 1.5rem;
 }
 .Login-input-usuario{
@@ -32,7 +32,7 @@
     border-radius: 5px;
 }
 .Login-button{
-    background-color: #1E2E6E;
+    background-color: #184296;
     border: none;
     color: white;
     padding: 0.2rem 0.5rem;

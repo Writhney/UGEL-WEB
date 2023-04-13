@@ -16,11 +16,11 @@ a{
 .News-title{
     font-size: 2rem;
     text-align: center;
-    color: #1E2E6E;
+    color: #184296;
     background-color: white;
 }
 .News-link-title:hover{
-    background-color: #1E2E6E;
+    background-color: #184296;
     animation: step-start;
     transition: all 0.5s;
     transform: translateY(-10px);
@@ -73,7 +73,7 @@ a:last-of-type{
     max-height: 700px;
     
     overflow: hidden;
-    background: linear-gradient(#1E2E6E, #000000);    
+    background: linear-gradient(#184296, #000000);    
     margin: 0;
 }
 
@@ -124,18 +124,18 @@ a:last-of-type{
     padding: 0.5rem 2rem;
     margin: auto;
     border-width: 0.2rem;
-    border-color: #1E2E6E;
+    border-color: #184296;
     border-style: solid;
     transition: all 0.5s;
     justify-content: center;
 
 }
 .news-link-button{
-    color: #1E2E6E;
+    color: #184296;
     z-index: 2;
 }
 .News-button:hover{
-    background-color: #1E2E6E;
+    background-color: #184296;
     
 }
 .News-button:hover > a{

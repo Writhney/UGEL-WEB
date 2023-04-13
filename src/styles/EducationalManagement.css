@@ -17,9 +17,12 @@
     display: flex;
     max-width: 200px;
     margin: 0;
+    overflow: hidden;
+   
 }
 .Edu-manage-front-img{
-    width: 100%;
+    width: 100%; 
+    border-radius: 5px;
 }
 .Edu-manage-front-title{
     margin: 0;
@@ -74,11 +77,11 @@
     font-weight: 900;
 }
 .Edu-manage-info-list-item-more:hover{
-    color: #1E2E6E;
+    color: #184296;
     transition: all 0.25s;
 }
 .Edu-manage-item-card-container{
-    background-color: #1E2E6E;
+    background-color: #184296;
     display: flex;
     gap: 0.5rem;
     flex-direction: column;
@@ -121,7 +124,7 @@
 .Edu-manage-item-info-subtitle{
     margin: 0;
     font-size: 1rem;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Edu-manage-buttoms-container{
     display: flex;
@@ -274,41 +277,41 @@
 .Edu-management-buttom-link-container-inicial:hover{
     transform: scale(1.05);
     color: white;
-    box-shadow: -5px 8px 5px 0px #1E2E6E;
+    box-shadow: -5px 8px 5px 0px #184296;
 
 }
 .Edu-management-buttom-link-container-primaria:hover{
     transform: scale(1.05);
     color: white;
-    box-shadow: -5px 8px 5px 0px #1E2E6E;
+    box-shadow: -5px 8px 5px 0px #184296;
 }
 .Edu-management-buttom-link-container-secundaria:hover{
     transform: scale(1.05);
     color: white;
-    box-shadow: -5px 8px 5px 0px #1E2E6E;
+    box-shadow: -5px 8px 5px 0px #184296;
 }
 .Edu-management-buttom-link-container-tecnologico:hover{
     transform: scale(1.05);
     color: white;
-    box-shadow: -5px 8px 5px 0px #1E2E6E;
+    box-shadow: -5px 8px 5px 0px #184296;
 }
 .Edu-management-buttom-link-container-otic:hover{
     transform: scale(1.05);
     color: white;
-    box-shadow: -5px 8px 5px 0px #1E2E6E;
+    box-shadow: -5px 8px 5px 0px #184296;
 }
 .Edu-management-buttom-link-container-alternativa:hover{
     transform: scale(1.05);
     color: white;
-    box-shadow: -5px 8px 5px 0px #1E2E6E;
+    box-shadow: -5px 8px 5px 0px #184296;
 }
 .Edu-management-buttom-link-container-intercultural:hover{
     transform: scale(1.05);
     color: white;
-    box-shadow: -5px 8px 5px 0px #1E2E6E;
+    box-shadow: -5px 8px 5px 0px #184296;
 }
 .Edu-manage-subtitle{
-    color: #1E2E6E;
+    color: #184296;
     font-size: 1rem;
     text-align: center;
     margin: 0;
@@ -364,7 +367,7 @@
     height: 8rem;
     display: flex;
     flex-direction: column;
-    background-color: #1E2E6E;
+    background-color: #184296;
     justify-content: center;
     align-items: center;
     border-bottom-right-radius: 10px 10px;
@@ -387,7 +390,7 @@
     background-color: #F7BD3D;
 }
 .--mod-color-secundaria{
-    background-color: #1E2E6E;
+    background-color: #184296;
 }
 .Edu-manage-section-title{
     margin: 0;
@@ -413,13 +416,13 @@
         gap: 5rem;
     }
     .Edu-manage-front-image-container{
-        max-width: 300px;
+        max-width: 400px;
     }
     .Edu-manage-front-title{
         font-size: 1.5rem;
     }
     .Edu-manage-background-container{
-        top: 2rem;
+        top: 6rem;
         max-height: 250px;
     }
     .Edu-manage-background{

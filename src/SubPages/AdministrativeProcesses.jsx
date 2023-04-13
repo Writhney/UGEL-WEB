@@ -8,7 +8,7 @@ const AdministrativeProcesses = () => {
     <section className="Admi-process-container">
         <div className="Admi-process-front-container">
             <figure className="Admi-process-front-image-container">
-                <img src={employee} alt="image" className="Admi-process-front-img"/>
+                <img src='https://i.postimg.cc/9fStMk8t/Slider5.jpg' alt="image" className="Admi-process-front-img"/>
             </figure>
             <h1 className="Admi-process-front-title">Procesos Administrativos</h1>
             <div className='Insti-manage-background-container'>

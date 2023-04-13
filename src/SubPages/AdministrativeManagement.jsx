@@ -9,7 +9,7 @@ const AdministrativeManagement = () => {
         <section className="Admi-manage-container">
             <div className="Admi-manage-front-container">
                 <figure className="Admi-manage-front-image-container">
-                    <img src={employee} alt="image" className="Admi-manage-front-img"/>
+                    <img src='https://i.postimg.cc/9fStMk8t/Slider5.jpg' alt="image" className="Admi-manage-front-img"/>
                 </figure>
                 <h1 className="Admi-manage-front-title">Gestión Administrativa</h1>
                 <div className='Admi-manage-background-container'>

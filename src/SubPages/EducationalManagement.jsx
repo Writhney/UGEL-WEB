@@ -124,7 +124,7 @@ const EducationalManagement = () => {
     <section className="Edu-manage-container">
         <div className="Edu-manage-front-container">
             <figure className="Edu-manage-front-image-container">
-                <img src={employee} alt="image" className="Edu-manage-front-img"/>
+                <img src='https://i.postimg.cc/ZKGfD7MQ/DSC-0965.jpg' alt="image" className="Edu-manage-front-img"/>
             </figure>
             <h1 className="Edu-manage-front-title">Gestión Pedagógica</h1>
             <div className='Edu-manage-background-container'>

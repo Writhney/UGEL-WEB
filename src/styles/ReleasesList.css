@@ -35,7 +35,7 @@
     max-width: 100%;
 }
 .ReleasesList-head-title{
-    color: #1E2E6E;
+    color: #184296;
 }
 .ReleasesList-container-items{
     display: flex;
@@ -58,7 +58,7 @@
     object-fit: cover;
 }
 .ReleasesList-item-info-container{
-    background-color: #1E2E6E;
+    background-color: #184296;
     padding: 0.5rem;
 }
 .ReleasesList-item-info-container:hover{

@@ -35,7 +35,7 @@
     width: 100%;
 }
 .Job-hero-title{
-    color: #1E2E6E;
+    color: #184296;
 }
 .Job-status-container{
     display: flex;
@@ -125,7 +125,7 @@
     object-fit: cover;
 }
 .Job-item-info-container{
-    background-color: #1E2E6E;
+    background-color: #184296;
     padding: 0.5rem;
 }
 .Job-item-info-container:hover{

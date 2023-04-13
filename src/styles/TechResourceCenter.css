@@ -9,13 +9,13 @@
 }
 .Tech-title-container{
     padding: 1rem;
-    border: solid #1E2E6E 0.2rem;
+    border: solid #184296 0.2rem;
 }
 .Tech-title{
     text-align: center;
     font-size: 1rem;
     margin: 0;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Tech-front-container{
     display: flex;
@@ -71,8 +71,8 @@
     justify-content: center;
 }
 .Tech-staff__article{
-    border: solid #1E2E6E 0.3rem;
-    background-color: #1E2E6E;
+    border: solid #184296 0.3rem;
+    background-color: #184296;
 }
 .Tech-staff__article:hover .Tech-staff__container{
     transform: perspective(50rem) rotateY(180deg);
@@ -185,7 +185,7 @@
 .Tech-documents-title{
     margin: 0;
     font-size: 1rem;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Tech-documents-items-container{
     display: flex;
@@ -194,7 +194,7 @@
 }
 .Tech-documents-item{
     display: flex;
-    background-color: #1E2E6E;
+    background-color: #184296;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;

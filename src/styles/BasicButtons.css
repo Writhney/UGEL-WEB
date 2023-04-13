@@ -3,12 +3,12 @@
     flex-wrap: wrap;
     justify-items: center;
     justify-content: center;
-    background-color: #1E2E6E;
+    background-color: #184296;
     margin-top: -1px;
     /*height: 100vh;*/
 }
 .Basic-button-item{
-    background-color: #1E2E6E;
+    background-color: #184296;
     width: 10rem;
     height: 10rem;
     display: flex;

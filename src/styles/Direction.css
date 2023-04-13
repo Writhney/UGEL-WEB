@@ -48,14 +48,14 @@
 .Direction-about-subtitle{
     font-size: 1rem;
     margin: 0;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Direction-about-description{
     font-size: 0.7rem;
     margin: 0;
 }
 .Direction-info-item-container{
-    background-color: #1E2E6E;
+    background-color: #184296;
     display: flex;
     gap: 0.5rem;
     flex-direction: column;
@@ -123,7 +123,7 @@
     font-weight: 900;
 }
 .Direction-about-list-item-more:hover{
-    color: #1E2E6E;
+    color: #184296;
     transition: all 0.25s;
 }
 

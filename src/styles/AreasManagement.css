@@ -40,20 +40,20 @@
     margin: auto;
 }
 .Areas-Management-item-link{
-    color: #1E2E6E;
+    color: #184296;
     padding: 0.5rem;
     display: flex;
     width: 8rem;
     height: 4rem;
     justify-content: center;
     align-items: center;
-    border: solid 0.1rem #1E2E6E;
+    border: solid 0.1rem #184296;
     font-size: 0.8rem;
     text-align: center;
 }
 .Areas-Management-item-link:hover{
     color: white;
-    background-color: #1E2E6E;
+    background-color: #184296;
     transition: all 0.5s;
 
 }

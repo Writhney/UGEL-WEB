@@ -49,14 +49,6 @@ const BasicButtons = () => {
                     <p className='Basic-button-description'>MANTENIMIENTO</p>
                 </a>  
             </div>
-            <div className='Basic-button-item'>
-                <NavLink to='/' className="Basic-button-link-item">
-                    <figure className="Basic-button-icon-container">
-                        <img src={PaperPencil} alt="icon" className='Basic-button-icon' />
-                    </figure>
-                    <p className='Basic-button-description'>FUT</p>
-                </NavLink>  
-            </div>
             */}
             <div className='Basic-button-item'>
                 <NavLink to='/' className="Basic-button-link-item">
@@ -96,6 +88,14 @@ const BasicButtons = () => {
                         <img src={Puzzle} alt="icon" className='Basic-button-icon' />
                     </figure>
                     <p className='Basic-button-description'>TRANSPARENCIA</p>
+                </a>  
+            </div>
+            <div className='Basic-button-item'>
+                <a target='_blank' href='https://drive.google.com/file/d/1cXeIHEmiOPqefXi5t3GnwegdfGDPfMYu/view' className="Basic-button-link-item">
+                    <figure className="Basic-button-icon-container">
+                        <img src={PaperPencil} alt="icon" className='Basic-button-icon' />
+                    </figure>
+                    <p className='Basic-button-description'>FUT</p>
                 </a>  
             </div>
             

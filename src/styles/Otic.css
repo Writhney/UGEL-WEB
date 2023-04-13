@@ -9,13 +9,13 @@
 }
 .Otic-title-container{
     padding: 1rem;
-    border: solid #1E2E6E 0.2rem;
+    border: solid #184296 0.2rem;
 }
 .Otic-title{
     text-align: center;
     font-size: 1rem;
     margin: 0;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Otic-front-container{
     display: flex;
@@ -71,8 +71,8 @@
     justify-content: center;
 }
 .Otic-staff__article{
-    border: solid #1E2E6E 0.3rem;
-    background-color: #1E2E6E;
+    border: solid #184296 0.3rem;
+    background-color: #184296;
 }
 .Otic-staff__article:hover .Otic-staff__container{
     transform: perspective(50rem) rotateY(180deg);
@@ -185,7 +185,7 @@
 .Otic-info-title{
     margin: 0;
     font-size: 1rem;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Otic-info-items-container{
     display: grid;

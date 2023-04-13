@@ -42,10 +42,10 @@
     height: 100%;
 }
 .header-nav__icon-login:hover{
-    stroke: #1E2E6E;
+    stroke: #184296;
 }
 .header-nav__icon-login--scroll{
-    stroke: #1E2E6E;
+    stroke: #184296;
     transition: all 0.25s;
 }
 .header-nav__logo {
@@ -63,7 +63,7 @@
 }
   
 .header-nav__menu-icon--scroll {
-    fill: #1E2E6E;
+    fill: #184296;
     
 }
   
@@ -130,7 +130,7 @@
     
 }
 .header-nav__link--scroll{
-    color:#1E2E6E;
+    color:#184296;
     text-shadow: 0.5px 1px 2px rgba(255, 255, 255, 0.64); 
 }
   
@@ -142,11 +142,11 @@
     width: 0;
     height: 0.125rem;
     transition: all 0.25s;
-    background-color: #1E2E6E;
+    background-color: #184296;
 }
   
 .header-nav__link--active, .header-nav__link.active, .header-nav__link:hover {
-    color: #1E2E6E;
+    color: #184296;
     
 }
   
@@ -169,10 +169,10 @@
     color: white;
 }
 .fas--scroll{
-    color: #1E2E6E;
+    color: #184296;
 }
 .fas:hover{
-    color: #1E2E6E;
+    color: #184296;
 }
 .header-nav__sub-list{
     display: none;
@@ -188,7 +188,7 @@
     padding: 0.1rem 0.5rem;
 }
 .header-nav__sub-list-item:hover{
-    color: #1E2E6E;
+    color: #184296;
 }
 
 .header-nav__sub-list-item{
@@ -235,7 +235,7 @@
         color: white;
     }
     .header-nav__sub-list-item{
-        color: #1E2E6E;
+        color: #184296;
     }
     .header-nav__sub-list-item:hover{
         /*background-color: rgba(94, 93, 93, 0.812);*/

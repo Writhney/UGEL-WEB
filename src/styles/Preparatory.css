@@ -9,13 +9,13 @@
 }
 .Preparatory-title-container{
     padding: 1rem;
-    border: solid #1E2E6E 0.2rem;
+    border: solid #184296 0.2rem;
 }
 .Preparatory-title{
     text-align: center;
     font-size: 1rem;
     margin: 0;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Preparatory-front-container{
     display: flex;
@@ -71,8 +71,8 @@
     justify-content: center;
 }
 .Preparatory-staff__article{
-    border: solid #1E2E6E 0.3rem;
-    background-color: #1E2E6E;
+    border: solid #184296 0.3rem;
+    background-color: #184296;
 }
 .Preparatory-staff__article:hover .Preparatory-staff__container{
     transform: perspective(50rem) rotateY(180deg);
@@ -185,7 +185,7 @@
 .Preparatory-documents-title{
     margin: 0;
     font-size: 1rem;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Preparatory-documents-items-container{
     display: flex;
@@ -194,7 +194,7 @@
 }
 .Preparatory-documents-item{
     display: flex;
-    background-color: #1E2E6E;
+    background-color: #184296;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;
@@ -223,7 +223,7 @@
     font-size: 1rem;
     text-align: center;
     margin: 0;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Preparatory-areas-container{
     display: flex;
@@ -235,7 +235,7 @@
 .Preparatory-area-item{
     padding: 0.5rem;
     cursor: pointer;
-    border: solid #1E2E6E 0.1rem;
+    border: solid #184296 0.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,12 +245,12 @@
 }
 .Preparatory-area-item-title{
     margin: 0;
-    color: #1E2E6E;
+    color: #184296;
     font-size: 0.8rem;
 }
 .Preparatory-area-item:hover{
     transform: scale(1.07);
-    background-color: #1E2E6E;
+    background-color: #184296;
     transition: all 0.25s;
 }
 .Preparatory-area-item:hover>.Preparatory-area-item-title{
@@ -271,7 +271,7 @@
 .Preparatory-front-title-area{
     margin: 0;
     font-size: 1rem;
-    color: #1E2E6E;
+    color: #184296;
     text-align: center;
 }
 .Preparatory-areas-info-container{

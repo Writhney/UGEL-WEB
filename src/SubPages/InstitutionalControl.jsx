@@ -8,7 +8,7 @@ const InstitutionalControl = () => {
          <section className="Insti-control-container">
         <div className="Insti-control-front-container">
             <figure className="Insti-control-front-image-container">
-                <img src={employee} alt="image" className="Insti-control-front-img"/>
+                <img src='https://i.postimg.cc/9fStMk8t/Slider5.jpg' alt="image" className="Insti-control-front-img"/>
             </figure>
             <h1 className="Insti-control-front-title">Control Institucional</h1>
             <div className='Insti-manage-background-container'>

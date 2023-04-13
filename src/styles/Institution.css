@@ -42,14 +42,14 @@ h4[id]{
     font-size: 1rem;
     margin: 0;
     text-align: center;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Institution-subtitle-m{
     font-size: 1rem;
     padding: 4rem 0;
     margin-top: -3.5rem;
     text-align: center;
-    background-color: #1E2E6E; 
+    background-color: #184296; 
     margin-bottom: 0;
 }
 .Institution-description{
@@ -78,7 +78,7 @@ h4[id]{
     border: solid 0.3rem #ffffff;
     border-radius: 100px;
     margin: auto;
-    background-color: #1E2E6E;
+    background-color: #184296;
     padding: 0.5rem;
     z-index: 1;
     overflow: hidden;
@@ -93,7 +93,7 @@ h4[id]{
     margin: 0;
     margin-top: -3.5rem;
     font-size: 0.8rem;
-    background-color: #1E2E6E;
+    background-color: #184296;
     padding: 0.5rem;
     box-shadow: -9px 10px 5px 0px rgb(0 0 0 / 57%);
     -webkit-box-shadow: -9px 10px 5px 0px rgb(0 0 0 / 57%); 
@@ -125,23 +125,23 @@ h4[id]{
 }
 .Institution-normatividad-item{
     border: 1rem;
-    border: solid 0.1rem #1E2E6E;
+    border: solid 0.1rem #184296;
     width: 8rem;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Institution-normatividad-item:hover{
-    background-color: #1E2E6E;
+    background-color: #184296;
     transition: all 0.5s;
     color: white;
 }
 .Institution-normatividad-item-link{
     text-decoration: none;
-    color: #1E2E6E;
+    color: #184296;
     font-size: 0.8rem;
     font-weight: 700;
 }
@@ -157,7 +157,7 @@ h4[id]{
 .Institution-documents-title{
     margin: 0;
     font-size: 1rem;
-    color: #1E2E6E;
+    color: #184296;
 }
 .Institution-documents-items-container{
     display: flex;
@@ -166,7 +166,7 @@ h4[id]{
 }
 .Institution-documents-item{
     display: flex;
-    background-color: #1E2E6E;
+    background-color: #184296;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;
@@ -235,7 +235,7 @@ h4[id]{
     }
 
     .Institution-normatividad-item{
-        border: solid 0.2rem #1E2E6E;
+        border: solid 0.2rem #184296;
         width: 10rem;
         height: 4rem;
     }

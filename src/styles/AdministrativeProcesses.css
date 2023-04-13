@@ -17,9 +17,11 @@
     display: flex;
     max-width: 200px;
     margin: 0;
+    overflow: hidden;
 }
 .Admi-process-front-img{
     width: 100%;
+    border-radius: 5px;
 }
 .Admi-process-front-title{
     margin: 0;
@@ -75,13 +77,13 @@
         gap: 5rem;
     }
     .Admi-process-front-image-container{
-        max-width: 300px;
+        max-width: 400px;
     }
     .Admi-process-front-title{
         font-size: 1.5rem;
     }
     .Admi-process-background-container{
-        top: 2rem;
+        top: 6rem;
         max-height: 250px;
     }
     .Admi-process-background{

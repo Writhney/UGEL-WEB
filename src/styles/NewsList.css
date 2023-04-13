@@ -37,7 +37,7 @@
     max-width: 100%;
 }
 .NewsList-head-title{
-    color: #1E2E6E;
+    color: #184296;
 
 }
 .NewsList-container-items{
@@ -68,7 +68,7 @@
     object-fit: cover;
 }
 .NewsList-item-info-container{
-    background-color: #1E2E6E;
+    background-color: #184296;
     padding: 0.5rem;
 }
 

@@ -9,7 +9,7 @@ const LegalAdvice = () => {
         <section className="Legal-advice-container">
         <div className="Legal-advice-front-container">
             <figure className="Legal-advice-front-image-container">
-                <img src={employee} alt="image" className="Legal-advice-front-img"/>
+                <img src='https://i.postimg.cc/9fStMk8t/Slider5.jpg' alt="image" className="Legal-advice-front-img"/>
             </figure>
             <h1 className="Legal-advice-front-title">Asesoría Jurídica</h1>
             <div className='Insti-manage-background-container'>
