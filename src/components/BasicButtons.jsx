@@ -75,12 +75,12 @@ const BasicButtons = () => {
                 </NavLink>  
             </div>
             <div className='Basic-button-item'>
-                <a href="#" className="Basic-button-link-item">
+                <NavLink to="/LIBRORECLAMACIONES" className="Basic-button-link-item">
                     <figure className="Basic-button-icon-container">
                         <img src={BookOpen} alt="icon" className='Basic-button-icon' />
                     </figure>
                     <p className='Basic-button-description'>LIBRO DE RECLAMACIONES</p>
-                </a>  
+                </NavLink>  
             </div>
             <div className='Basic-button-item'>
                 <a target='_blank' href="https://www.transparencia.gob.pe/enlaces/pte_transparencia_enlaces.aspx?id_entidad=16389&id_tema=1&ver=D#.ZDRsKnbMLIW" className="Basic-button-link-item">

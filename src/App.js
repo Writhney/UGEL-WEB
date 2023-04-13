@@ -26,6 +26,7 @@ import Login from './Pages/Login';
 import ReleaseDetail from './SubPages/ReleaseDetail';
 import JobCallDetail from './SubPages/JobCallDetail';
 import NewDetail from './SubPages/NewDetail';
+import ComplaintsBook from './Pages/ComplaintsBook';
 
 
 
@@ -48,6 +49,7 @@ function App() {
           <Route path="/CONVOCATORIAS" element={<JobCallList/>}/>
           <Route path='/CONVOCATORIAS/CONVOCATORIADETALLADA' element={<JobCallDetail/>}/>
           <Route path="/LOGIN" element={<Login/>}/>
+          <Route path="/LIBRORECLAMACIONES" element={<ComplaintsBook/>}/>
           <Route path="/AREASGESTION/GESTIONADMINISTRATIVA" element={<AdministrativeManagement/>}/>
           <Route path="/AREASGESTION/GESTIONINSTITUCIONAL" element={<InstitutionalManagement/>}/>
           <Route path="/AREASGESTION/ASESORIAJURIDICA" element={<LegalAdvice/>}/>
