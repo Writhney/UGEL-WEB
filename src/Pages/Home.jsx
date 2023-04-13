@@ -1,4 +1,5 @@
 import BasicButtons from "../components/BasicButtons";
+import FloatButton from "../components/FloatButton";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import News from "../components/News";
@@ -12,6 +13,7 @@ const Home = () => {
         <>
         <Slider/>
         <BasicButtons/>
+        <FloatButton/>
         <Release/>
         <News/>
         <Video/>

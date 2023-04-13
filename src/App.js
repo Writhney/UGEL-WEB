@@ -31,6 +31,7 @@ import BasicAlternative from './DeepPages/BasicAlternative';
 import Intercultural from './DeepPages/Intercultural';
 import SchoolTools from './Pages/SchoolTools';
 import ClassroomTools from './Pages/ClassroomTools';
+import FloatButton from './components/FloatButton';
 
 
 
@@ -69,9 +70,6 @@ function App() {
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/OTIC-DITE" element={<OticDite/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/EDUCACIONBASICAALTERNATIVA" element={<BasicAlternative/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/EDUCACIONBILINGUEINTERCULTURAL" element={<Intercultural/>}/>
-
-
-          
 
         </Routes>
         <Footer/>

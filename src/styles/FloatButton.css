@@ -1,0 +1,24 @@
+.Button-container{
+    position: fixed;
+    top: 80%;
+    right: 0;
+    z-index: 1;
+}
+.Button-link{}
+.Button-icon-container{
+    display: flex;
+    margin: 0;
+    max-width: 50px;
+    padding: 0.5rem;
+    background-color: #184296;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+    box-shadow: -7px 10px 8px -3px rgba(38,38,38,0.75);
+
+}
+.Button-icon-container:hover{
+    transform: scale(1.2);
+}
+.Button-icon{
+    width: 100%;
+}
