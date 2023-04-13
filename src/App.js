@@ -30,6 +30,7 @@ import ComplaintsBook from './Pages/ComplaintsBook';
 import BasicAlternative from './DeepPages/BasicAlternative';
 import Intercultural from './DeepPages/Intercultural';
 import SchoolTools from './Pages/SchoolTools';
+import ClassroomTools from './Pages/ClassroomTools';
 
 
 
@@ -54,6 +55,7 @@ function App() {
           <Route path="/LOGIN" element={<Login/>}/>
           <Route path="/LIBRORECLAMACIONES" element={<ComplaintsBook/>}/>
           <Route path="/HERRAMIENTASGESTIONESCOLAR" element={<SchoolTools/>}/>
+          <Route path="/HERRAMIENTASGESTIONAULA" element={<ClassroomTools/>}/>
           <Route path="/AREASGESTION/GESTIONADMINISTRATIVA" element={<AdministrativeManagement/>}/>
           <Route path="/AREASGESTION/GESTIONINSTITUCIONAL" element={<InstitutionalManagement/>}/>
           <Route path="/AREASGESTION/ASESORIAJURIDICA" element={<LegalAdvice/>}/>

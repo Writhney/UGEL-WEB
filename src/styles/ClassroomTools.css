@@ -1,4 +1,4 @@
-.School-tools-container{
+.Classroom-tools-container{
     max-width: 800px;
     display: flex;
     flex-direction: column;
@@ -7,66 +7,66 @@
     margin: auto;
     margin-top: 3rem;
 }
-.School-tools-title-container{
+.Classroom-tools-title-container{
     padding: 1rem;
     border: solid #184296 0.2rem;
 }
-.School-tools-title{
+.Classroom-tools-title{
     text-align: center;
     font-size: 1rem;
     margin: 0;
     color: #184296;
 }
-.School-tools-documents{
+.Classroom-tools-documents{
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.School-tools-documents-title{
+.Classroom-tools-documents-title{
     margin: 0;
     font-size: 1rem;
     color: #184296;
 }
-.School-tools-documents-items-container{
+.Classroom-tools-documents-items-container{
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
 }
-.School-tools-documents-item{
+.Classroom-tools-documents-item{
     display: flex;
     background-color: #184296;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;
 }
-.School-tools-documents-item-description{
+.Classroom-tools-documents-item-description{
     font-size: 0.8rem;
     margin: 0;
     color: white;
 }
-.School-tools-documents-item-icon-container{
+.Classroom-tools-documents-item-icon-container{
     display: flex;
     max-width: 3rem;
 }
-.School-tools-documents-item-icon:hover{
+.Classroom-tools-documents-item-icon:hover{
     transform: scale(1.02);
     transition: all 0.25s;
 }
-.School-tools-documents-item-icon{
+.Classroom-tools-documents-item-icon{
     width: 100%;
 }
 
 @media (min-width:750px){
-    .School-tools-container{
+    .Classroom-tools-container{
         margin-top: 5rem;
     }
-    .School-tools-title{
+    .Classroom-tools-title{
         font-size: 1.5rem;
     }
-    .School-tools-documents-title{
+    .Classroom-tools-documents-title{
         font-size: 1.2rem;
     }
-    .School-tools-documents-items-container{
+    .Classroom-tools-documents-items-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 2rem;

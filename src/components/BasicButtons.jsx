@@ -59,7 +59,7 @@ const BasicButtons = () => {
                 </NavLink>  
             </div>
             <div className='Basic-button-item'>
-                <NavLink to='/' className="Basic-button-link-item">
+                <NavLink to='/HERRAMIENTASGESTIONAULA' className="Basic-button-link-item">
                     <figure className="Basic-button-icon-container">
                         <img src={Professor} alt="icon" className='Basic-button-icon' />
                     </figure>
