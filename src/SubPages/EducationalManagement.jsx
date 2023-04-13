@@ -206,9 +206,9 @@ const EducationalManagement = () => {
             <NavLink to='/AREASGESTION/GESTIONPEDAGOGICA/EDUCACIONBASICAALTERNATIVA' className='Edu-management-buttom-link-container-alternativa'>
                 EDUCACIÓN BÁSICA ALTERNATIVA
             </NavLink>
-            <a className='Edu-management-buttom-link-container-intercultural'>
+            <NavLink to='/AREASGESTION/GESTIONPEDAGOGICA/EDUCACIONBILINGUEINTERCULTURAL' className='Edu-management-buttom-link-container-intercultural'>
                 EDUCACIÓN BILINÜE INTERCULTURAL
-            </a>
+            </NavLink>
         </div>
         </div>
         <div className='Edu-manage-item-info-container'>

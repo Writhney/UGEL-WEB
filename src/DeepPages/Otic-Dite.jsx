@@ -24,7 +24,7 @@ const OticDite = () => {
                 </div>
             </div>
             <div className="Otic-staff__all">
-            <article className="Otic-staff__article">
+                <article className="Otic-staff__article">
                     <div className="Otic-staff__container">
                         <figure className="Otic-staff__img-container">
                             <img className="Otic-staff__img"

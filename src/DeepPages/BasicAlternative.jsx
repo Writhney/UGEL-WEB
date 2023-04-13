@@ -152,55 +152,55 @@ const BasicAlternative = ( ) => {
                 </article>
 
             </div>
-            <div className='Kinder-documents'>
-                <h3 className='Kidnder-documents-title'>Materiales</h3>
-                <div className='Kinder-documents-items-container'>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+            <div className='Basic-documents'>
+                <h3 className='Basic-documents-title'>Materiales</h3>
+                <div className='Basic-documents-items-container'>
+                    <div className='Basic-documents-item'>
+                        <p className='Basic-documents-item-description'>
                             GENMAGIC (Para Windows) Podras encontrar mas de 200 actividades interactivas
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={wordIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a className='Basic-documents-item-icon-container' href="">
+                            <img src={wordIcon} alt="icon-link" className='Basic-documents-item-icon'/>
                         </a>
                     </div>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+                    <div className='Basic-documents-item'>
+                        <p className='Basic-documents-item-description'>
                             SRACTCH (Para Windows) Permite la creación de historiestas interactivas que incorporen contenidos
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={pdfIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a className='Basic-documents-item-icon-container' href="">
+                            <img src={pdfIcon} alt="icon-link" className='Basic-documents-item-icon'/>
                         </a>
                     </div>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+                    <div className='Basic-documents-item'>
+                        <p className='Basic-documents-item-description'>
                             GENMAGIC (Para Windows) Podras encontrar mas de 200 actividades interactivas
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={pdfIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a className='Basic-documents-item-icon-container' href="">
+                            <img src={pdfIcon} alt="icon-link" className='Basic-documents-item-icon'/>
                         </a>
                     </div>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+                    <div className='Basic-documents-item'>
+                        <p className='Basic-documents-item-description'>
                             GENMAGIC (Para Windows) Podras encontrar mas de 200 actividades interactivas
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={fileIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a className='Basic-documents-item-icon-container' href="">
+                            <img src={fileIcon} alt="icon-link" className='Basic-documents-item-icon'/>
                         </a>
                     </div>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+                    <div className='Basic-documents-item'>
+                        <p className='Basic-documents-item-description'>
                             GENMAGIC (Para Windows) Podras encontrar mas de 200 actividades interactivas
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={fileIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a className='Basic-documents-item-icon-container' href="">
+                            <img src={fileIcon} alt="icon-link" className='Basic-documents-item-icon'/>
                         </a>
                     </div>
-                    <div className='Kinder-documents-item'>
-                        <p className='Kinder-documents-item-description'>
+                    <div className='Basic-documents-item'>
+                        <p className='Basic-documents-item-description'>
                             GENMAGIC (Para Windows) Podras encontrar mas de 200 actividades interactivas
                         </p>
-                        <a clasName='Kinder-documents-item-icon-container' href="">
-                            <img src={fileIcon} alt="icon-link" className='Kinder-documents-item-icon'/>
+                        <a className='Basic-documents-item-icon-container' href="">
+                            <img src={fileIcon} alt="icon-link" className='Basic-documents-item-icon'/>
                         </a>
                     </div>
                 </div>

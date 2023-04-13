@@ -28,6 +28,7 @@ import JobCallDetail from './SubPages/JobCallDetail';
 import NewDetail from './SubPages/NewDetail';
 import ComplaintsBook from './Pages/ComplaintsBook';
 import BasicAlternative from './DeepPages/BasicAlternative';
+import Intercultural from './DeepPages/Intercultural';
 
 
 
@@ -63,9 +64,10 @@ function App() {
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/CENTRORECURSOSTECNOLOGICOS" element={<TechResourceCenter/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/OTIC-DITE" element={<OticDite/>}/>
           <Route path="/AREASGESTION/GESTIONPEDAGOGICA/EDUCACIONBASICAALTERNATIVA" element={<BasicAlternative/>}/>
+          <Route path="/AREASGESTION/GESTIONPEDAGOGICA/EDUCACIONBILINGUEINTERCULTURAL" element={<Intercultural/>}/>
 
 
-
+          
 
         </Routes>
         <Footer/>

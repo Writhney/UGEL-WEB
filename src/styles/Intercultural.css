@@ -1,4 +1,4 @@
-.Basic-container{
+.Intercultural-container{
     max-width: 800px;
     display: flex;
     flex-direction: column;
@@ -7,17 +7,17 @@
     margin: auto;
     margin-top: 3rem;
 }
-.Basic-title-container{
+.Intercultural-title-container{
     padding: 1rem;
     border: solid #184296 0.2rem;
 }
-.Basic-title{
+.Intercultural-title{
     text-align: center;
     font-size: 1rem;
     margin: 0;
     color: #184296;
 }
-.Basic-front-container{
+.Intercultural-front-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,20 +25,20 @@
     flex-direction: row-reverse;
     margin-top: 2rem;
 }
-.Basic-front-image-container{
+.Intercultural-front-image-container{
     display: flex;
     max-width: 200px;
     margin: 0;
 }
-.Basic-front-img{
+.Intercultural-front-img{
     width: 100%;
 }
-.Basic-front-title{
+.Intercultural-front-title{
     margin: 0;
     font-size: 1rem;
     color: white;
 }
-.Basic-background-container{
+.Intercultural-background-container{
     display: flex;
     position: absolute;
     margin: auto;
@@ -47,21 +47,21 @@
     top: 11rem;
     max-width: 800px;
 }
-.Basic-background{
+.Intercultural-background{
     width: 100%;
     object-fit: cover;
 }
-.Basic-staff {
+.Intercultural-staff {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     max-width: 1800px;
     margin: auto;
 }  
-.Basic-staff__container-title {
+.Intercultural-staff__container-title {
    width: 100%;
 }
-.Basic-staff__all{
+.Intercultural-staff__all{
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -70,23 +70,23 @@
     align-items: center;
     justify-content: center;
 }
-.Basic-staff__article{
+.Intercultural-staff__article{
     border: solid #184296 0.3rem;
     background-color: #184296;
 }
-.Basic-staff__article:hover .Basic-staff__container{
+.Intercultural-staff__article:hover .Intercultural-staff__container{
     transform: perspective(50rem) rotateY(180deg);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     cursor: pointer;
 }
-.Basic-staff__article:hover .Basic-staff__container .Basic-staff__img-container{
+.Intercultural-staff__article:hover .Intercultural-staff__container .Intercultural-staff__img-container{
     filter: blur(0.1rem);
     filter: grayscale();
     opacity: 0.2;
     transition: all 1.5s;
 }
   
-.Basic-staff__container{
+.Intercultural-staff__container{
     background-color: black;
     position: relative;
     transition: all ease 1.5s;
@@ -94,7 +94,7 @@
     transform: perspective(50rem) rotateY(0deg); 
     box-shadow: 10px -10px 5px 0px rgba(0,0,0,0.75);
 }
-.Basic-staff__img-container{
+.Intercultural-staff__img-container{
     width: 10rem;
     height: 15rem;
     margin: 0;
@@ -102,12 +102,12 @@
     overflow: hidden;
     transition: all 1.5s;
 }
-.Basic-staff__img{
+.Intercultural-staff__img{
     height: 100%;
     object-fit: cover;
     width: 100%;
 }
-.Basic-staff__info-container{
+.Intercultural-staff__info-container{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -119,7 +119,7 @@
     transform: perspective(50rem) rotateY(180deg);
     backface-visibility: hidden;        
 }
-.Basic-staff__info-title{
+.Intercultural-staff__info-title{
     margin: 0;
     padding: 0;
     text-decoration: none;      
@@ -127,22 +127,22 @@
     font-weight: 400;    
     color: white;  
 }
-.Basic-staff-info-about{
+.Intercultural-staff-info-about{
     margin: 0;
     padding: 0;
     font-size: 0.8rem;
     color: white;
     text-align: left;
 }
-.Basic-staff-info-about-list{
+.Intercultural-staff-info-about-list{
     text-align: left;
     margin: 0;
 }
-.Basic-staff-info-about-list-item{
+.Intercultural-staff-info-about-list-item{
     font-size: 0.8rem;
     color: white;
 }
-.Basic-staff__data-container{
+.Intercultural-staff__data-container{
     position: absolute;
     bottom: 0;
     right: 0;
@@ -150,165 +150,165 @@
     background-image: linear-gradient(0deg, #000000 30%, #f7f7f700 100%);
     width: 10rem;
 }
-.Basic-staff__data-item{
+.Intercultural-staff__data-item{
     display: flex;
     flex-direction: row-reverse;
     gap: 0.2rem;
 }
-.Basic-staff__data-item-icon-container{
+.Intercultural-staff__data-item-icon-container{
     display: flex;
     margin: 0;
     max-width: 10px;
 }
-.Basic-staff__data-item-icon{
+.Intercultural-staff__data-item-icon{
     width: 100%;
 }
-.Basic-staff__data-icon-text{
+.Intercultural-staff__data-icon-text{
     margin: 0;
     color: white;
     font-size: 0.7rem;
 }
-.Basic-staff-line-container{
+.Intercultural-staff-line-container{
     margin: 0;
     position: absolute;
     top: 1.2rem;
 }
-.Basic-staff-line{
+.Intercultural-staff-line{
     width: 100%;
     background-size: cover;
 }
-.Basic-info-container{
+.Intercultural-info-container{
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.Basic-info-title{
+.Intercultural-info-title{
     margin: 0;
     font-size: 1rem;
     color: #184296;
 }
-.Basic-info-items-container{
+.Intercultural-info-items-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
-.Basic-info-item{
+.Intercultural-info-item{
     background-color: #F7BD3D;
     padding: 0.5rem;
 }
-.Basic-info-item-title{
+.Intercultural-info-item-title{
     margin: 0;
     font-size: 1rem;
     text-align: center;
 }
-.Basic-info-item-description{
+.Intercultural-info-item-description{
     font-size: 0.8rem;
     margin: 0;
 }
-.Basic-info-list{
+.Intercultural-info-list{
     margin: 0;
 }
-.Basic-info-list-item{
+.Intercultural-info-list-item{
     font-size: 0.8rem;
 }
-.Basic-documents{
+.Intercultural-documents{
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.Basic-documents-title{
+.Intercultural-documents-title{
     margin: 0;
     font-size: 1rem;
     color: #184296;
 }
-.Basic-documents-items-container{
+.Intercultural-documents-items-container{
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
 }
-.Basic-documents-item{
+.Intercultural-documents-item{
     display: flex;
     background-color: #184296;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;
 }
-.Basic-documents-item-description{
+.Intercultural-documents-item-description{
     font-size: 0.8rem;
     margin: 0;
     color: white;
 }
-.Basic-documents-item-icon-container{
+.Intercultural-documents-item-icon-container{
     display: flex;
     max-width: 3rem;
 }
-.Basic-documents-item-icon:hover{
+.Intercultural-documents-item-icon:hover{
     transform: scale(1.02);
     transition: all 0.25s;
 }
-.Basic-documents-item-icon{
+.Intercultural-documents-item-icon{
     width: 100%;
 }
 
 
 @media (min-width:750px){
-    .Basic-container{
+    .Intercultural-container{
         margin-top: 5rem;
     }
-    .Basic-title{
+    .Intercultural-title{
         font-size: 1.5rem;
     }
-    .Basic-front-container{
+    .Intercultural-front-container{
         gap: 8rem;
     }
-    .Basic-background-container{
+    .Intercultural-background-container{
         top: 15rem;
     }
-    .Basic-front-title{
+    .Intercultural-front-title{
         margin: 0;
         font-size: 1.5rem;
     }
-    .Basic-staff__data-icon-text{
+    .Intercultural-staff__data-icon-text{
         font-size: 0.8rem;
     }
-    .Basic-staff__data-item-icon-container{
+    .Intercultural-staff__data-item-icon-container{
         max-width: 15px;
     }
-    .Basic-staff-info-about{
+    .Intercultural-staff-info-about{
         font-size: 0.9rem;
     }
-    .Basic-staff-info-about-list-item{
+    .Intercultural-staff-info-about-list-item{
         font-size: 0.9rem;
     }
-    .Basic-staff__info-container{
+    .Intercultural-staff__info-container{
         padding-top: 0.5rem;
     }
         
-.Basic-info-container{
+.Intercultural-info-container{
     gap: 1rem;
 }
-.Basic-info-title{
+.Intercultural-info-title{
     font-size: 1.5rem;
 }
-.Basic-info-items-container{
+.Intercultural-info-items-container{
     gap: 1rem;
 }
-.Basic-info-item{
+.Intercultural-info-item{
  padding: 1rem;
 }
-.Basic-info-item-title{
+.Intercultural-info-item-title{
     font-size: 1.2rem;
 }
-.Basic-info-item-description{
+.Intercultural-info-item-description{
     font-size: 1rem;
 }
-.Basic-info-list-item{
+.Intercultural-info-list-item{
     font-size: 1rem;
 }
-.Basic-documents-title{
+.Intercultural-documents-title{
     font-size: 1.2rem;
 }
-.Basic-documents-items-container{
+.Intercultural-documents-items-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
