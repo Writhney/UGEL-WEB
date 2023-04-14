@@ -2,6 +2,7 @@ import BasicButtons from "../components/BasicButtons";
 import FloatButton from "../components/FloatButton";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Modal from "../components/Modal";
 import News from "../components/News";
 import Release from "../components/Release";
 import Slider from "../components/Slider";
@@ -17,7 +18,8 @@ const Home = () => {
         <Release/>
         <News/>
         <Video/>
-        <VirtualPlatforms/> 
+        <VirtualPlatforms/>
+        <Modal/> 
         </>
       
     )
